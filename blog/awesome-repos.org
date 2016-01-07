@@ -1,0 +1,22 @@
+#+TITLE:       Awesome Repos
+#+AUTHOR:      Sean Wang
+#+EMAIL:       sean@think.sean.org
+#+DATE:        2016-01-07 Thu
+#+URI:         /blog/%y/%m/%d/awesome-repos
+#+KEYWORDS:    <TODO: insert your keywords here>
+#+TAGS:        <TODO: insert your tags here>
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: awesome repositories
+
+* Percol
+Percol is a command line tool that adds flavor of interactive filtering to the
+traditional pipe concept of UNIX shell.
+
+on Github: [[https://github.com/mooz/percol.git][https://github.com/mooz/percol.git]]
+
+#+BEGIN_SRC shell
+git clone https://github.com/mooz/percol.git
+#+END_SRC
+
+* 
