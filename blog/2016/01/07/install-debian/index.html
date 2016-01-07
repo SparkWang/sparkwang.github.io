@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Install Debian - SparkWang</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sean Wang" />
+    <meta name="description" content="install debian" />
+    <meta name="keywords" content="debian, linux" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
+  <body class="container">
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">SparkWang</a></h1>
+        <p>sparkwang&#39;s notebook</p>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/sparkwang/sparkwang.github.io">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="http://www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="spark.wangxing.name">
+        </form>
+      </header>
+    </div>
+
+<div>
+<div class="post">
+<h1>Install Debian</h1>
+
+<div id="outline-container-orgheadline3" class="outline-2">
+<h2 id="orgheadline3">install software via apt-get command</h2>
+<div class="outline-text-2" id="text-orgheadline3">
+</div><div id="outline-container-orgheadline1" class="outline-3">
+<h3 id="orgheadline1">change sources.list</h3>
+<div class="outline-text-3" id="text-orgheadline1">
+<blockquote>
+<p>
+deb <a href="http://mirror.bjtu.edu.cn/debian">http://mirror.bjtu.edu.cn/debian</a> jessie main non-free contrib
+deb <a href="http://mirror.bjtu.edu.cn/debian">http://mirror.bjtu.edu.cn/debian</a> jessie-proposed-updates main contrib non-free
+deb <a href="http://mirror.bjtu.edu.cn/debian-security">http://mirror.bjtu.edu.cn/debian-security</a> jessie/updates main contrib non-free
+deb-src <a href="http://mirror.bjtu.edu.cn/debian">http://mirror.bjtu.edu.cn/debian</a> jessie main non-free contrib
+deb-src <a href="http://mirror.bjtu.edu.cn/debian">http://mirror.bjtu.edu.cn/debian</a> jessie-proposed-updates main contrib non-free
+deb-src <a href="http://mirror.bjtu.edu.cn/debian-security">http://mirror.bjtu.edu.cn/debian-security</a> jessie/updates main contrib non-free
+</p>
+</blockquote>
+
+<div class="org-src-container">
+
+<pre class="src src-shell">sudo apt-get update
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2">install packages</h3>
+</div>
+</div>
+
+<div id="outline-container-orgheadline7" class="outline-2">
+<h2 id="orgheadline7">install software</h2>
+<div class="outline-text-2" id="text-orgheadline7">
+</div><div id="outline-container-orgheadline4" class="outline-3">
+<h3 id="orgheadline4">Chrome, <a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html"><a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html">http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html</a></a></h3>
+<div class="outline-text-3" id="text-orgheadline4">
+<div class="org-src-container">
+
+<pre class="src src-shell">sudo dpkg -i google-chrome-stable_current_amd64.deb
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline5" class="outline-3">
+<h3 id="orgheadline5">TexLive</h3>
+<div class="outline-text-3" id="text-orgheadline5">
+<p>
+downloading: <a href="http://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive.iso">texlive.iso</a>
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-shell">wget http://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive.iso
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline6" class="outline-3">
+<h3 id="orgheadline6">Firefox</h3>
+</div>
+</div>
+
+<div id="outline-container-orgheadline18" class="outline-2">
+<h2 id="orgheadline18">install software via source code</h2>
+<div class="outline-text-2" id="text-orgheadline18">
+</div><div id="outline-container-orgheadline8" class="outline-3">
+<h3 id="orgheadline8">Emacs</h3>
+<div class="outline-text-3" id="text-orgheadline8">
+<ol class="org-ol">
+<li>Downloading Emacs: <a href="http://ftp.gnu.org/gnu/emacs/"><a href="http://ftp.gnu.org/gnu/emacs/">http://ftp.gnu.org/gnu/emacs/</a></a></li>
+<li>Building Emacs:</li>
+</ol>
+<div class="org-src-container">
+
+<pre class="src src-shell">./configure
+make
+make install
+</pre>
+</div>
+<ol class="org-ol">
+<li>Install spacemacs:</li>
+</ol>
+<div class="org-src-container">
+
+<pre class="src src-shell">git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline9" class="outline-3">
+<h3 id="orgheadline9">Vim</h3>
+</div>
+<div id="outline-container-orgheadline10" class="outline-3">
+<h3 id="orgheadline10">Git</h3>
+</div>
+<div id="outline-container-orgheadline11" class="outline-3">
+<h3 id="orgheadline11">tmux</h3>
+<div class="outline-text-3" id="text-orgheadline11">
+<p>
+Downloading: <a href="https://tmux.github.io/"><a href="https://tmux.github.io/">https://tmux.github.io/</a></a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline12" class="outline-3">
+<h3 id="orgheadline12">GNU Parallel</h3>
+<div class="outline-text-3" id="text-orgheadline12">
+<div class="org-src-container">
+
+<pre class="src src-shell">wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline13" class="outline-3">
+<h3 id="orgheadline13">pandoc</h3>
+</div>
+<div id="outline-container-orgheadline14" class="outline-3">
+<h3 id="orgheadline14">the silver searcher</h3>
+</div>
+<div id="outline-container-orgheadline15" class="outline-3">
+<h3 id="orgheadline15">oh-my-zsh</h3>
+<div class="outline-text-3" id="text-orgheadline15">
+<div class="org-src-container">
+
+<pre class="src src-shell">sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+chsh -s /usr/local/bin/zsh
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline16" class="outline-3">
+<h3 id="orgheadline16">zathura</h3>
+</div>
+<div id="outline-container-orgheadline17" class="outline-3">
+<h3 id="orgheadline17">Lua</h3>
+<div class="outline-text-3" id="text-orgheadline17">
+<p>
+downloading: <a href="http://www.lua.org/download.html"><a href="http://www.lua.org/download.html">http://www.lua.org/download.html</a></a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline19" class="outline-2">
+<h2 id="orgheadline19">install Android development tools</h2>
+<div class="outline-text-2" id="text-orgheadline19">
+<ul class="org-ul">
+<li>jd-gui</li>
+<li>Androguard</li>
+<li>Apktool</li>
+<li>Android SDK</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline27" class="outline-2">
+<h2 id="orgheadline27">install Python modules</h2>
+<div class="outline-text-2" id="text-orgheadline27">
+</div><div id="outline-container-orgheadline20" class="outline-3">
+<h3 id="orgheadline20">pip</h3>
+<div class="outline-text-3" id="text-orgheadline20">
+<div class="org-src-container">
+
+<pre class="src src-shell">wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline21" class="outline-3">
+<h3 id="orgheadline21">matplotlib</h3>
+</div>
+<div id="outline-container-orgheadline22" class="outline-3">
+<h3 id="orgheadline22">ipython</h3>
+</div>
+<div id="outline-container-orgheadline23" class="outline-3">
+<h3 id="orgheadline23">seaborn</h3>
+</div>
+<div id="outline-container-orgheadline24" class="outline-3">
+<h3 id="orgheadline24">numpy</h3>
+</div>
+<div id="outline-container-orgheadline25" class="outline-3">
+<h3 id="orgheadline25">scipy</h3>
+</div>
+<div id="outline-container-orgheadline26" class="outline-3">
+<h3 id="orgheadline26"></h3>
+</div>
+</div>
+
+<div id="outline-container-orgheadline29" class="outline-2">
+<h2 id="orgheadline29">install Window Manager</h2>
+<div class="outline-text-2" id="text-orgheadline29">
+</div><div id="outline-container-orgheadline28" class="outline-3">
+<h3 id="orgheadline28">i3</h3>
+<div class="outline-text-3" id="text-orgheadline28">
+<p>
+downloading: <a href="http://i3wm.org/downloads/"><a href="http://i3wm.org/downloads/">http://i3wm.org/downloads/</a></a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline30" class="outline-2">
+<h2 id="orgheadline30">install MS fonts</h2>
+</div>
+
+<div id="outline-container-orgheadline34" class="outline-2">
+<h2 id="orgheadline34">configure software</h2>
+<div class="outline-text-2" id="text-orgheadline34">
+</div><div id="outline-container-orgheadline31" class="outline-3">
+<h3 id="orgheadline31">sudo</h3>
+</div>
+<div id="outline-container-orgheadline32" class="outline-3">
+<h3 id="orgheadline32">Chinese</h3>
+</div>
+<div id="outline-container-orgheadline33" class="outline-3">
+<h3 id="orgheadline33">Keyboard</h3>
+</div>
+</div>
+
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2016-01-07</span>
+        <span title="last modification date" class="post-info">2016-01-07</span>
+        <span title="tags" class="post-info"><a href="/tags/debian/">debian</a>, <a href="/tags/linux/">linux</a></span>
+        <span title="author" class="post-info">Sean Wang</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+      </section>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:sean &lt;at&gt; think &lt;dot&gt; sean &lt;dot&gt; org">Sean Wang</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -4,8 +4,8 @@
     <title>SparkWang</title>
     <link>http://spark.wangxing.name</link>
     <description>sparkwang&#39;s notebook</description>
-    <pubDate>Thu, 07 Jan 2016 16:10:19 CST</pubDate>
-    <lastBuildDate>Thu, 07 Jan 2016 16:10:19 CST</lastBuildDate>
+    <pubDate>Thu, 07 Jan 2016 21:06:08 CST</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 21:06:08 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -36,7 +36,7 @@
 <ul>
 <li><a href="#orgheadline2">1.1. 隐式类型转换何时发生</a>
 <ul>
-<li><a href="#orgheadline1">1.1.1. 信息丢失</a></li>
+<li><a href="#orgheadline1">1.1.1. Conversion rank</a></li>
 </ul>
 </li>
 </ul>
@@ -72,14 +72,22 @@
 double mean = (double)sum / count;
 </pre>
 </div>
-</div>
 
+<p>
+由于类型转换运算符的优先级高于除法运算符，因此 <code>sum</code> 先被转换为 <code>double</code> 。然后编译器隐式地将除数 <code>count</code> 转型，然后进行除法。
+</p>
+</div>
 <div id="outline-container-orgheadline1" class="outline-4">
-<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> 信息丢失</h4>
+<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> Conversion rank</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<ul class="org-ul">
+<li>两个无符号整数类型具有不同的转换等级，位长较宽类型的等级较高。</li>
+<li></li>
+</ul>
 </div>
 </div>
 </div>
-
+</div>
 <div id="outline-container-orgheadline4" class="outline-2">
 <h2 id="orgheadline4"><span class="section-number-2">2</span> 表达式和运算符</h2>
 </div>
@@ -119,6 +127,13 @@ double mean = (double)sum / count;
       <description><![CDATA[elisp 笔记]]></description>
       <pubDate>2016-01-07</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/07/elisp-notes</guid>
+    </item>
+    <item>
+      <title>Install Debian</title>
+      <link>http://spark.wangxing.name/blog/2016/01/07/install-debian</link>
+      <description><![CDATA[install debian]]></description>
+      <pubDate>2016-01-07</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/07/install-debian</guid>
     </item>
     <item>
       <title>Use Spacemacs</title>
