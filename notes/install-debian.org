@@ -82,7 +82,7 @@ downloading: [[http://www.lua.org/download.html][http://www.lua.org/download.htm
 
 * install Python modules
 ** pip
-#+BEGIN_SRC 
+#+BEGIN_SRC shell
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 #+END_SRC

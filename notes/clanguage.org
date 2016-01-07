@@ -22,8 +22,11 @@ int sum  = 22, count = 5;
 double mean = (double)sum / count;
 #+END_SRC
 
-*** 信息丢失
-
+由于类型转换运算符的优先级高于除法运算符，因此 =sum= 先被转换为 =double= 。然后
+编译器隐式地将除数 =count= 转型，然后进行除法。
+*** Conversion rank
+- 两个无符号整数类型具有不同的转换等级，位长较宽类型的等级较高。
+- 
 * 表达式和运算符
 * 函数
 * 数组
