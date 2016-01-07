@@ -1,0 +1,12 @@
+#+TITLE:       Memory Management in C Language
+#+AUTHOR:      Sean Wang
+#+EMAIL:       sean@think.sean.org
+#+DATE:        2016-01-07 Thu
+#+URI:         /blog/%y/%m/%d/memory-management-in-c-language
+#+KEYWORDS:    C, memory
+#+TAGS:        C, memory
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: Memory Management in C Language
+
+C 语言内存管理
