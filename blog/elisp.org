@@ -1,0 +1,12 @@
+#+TITLE:       elisp notes
+#+AUTHOR:      Sean Wang
+#+EMAIL:       sean@think.sean.org
+#+DATE:        2016-01-07 Thu
+#+URI:         /blog/%y/%m/%d/elisp-notes
+#+KEYWORDS:    elisp
+#+TAGS:        elisp
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: elisp 笔记
+
+* elisp
