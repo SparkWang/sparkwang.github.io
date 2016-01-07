@@ -5,7 +5,7 @@
 #+TITLE: About
 #+DATE: <2016-01-07 Thu>
 #+AUTHOR: Sean Wang
-#+EMAIL: sean@think.sean.org
+#+EMAIL: shanguren@gmail.com
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
