@@ -1,0 +1,14 @@
+#+TITLE:       Use Spacemacs
+#+AUTHOR:      Sean Wang
+#+EMAIL:       shanguren@gmail.com
+#+DATE:        2016-01-07 Thu
+#+URI:         /blog/%y/%m/%d/use-spacemacs
+#+KEYWORDS:    emacs, spacemacs
+#+TAGS:        emacs, spacemacs
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: Spacemacs 使用
+
+* Spacemacs
+
+* Creating Personal Layer
