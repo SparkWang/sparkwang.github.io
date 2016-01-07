@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>org-page</title>
+    <link>http://spark.wangxing.name</link>
+    <description>static site generator</description>
+    <pubDate>Thu, 07 Jan 2016 14:44:53 CST</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 14:44:53 CST</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>《C 语言核心技术》读书笔记</title>
+      <link>http://spark.wangxing.name/blog/2016/01/07/《c-语言核心技术》读书笔记/</link>
+      <description><![CDATA[<div>
+<div class="post">
+<h1>《C 语言核心技术》读书笔记</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline1">1. 类型转换</a></li>
+<li><a href="#orgheadline2">2. 表达式和运算符</a></li>
+<li><a href="#orgheadline3">3. 函数</a></li>
+<li><a href="#orgheadline4">4. 数组</a></li>
+<li><a href="#orgheadline5">5. 指针</a></li>
+<li><a href="#orgheadline6">6. 结构、联合、位字段</a></li>
+<li><a href="#orgheadline7">7. 声明</a></li>
+<li><a href="#orgheadline8">8. 动态内存管理</a></li>
+<li><a href="#orgheadline9">9. 输入和输出</a></li>
+<li><a href="#orgheadline10">10. 预处理</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1"><span class="section-number-2">1</span> 类型转换</h2>
+</div>
+<div id="outline-container-orgheadline2" class="outline-2">
+<h2 id="orgheadline2"><span class="section-number-2">2</span> 表达式和运算符</h2>
+</div>
+<div id="outline-container-orgheadline3" class="outline-2">
+<h2 id="orgheadline3"><span class="section-number-2">3</span> 函数</h2>
+</div>
+<div id="outline-container-orgheadline4" class="outline-2">
+<h2 id="orgheadline4"><span class="section-number-2">4</span> 数组</h2>
+</div>
+<div id="outline-container-orgheadline5" class="outline-2">
+<h2 id="orgheadline5"><span class="section-number-2">5</span> 指针</h2>
+</div>
+<div id="outline-container-orgheadline6" class="outline-2">
+<h2 id="orgheadline6"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
+</div>
+<div id="outline-container-orgheadline7" class="outline-2">
+<h2 id="orgheadline7"><span class="section-number-2">7</span> 声明</h2>
+</div>
+<div id="outline-container-orgheadline8" class="outline-2">
+<h2 id="orgheadline8"><span class="section-number-2">8</span> 动态内存管理</h2>
+</div>
+<div id="outline-container-orgheadline9" class="outline-2">
+<h2 id="orgheadline9"><span class="section-number-2">9</span> 输入和输出</h2>
+</div>
+<div id="outline-container-orgheadline10" class="outline-2">
+<h2 id="orgheadline10"><span class="section-number-2">10</span> 预处理</h2>
+</div>
+
+</div>
+</div>]]></description>
+      <pubDate>2016-01-07</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/07/《c-语言核心技术》读书笔记/</guid>
+    </item>
+  </channel>
+</rss>
