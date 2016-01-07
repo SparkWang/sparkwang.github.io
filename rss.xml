@@ -4,8 +4,8 @@
     <title>SparkWang</title>
     <link>http://spark.wangxing.name</link>
     <description>sparkwang&#39;s notebook</description>
-    <pubDate>Thu, 07 Jan 2016 15:25:04 CST</pubDate>
-    <lastBuildDate>Thu, 07 Jan 2016 15:25:04 CST</lastBuildDate>
+    <pubDate>Thu, 07 Jan 2016 15:32:25 CST</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 15:32:25 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -18,49 +18,80 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline1">1. 类型转换</a></li>
-<li><a href="#orgheadline2">2. 表达式和运算符</a></li>
-<li><a href="#orgheadline3">3. 函数</a></li>
-<li><a href="#orgheadline4">4. 数组</a></li>
-<li><a href="#orgheadline5">5. 指针</a></li>
-<li><a href="#orgheadline6">6. 结构、联合、位字段</a></li>
-<li><a href="#orgheadline7">7. 声明</a></li>
-<li><a href="#orgheadline8">8. 动态内存管理</a></li>
-<li><a href="#orgheadline9">9. 输入和输出</a></li>
-<li><a href="#orgheadline10">10. 预处理</a></li>
+<li><a href="#orgheadline3">1. 类型转换</a>
+<ul>
+<li><a href="#orgheadline2">1.1. 隐式类型转换何时发生</a>
+<ul>
+<li><a href="#orgheadline1">1.1.1. 信息丢失</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline4">2. 表达式和运算符</a></li>
+<li><a href="#orgheadline5">3. 函数</a></li>
+<li><a href="#orgheadline6">4. 数组</a></li>
+<li><a href="#orgheadline7">5. 指针</a></li>
+<li><a href="#orgheadline8">6. 结构、联合、位字段</a></li>
+<li><a href="#orgheadline9">7. 声明</a></li>
+<li><a href="#orgheadline10">8. 动态内存管理</a></li>
+<li><a href="#orgheadline11">9. 输入和输出</a></li>
+<li><a href="#orgheadline12">10. 预处理</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="orgheadline1"><span class="section-number-2">1</span> 类型转换</h2>
-</div>
-<div id="outline-container-orgheadline2" class="outline-2">
-<h2 id="orgheadline2"><span class="section-number-2">2</span> 表达式和运算符</h2>
-</div>
 <div id="outline-container-orgheadline3" class="outline-2">
-<h2 id="orgheadline3"><span class="section-number-2">3</span> 函数</h2>
+<h2 id="orgheadline3"><span class="section-number-2">1</span> 类型转换</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2"><span class="section-number-3">1.1</span> 隐式类型转换何时发生</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>操作数类型不合适</li>
+<li>调用一个函数时，自变量的类型与函数参数类型不匹配</li>
+<li>变量初始化或给变量赋值</li>
+</ul>
+
+<div class="org-src-container">
+
+<pre class="src src-c">int sum  = 22, count = 5;
+double mean = (double)sum / count;
+</pre>
 </div>
+</div>
+
+<div id="outline-container-orgheadline1" class="outline-4">
+<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> 信息丢失</h4>
+</div>
+</div>
+</div>
+
 <div id="outline-container-orgheadline4" class="outline-2">
-<h2 id="orgheadline4"><span class="section-number-2">4</span> 数组</h2>
+<h2 id="orgheadline4"><span class="section-number-2">2</span> 表达式和运算符</h2>
 </div>
 <div id="outline-container-orgheadline5" class="outline-2">
-<h2 id="orgheadline5"><span class="section-number-2">5</span> 指针</h2>
+<h2 id="orgheadline5"><span class="section-number-2">3</span> 函数</h2>
 </div>
 <div id="outline-container-orgheadline6" class="outline-2">
-<h2 id="orgheadline6"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
+<h2 id="orgheadline6"><span class="section-number-2">4</span> 数组</h2>
 </div>
 <div id="outline-container-orgheadline7" class="outline-2">
-<h2 id="orgheadline7"><span class="section-number-2">7</span> 声明</h2>
+<h2 id="orgheadline7"><span class="section-number-2">5</span> 指针</h2>
 </div>
 <div id="outline-container-orgheadline8" class="outline-2">
-<h2 id="orgheadline8"><span class="section-number-2">8</span> 动态内存管理</h2>
+<h2 id="orgheadline8"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
 </div>
 <div id="outline-container-orgheadline9" class="outline-2">
-<h2 id="orgheadline9"><span class="section-number-2">9</span> 输入和输出</h2>
+<h2 id="orgheadline9"><span class="section-number-2">7</span> 声明</h2>
 </div>
 <div id="outline-container-orgheadline10" class="outline-2">
-<h2 id="orgheadline10"><span class="section-number-2">10</span> 预处理</h2>
+<h2 id="orgheadline10"><span class="section-number-2">8</span> 动态内存管理</h2>
+</div>
+<div id="outline-container-orgheadline11" class="outline-2">
+<h2 id="orgheadline11"><span class="section-number-2">9</span> 输入和输出</h2>
+</div>
+<div id="outline-container-orgheadline12" class="outline-2">
+<h2 id="orgheadline12"><span class="section-number-2">10</span> 预处理</h2>
 </div>
 
 </div>
