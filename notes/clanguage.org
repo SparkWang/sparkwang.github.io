@@ -12,6 +12,18 @@
 #+CREATOR: Emacs 24.5.1 (Org mode 8.3.2)
 
 * 类型转换
+** 隐式类型转换何时发生
+- 操作数类型不合适
+- 调用一个函数时，自变量的类型与函数参数类型不匹配
+- 变量初始化或给变量赋值
+
+#+BEGIN_SRC c
+int sum  = 22, count = 5;
+double mean = (double)sum / count;
+#+END_SRC
+
+*** 信息丢失
+
 * 表达式和运算符
 * 函数
 * 数组
