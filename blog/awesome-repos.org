@@ -1,4 +1,4 @@
-#+TITLE:       Awesome Repos
+#+TITLE:       Awesome Tools
 #+AUTHOR:      Sean Wang
 #+EMAIL:       sean@think.sean.org
 #+DATE:        2016-01-07 Thu
@@ -7,7 +7,7 @@
 #+TAGS:        github
 #+LANGUAGE:    en
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
-#+DESCRIPTION: awesome repositories
+#+DESCRIPTION: awesome tools
 
 * Percol
 Percol is a command line tool that adds flavor of interactive filtering to the
@@ -24,3 +24,12 @@ git clone https://github.com/mooz/percol.git
 #+BEGIN_SRC shell
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 #+END_SRC
+* GNU Parallel
+GNU *parallel* is a shell tool for executing jobs in parallel using one or more
+computers.
+
+Downloading: [[http://ftp.gnu.org/gnu/parallel/][http://ftp.gnu.org/gnu/parallel/]] 
+* tmux
+A terminal multiplexer.
+
+[[https://tmux.github.io][https://tmux.github.io]]
