@@ -4,8 +4,8 @@
     <title>SparkWang</title>
     <link>http://spark.wangxing.name</link>
     <description>sparkwang&#39;s notebook</description>
-    <pubDate>Thu, 07 Jan 2016 21:06:08 CST</pubDate>
-    <lastBuildDate>Thu, 07 Jan 2016 21:06:08 CST</lastBuildDate>
+    <pubDate>Thu, 07 Jan 2016 22:14:04 CST</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 22:14:04 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -47,9 +47,14 @@
 <li><a href="#orgheadline7">5. 指针</a></li>
 <li><a href="#orgheadline8">6. 结构、联合、位字段</a></li>
 <li><a href="#orgheadline9">7. 声明</a></li>
-<li><a href="#orgheadline10">8. 动态内存管理</a></li>
-<li><a href="#orgheadline11">9. 输入和输出</a></li>
-<li><a href="#orgheadline12">10. 预处理</a></li>
+<li><a href="#orgheadline12">8. 动态内存管理</a>
+<ul>
+<li><a href="#orgheadline10">8.1. 用于动态内存管理的函数</a></li>
+<li><a href="#orgheadline11">8.2. 注意事项</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline13">9. 输入和输出</a></li>
+<li><a href="#orgheadline14">10. 预处理</a></li>
 </ul>
 </div>
 </div>
@@ -106,14 +111,76 @@ double mean = (double)sum / count;
 <div id="outline-container-orgheadline9" class="outline-2">
 <h2 id="orgheadline9"><span class="section-number-2">7</span> 声明</h2>
 </div>
-<div id="outline-container-orgheadline10" class="outline-2">
-<h2 id="orgheadline10"><span class="section-number-2">8</span> 动态内存管理</h2>
-</div>
-<div id="outline-container-orgheadline11" class="outline-2">
-<h2 id="orgheadline11"><span class="section-number-2">9</span> 输入和输出</h2>
-</div>
 <div id="outline-container-orgheadline12" class="outline-2">
-<h2 id="orgheadline12"><span class="section-number-2">10</span> 预处理</h2>
+<h2 id="orgheadline12"><span class="section-number-2">8</span> 动态内存管理</h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-orgheadline10" class="outline-3">
+<h3 id="orgheadline10"><span class="section-number-3">8.1</span> 用于动态内存管理的函数</h3>
+<div class="outline-text-3" id="text-8-1">
+<dl class="org-dl">
+<dt>malloc()</dt><dd>分配新的内存区域</dd>
+<dt>calloc()</dt><dd>分配新的内存区域</dd>
+<dt>realloc()</dt><dd>调整以前分配的内存区域</dd>
+<dt>free()</dt><dd>释放以前分配的内存区域</dd>
+</dl>
+</div>
+</div>
+<div id="outline-container-orgheadline11" class="outline-3">
+<h3 id="orgheadline11"><span class="section-number-3">8.2</span> 注意事项</h3>
+<div class="outline-text-3" id="text-8-2">
+<ul class="org-ul">
+<li><code>malloc()</code> 分配的内存不保证会被初始化</li>
+<li><code>calloc()</code> 会将分配的内存的每个字节初始化为 0</li>
+<li><code>malloc()</code> 和 <code>calloc()</code> 都返回 <code>void</code> 指针</li>
+<li>当存取分配的内存位置时，所使用的指针类型决定了如何翻译该位置的数据。</li>
+<li>如果内存分配成功，会得到“指向内存区域开端”的指针。“开端”指的是内存区域的最低字节地址。</li>
+<li><b>NOTE</b> 分配的内存区域会被 <b>对齐</b> ，任何对象类型都可以存储在该地址。</li>
+<li>如果给 <code>malloc()</code> 传入的参数为 0，则行为取决于 <code>malloc()</code> 的具体实现，可能返回
+<code>NULL</code> ，也可能返回一个 unique pointer， 返回的这个指针可以传给 <code>free()</code> 函数。</li>
+<li>如果给 <code>free()</code> 传入的参数为 <code>NULL</code> ，则函数不起任何作用。</li>
+<li>如果给 <code>free()</code> 传入的指针不是 <code>malloc()</code> 等函数分配的，或者已经被释放掉，则
+<code>free()</code> 的行为未定义。</li>
+</ul>
+
+<div class="org-src-container">
+
+<pre class="src src-c">char *getline(unsigned int len_max) {
+  char *linePtr = malloc(len_max + 1);
+  if (linePtr != NULL) {
+    int c = EOF;
+    unsigned int i = 0;
+    while (i &lt; len_max &amp;&amp; (c = getchar()) != '\n' &amp;&amp; c != EOF) {
+      linePtr[i++] = (char) c;
+    }
+    linePtr[i] = '\0';
+
+    if (c == EOF &amp;&amp; i == 0) {
+      free(linePtr);
+      linePtr = NULL;
+    } else {
+      linePtr = realloc(linePtr, i+1);
+    }
+  }
+  return linePtr;
+}
+
+char *line;
+if ((line = getline(128)) != NULL)
+  {
+    /* */
+    free(line);
+  }
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline13" class="outline-2">
+<h2 id="orgheadline13"><span class="section-number-2">9</span> 输入和输出</h2>
+</div>
+<div id="outline-container-orgheadline14" class="outline-2">
+<h2 id="orgheadline14"><span class="section-number-2">10</span> 预处理</h2>
 </div>
 
 </div>
