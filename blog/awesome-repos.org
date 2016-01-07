@@ -3,8 +3,8 @@
 #+EMAIL:       sean@think.sean.org
 #+DATE:        2016-01-07 Thu
 #+URI:         /blog/%y/%m/%d/awesome-repos
-#+KEYWORDS:    <TODO: insert your keywords here>
-#+TAGS:        <TODO: insert your tags here>
+#+KEYWORDS:    github, repository
+#+TAGS:        github
 #+LANGUAGE:    en
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 #+DESCRIPTION: awesome repositories
@@ -19,4 +19,8 @@ on Github: [[https://github.com/mooz/percol.git][https://github.com/mooz/percol.
 git clone https://github.com/mooz/percol.git
 #+END_SRC
 
-* 
+* oh-my-zsh
+
+#+BEGIN_SRC shell
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+#+END_SRC
