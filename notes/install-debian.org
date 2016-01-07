@@ -1,0 +1,105 @@
+#+TITLE:       Install Debian
+#+AUTHOR:      Sean Wang
+#+EMAIL:       sean@think.sean.org
+#+DATE:        2016-01-07 Thu
+#+URI:         /blog/%y/%m/%d/install-debian
+#+KEYWORDS:    debian, linux
+#+TAGS:        debian, linux
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: install debian
+
+* install software via apt-get command
+** change sources.list
+#+BEGIN_QUOTE
+deb http://mirror.bjtu.edu.cn/debian jessie main non-free contrib
+deb http://mirror.bjtu.edu.cn/debian jessie-proposed-updates main contrib non-free
+deb http://mirror.bjtu.edu.cn/debian-security jessie/updates main contrib non-free
+deb-src http://mirror.bjtu.edu.cn/debian jessie main non-free contrib
+deb-src http://mirror.bjtu.edu.cn/debian jessie-proposed-updates main contrib non-free
+deb-src http://mirror.bjtu.edu.cn/debian-security jessie/updates main contrib non-free
+#+END_QUOTE
+
+#+BEGIN_SRC shell
+sudo apt-get update
+#+END_SRC
+
+** install packages
+
+* install software
+** Chrome, [[http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html][http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html]]
+
+  #+BEGIN_SRC shell
+  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  #+END_SRC
+
+** TexLive
+downloading: [[http://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive.iso][texlive.iso]]
+
+#+BEGIN_SRC shell
+wget http://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive.iso
+#+END_SRC
+
+** Firefox
+
+* install software via source code
+** Emacs
+1. Downloading Emacs: [[http://ftp.gnu.org/gnu/emacs/][http://ftp.gnu.org/gnu/emacs/]]
+2. Building Emacs:
+#+BEGIN_SRC shell
+./configure
+make
+make install
+#+END_SRC
+3. Install spacemacs:
+#+BEGIN_SRC shell
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+#+END_SRC
+** Vim
+** Git
+** tmux
+Downloading: [[https://tmux.github.io/][https://tmux.github.io/]]
+** GNU Parallel
+#+BEGIN_SRC shell
+wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
+#+END_SRC
+** pandoc
+** the silver searcher
+** oh-my-zsh
+#+BEGIN_SRC shell
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+chsh -s /usr/local/bin/zsh
+#+END_SRC
+** zathura
+** Lua
+downloading: [[http://www.lua.org/download.html][http://www.lua.org/download.html]]
+
+* install Android development tools
+- jd-gui
+- Androguard
+- Apktool
+- Android SDK
+
+* install Python modules
+** pip
+#+BEGIN_SRC 
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+#+END_SRC
+** matplotlib
+** ipython
+** seaborn
+** numpy
+** scipy
+** 
+
+* install Window Manager
+** i3
+downloading: [[http://i3wm.org/downloads/][http://i3wm.org/downloads/]]
+
+* install MS fonts
+
+* configure software
+** sudo
+** Chinese
+** Keyboard
