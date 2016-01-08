@@ -10,5 +10,9 @@
 #+DESCRIPTION: Spacemacs 使用
 
 * Spacemacs
+#+BEGIN_SRC shell
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+#+END_SRC
+
 
 * Creating Personal Layer
