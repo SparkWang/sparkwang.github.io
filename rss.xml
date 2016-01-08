@@ -4,10 +4,135 @@
     <title>SparkWang</title>
     <link>http://spark.wangxing.name</link>
     <description>sparkwang&#39;s notebook</description>
-    <pubDate>Fri, 08 Jan 2016 08:42:45 CST</pubDate>
-    <lastBuildDate>Fri, 08 Jan 2016 08:42:45 CST</lastBuildDate>
+    <pubDate>Fri, 08 Jan 2016 21:16:22 CST</pubDate>
+    <lastBuildDate>Fri, 08 Jan 2016 21:16:22 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>git 使用技巧</title>
+      <link>http://spark.wangxing.name/blog/2016/01/08/git-使用技巧/</link>
+      <description><![CDATA[<div>
+<div class="post">
+<h1>git 使用技巧</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline1">1. </a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1"><span class="section-number-2">1</span> </h2>
+</div>
+
+</div>
+</div>]]></description>
+      <pubDate>2016-01-08</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/08/git-使用技巧/</guid>
+    </item>
+    <item>
+      <title>Install Debian</title>
+      <link>http://spark.wangxing.name/blog/2016/01/07/install-debian</link>
+      <description><![CDATA[install debian]]></description>
+      <pubDate>2016-01-08</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/07/install-debian</guid>
+    </item>
+    <item>
+      <title>nmap</title>
+      <link>http://spark.wangxing.name/blog/2016/01/08/nmap/</link>
+      <description><![CDATA[<div>
+<div class="post">
+<h1>nmap</h1>
+
+
+</div>
+</div>]]></description>
+      <pubDate>2016-01-08</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/08/nmap/</guid>
+    </item>
+    <item>
+      <title>用 rsync 同步本地和远程目录 </title>
+      <link>http://spark.wangxing.name/blog/2016/01/08/用-rsync-同步本地和远程目录-/</link>
+      <description><![CDATA[<div>
+<div class="post">
+<h1>用 rsync 同步本地和远程目录 </h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline1">1. Intro</a></li>
+<li><a href="#orgheadline2">2. Options</a></li>
+<li><a href="#orgheadline3">3. 注意</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgheadline1" class="outline-2">
+<h2 id="orgheadline1"><span class="section-number-2">1</span> Intro</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<code>rsync</code> 命令可用来在本地和远程机器之间同步目录。
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-shell">rsync -a host:dirA dirB
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline2" class="outline-2">
+<h2 id="orgheadline2"><span class="section-number-2">2</span> Options</h2>
+<div class="outline-text-2" id="text-2">
+<dl class="org-dl">
+<dt>-a, &#x2013;archive</dt><dd>等价于 -rlptgoD</dd>
+<dt>-r, &#x2013;recursive</dt><dd>递归同步目录中的内容</dd>
+<dt>-l, &#x2013;links</dt><dd>copy symlinks as symlinks</dd>
+<dt>-p, &#x2013;perms</dt><dd>preserve permissions</dd>
+<dt>-t, &#x2013;times </dt><dd>preserver modification times</dd>
+<dt>-g, &#x2013;group</dt><dd>preserver group</dd>
+<dt>-o, &#x2013;owner</dt><dd>preserver owner (super-user only)</dd>
+<dt>-D</dt><dd>same as &#x2013;devices &#x2013;specials</dd>
+<dt>&#x2013;devices</dt><dd>preserver device files</dd>
+<dt>&#x2013;specials</dt><dd>preserver special files</dd>
+<dt>-P, &#x2013;progress</dt><dd>show progress during transfer</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orgheadline3" class="outline-2">
+<h2 id="orgheadline3"><span class="section-number-2">3</span> 注意</h2>
+<div class="outline-text-2" id="text-3">
+<div class="org-src-container">
+
+<pre class="src src-shell">rsync -a remote_host:/source/dirA /local/dirB
+</pre>
+</div>
+
+<p>
+上述命令会将远程机器的 <code>dirA</code> 目录拷贝到本地的 <code>dirB</code> 目录下，执行完成之后，本地的目录下将出现一个 <code>dirA</code> 目录，内容与远程机器的 <code>dirA</code> 目录相同。
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-shell">rsync -a remote_host:/source/dirA/ /local/dirB
+</pre>
+</div>
+<p>
+上述命令会将远程机器的 <code>dirA</code> 目录中的内容拷贝到本地的 <code>dirB</code> 目录下，在本地
+<code>dirB</code> 目录下不会自动创建 <code>dirA</code> 目录。
+</p>
+</div>
+</div>
+
+</div>
+</div>]]></description>
+      <pubDate>2016-01-08</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/08/用-rsync-同步本地和远程目录-/</guid>
+    </item>
     <item>
       <title>Use Spacemacs</title>
       <link>http://spark.wangxing.name/blog/2016/01/07/use-spacemacs</link>
@@ -374,13 +499,6 @@ public static int indexOfAny(String str, char[] searchChars) {
 </div>]]></description>
       <pubDate>2016-01-07</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/07/functional-thinking-读书笔记/</guid>
-    </item>
-    <item>
-      <title>Install Debian</title>
-      <link>http://spark.wangxing.name/blog/2016/01/07/install-debian</link>
-      <description><![CDATA[install debian]]></description>
-      <pubDate>2016-01-07</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/07/install-debian</guid>
     </item>
   </channel>
 </rss>
