@@ -57,6 +57,8 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 #+END_SRC
 ** Vim
 ** Git
+downloading: https://www.kernel.org/pub/software/scm/git/
+
 ** tmux
 Downloading: [[https://tmux.github.io/][https://tmux.github.io/]]
 ** GNU Parallel
