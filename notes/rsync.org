@@ -1,0 +1,48 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
+#+OPTIONS: creator:nil d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t
+#+OPTIONS: num:t p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t timestamp:t
+#+OPTIONS: title:t toc:t todo:t |:t
+#+TITLE: 用 rsync 同步本地和远程目录 
+#+DATE: <2016-01-08 Fri>
+#+AUTHOR: Sean Wang
+#+EMAIL: sean@think.sean.org
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 24.5.1 (Org mode 8.3.2)
+
+* Intro
+=rsync= 命令可用来在本地和远程机器之间同步目录。
+
+#+BEGIN_SRC shell
+rsync -a host:dirA dirB
+#+END_SRC
+
+* Options
+
+- -a, --archive :: 等价于 -rlptgoD
+- -r, --recursive :: 递归同步目录中的内容
+- -l, --links :: copy symlinks as symlinks
+- -p, --perms :: preserve permissions
+- -t, --times  :: preserver modification times
+- -g, --group :: preserver group
+- -o, --owner :: preserver owner (super-user only)
+- -D :: same as --devices --specials
+- --devices :: preserver device files
+- --specials :: preserver special files
+- -P, --progress :: show progress during transfer
+
+* 注意
+#+BEGIN_SRC shell
+rsync -a remote_host:/source/dirA /local/dirB
+#+END_SRC
+
+上述命令会将远程机器的 =dirA= 目录拷贝到本地的 =dirB= 目录下，执行完成之后，本地
+的目录下将出现一个 =dirA= 目录，内容与远程机器的 =dirA= 目录相同。
+
+#+BEGIN_SRC shell
+rsync -a remote_host:/source/dirA/ /local/dirB
+#+END_SRC
+上述命令会将远程机器的 =dirA= 目录中的内容拷贝到本地的 =dirB= 目录下，在本地
+=dirB= 目录下不会自动创建 =dirA= 目录。
+
