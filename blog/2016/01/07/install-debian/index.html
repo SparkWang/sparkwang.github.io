@@ -32,13 +32,72 @@
 <div>
 <div class="post">
 <h1>Install Debian</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline3">1. install software via apt-get command</a>
+<ul>
+<li><a href="#orgheadline1">1.1. change sources.list</a></li>
+<li><a href="#orgheadline2">1.2. install packages</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline7">2. install software</a>
+<ul>
+<li><a href="#orgheadline4">2.1. Chrome, </a></li>
+<li><a href="#orgheadline5">2.2. TexLive</a></li>
+<li><a href="#orgheadline6">2.3. Firefox</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline18">3. install software via source code</a>
+<ul>
+<li><a href="#orgheadline8">3.1. Emacs</a></li>
+<li><a href="#orgheadline9">3.2. Vim</a></li>
+<li><a href="#orgheadline10">3.3. Git</a></li>
+<li><a href="#orgheadline11">3.4. tmux</a></li>
+<li><a href="#orgheadline12">3.5. GNU Parallel</a></li>
+<li><a href="#orgheadline13">3.6. pandoc</a></li>
+<li><a href="#orgheadline14">3.7. the silver searcher</a></li>
+<li><a href="#orgheadline15">3.8. oh-my-zsh</a></li>
+<li><a href="#orgheadline16">3.9. zathura</a></li>
+<li><a href="#orgheadline17">3.10. Lua</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline19">4. install Android development tools</a></li>
+<li><a href="#orgheadline27">5. install Python modules</a>
+<ul>
+<li><a href="#orgheadline20">5.1. pip</a></li>
+<li><a href="#orgheadline21">5.2. matplotlib</a></li>
+<li><a href="#orgheadline22">5.3. ipython</a></li>
+<li><a href="#orgheadline23">5.4. seaborn</a></li>
+<li><a href="#orgheadline24">5.5. numpy</a></li>
+<li><a href="#orgheadline25">5.6. scipy</a></li>
+<li><a href="#orgheadline26">5.7. </a></li>
+</ul>
+</li>
+<li><a href="#orgheadline29">6. install Window Manager</a>
+<ul>
+<li><a href="#orgheadline28">6.1. i3</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline30">7. install MS fonts</a></li>
+<li><a href="#orgheadline34">8. configure software</a>
+<ul>
+<li><a href="#orgheadline31">8.1. sudo</a></li>
+<li><a href="#orgheadline32">8.2. Chinese</a></li>
+<li><a href="#orgheadline33">8.3. Keyboard</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 
 <div id="outline-container-orgheadline3" class="outline-2">
-<h2 id="orgheadline3">install software via apt-get command</h2>
-<div class="outline-text-2" id="text-orgheadline3">
+<h2 id="orgheadline3"><span class="section-number-2">1</span> install software via apt-get command</h2>
+<div class="outline-text-2" id="text-1">
 </div><div id="outline-container-orgheadline1" class="outline-3">
-<h3 id="orgheadline1">change sources.list</h3>
-<div class="outline-text-3" id="text-orgheadline1">
+<h3 id="orgheadline1"><span class="section-number-3">1.1</span> change sources.list</h3>
+<div class="outline-text-3" id="text-1-1">
 <blockquote>
 <p>
 deb <a href="http://mirror.bjtu.edu.cn/debian">http://mirror.bjtu.edu.cn/debian</a> jessie main non-free contrib
@@ -59,16 +118,16 @@ deb-src <a href="http://mirror.bjtu.edu.cn/debian-security">http://mirror.bjtu.e
 </div>
 
 <div id="outline-container-orgheadline2" class="outline-3">
-<h3 id="orgheadline2">install packages</h3>
+<h3 id="orgheadline2"><span class="section-number-3">1.2</span> install packages</h3>
 </div>
 </div>
 
 <div id="outline-container-orgheadline7" class="outline-2">
-<h2 id="orgheadline7">install software</h2>
-<div class="outline-text-2" id="text-orgheadline7">
+<h2 id="orgheadline7"><span class="section-number-2">2</span> install software</h2>
+<div class="outline-text-2" id="text-2">
 </div><div id="outline-container-orgheadline4" class="outline-3">
-<h3 id="orgheadline4">Chrome, <a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html"><a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html">http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html</a></a></h3>
-<div class="outline-text-3" id="text-orgheadline4">
+<h3 id="orgheadline4"><span class="section-number-3">2.1</span> Chrome, <a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html"><a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html">http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html</a></a></h3>
+<div class="outline-text-3" id="text-2-1">
 <div class="org-src-container">
 
 <pre class="src src-shell">sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -78,8 +137,8 @@ deb-src <a href="http://mirror.bjtu.edu.cn/debian-security">http://mirror.bjtu.e
 </div>
 
 <div id="outline-container-orgheadline5" class="outline-3">
-<h3 id="orgheadline5">TexLive</h3>
-<div class="outline-text-3" id="text-orgheadline5">
+<h3 id="orgheadline5"><span class="section-number-3">2.2</span> TexLive</h3>
+<div class="outline-text-3" id="text-2-2">
 <p>
 downloading: <a href="http://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive.iso">texlive.iso</a>
 </p>
@@ -93,16 +152,16 @@ downloading: <a href="http://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texl
 </div>
 
 <div id="outline-container-orgheadline6" class="outline-3">
-<h3 id="orgheadline6">Firefox</h3>
+<h3 id="orgheadline6"><span class="section-number-3">2.3</span> Firefox</h3>
 </div>
 </div>
 
 <div id="outline-container-orgheadline18" class="outline-2">
-<h2 id="orgheadline18">install software via source code</h2>
-<div class="outline-text-2" id="text-orgheadline18">
+<h2 id="orgheadline18"><span class="section-number-2">3</span> install software via source code</h2>
+<div class="outline-text-2" id="text-3">
 </div><div id="outline-container-orgheadline8" class="outline-3">
-<h3 id="orgheadline8">Emacs</h3>
-<div class="outline-text-3" id="text-orgheadline8">
+<h3 id="orgheadline8"><span class="section-number-3">3.1</span> Emacs</h3>
+<div class="outline-text-3" id="text-3-1">
 <ol class="org-ol">
 <li>Downloading Emacs: <a href="http://ftp.gnu.org/gnu/emacs/"><a href="http://ftp.gnu.org/gnu/emacs/">http://ftp.gnu.org/gnu/emacs/</a></a></li>
 <li>Building Emacs:</li>
@@ -125,11 +184,11 @@ make install
 </div>
 </div>
 <div id="outline-container-orgheadline9" class="outline-3">
-<h3 id="orgheadline9">Vim</h3>
+<h3 id="orgheadline9"><span class="section-number-3">3.2</span> Vim</h3>
 </div>
 <div id="outline-container-orgheadline10" class="outline-3">
-<h3 id="orgheadline10">Git</h3>
-<div class="outline-text-3" id="text-orgheadline10">
+<h3 id="orgheadline10"><span class="section-number-3">3.3</span> Git</h3>
+<div class="outline-text-3" id="text-3-3">
 <p>
 downloading: <a href="https://www.kernel.org/pub/software/scm/git/">https://www.kernel.org/pub/software/scm/git/</a>
 </p>
@@ -137,16 +196,16 @@ downloading: <a href="https://www.kernel.org/pub/software/scm/git/">https://www.
 </div>
 
 <div id="outline-container-orgheadline11" class="outline-3">
-<h3 id="orgheadline11">tmux</h3>
-<div class="outline-text-3" id="text-orgheadline11">
+<h3 id="orgheadline11"><span class="section-number-3">3.4</span> tmux</h3>
+<div class="outline-text-3" id="text-3-4">
 <p>
 Downloading: <a href="https://tmux.github.io/"><a href="https://tmux.github.io/">https://tmux.github.io/</a></a>
 </p>
 </div>
 </div>
 <div id="outline-container-orgheadline12" class="outline-3">
-<h3 id="orgheadline12">GNU Parallel</h3>
-<div class="outline-text-3" id="text-orgheadline12">
+<h3 id="orgheadline12"><span class="section-number-3">3.5</span> GNU Parallel</h3>
+<div class="outline-text-3" id="text-3-5">
 <div class="org-src-container">
 
 <pre class="src src-shell">wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
@@ -155,14 +214,14 @@ Downloading: <a href="https://tmux.github.io/"><a href="https://tmux.github.io/"
 </div>
 </div>
 <div id="outline-container-orgheadline13" class="outline-3">
-<h3 id="orgheadline13">pandoc</h3>
+<h3 id="orgheadline13"><span class="section-number-3">3.6</span> pandoc</h3>
 </div>
 <div id="outline-container-orgheadline14" class="outline-3">
-<h3 id="orgheadline14">the silver searcher</h3>
+<h3 id="orgheadline14"><span class="section-number-3">3.7</span> the silver searcher</h3>
 </div>
 <div id="outline-container-orgheadline15" class="outline-3">
-<h3 id="orgheadline15">oh-my-zsh</h3>
-<div class="outline-text-3" id="text-orgheadline15">
+<h3 id="orgheadline15"><span class="section-number-3">3.8</span> oh-my-zsh</h3>
+<div class="outline-text-3" id="text-3-8">
 <div class="org-src-container">
 
 <pre class="src src-shell">sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -172,11 +231,11 @@ chsh -s /usr/local/bin/zsh
 </div>
 </div>
 <div id="outline-container-orgheadline16" class="outline-3">
-<h3 id="orgheadline16">zathura</h3>
+<h3 id="orgheadline16"><span class="section-number-3">3.9</span> zathura</h3>
 </div>
 <div id="outline-container-orgheadline17" class="outline-3">
-<h3 id="orgheadline17">Lua</h3>
-<div class="outline-text-3" id="text-orgheadline17">
+<h3 id="orgheadline17"><span class="section-number-3">3.10</span> Lua</h3>
+<div class="outline-text-3" id="text-3-10">
 <p>
 downloading: <a href="http://www.lua.org/download.html"><a href="http://www.lua.org/download.html">http://www.lua.org/download.html</a></a>
 </p>
@@ -185,8 +244,8 @@ downloading: <a href="http://www.lua.org/download.html"><a href="http://www.lua.
 </div>
 
 <div id="outline-container-orgheadline19" class="outline-2">
-<h2 id="orgheadline19">install Android development tools</h2>
-<div class="outline-text-2" id="text-orgheadline19">
+<h2 id="orgheadline19"><span class="section-number-2">4</span> install Android development tools</h2>
+<div class="outline-text-2" id="text-4">
 <ul class="org-ul">
 <li>jd-gui</li>
 <li>Androguard</li>
@@ -197,11 +256,11 @@ downloading: <a href="http://www.lua.org/download.html"><a href="http://www.lua.
 </div>
 
 <div id="outline-container-orgheadline27" class="outline-2">
-<h2 id="orgheadline27">install Python modules</h2>
-<div class="outline-text-2" id="text-orgheadline27">
+<h2 id="orgheadline27"><span class="section-number-2">5</span> install Python modules</h2>
+<div class="outline-text-2" id="text-5">
 </div><div id="outline-container-orgheadline20" class="outline-3">
-<h3 id="orgheadline20">pip</h3>
-<div class="outline-text-3" id="text-orgheadline20">
+<h3 id="orgheadline20"><span class="section-number-3">5.1</span> pip</h3>
+<div class="outline-text-3" id="text-5-1">
 <div class="org-src-container">
 
 <pre class="src src-shell">wget https://bootstrap.pypa.io/get-pip.py
@@ -211,31 +270,31 @@ sudo python get-pip.py
 </div>
 </div>
 <div id="outline-container-orgheadline21" class="outline-3">
-<h3 id="orgheadline21">matplotlib</h3>
+<h3 id="orgheadline21"><span class="section-number-3">5.2</span> matplotlib</h3>
 </div>
 <div id="outline-container-orgheadline22" class="outline-3">
-<h3 id="orgheadline22">ipython</h3>
+<h3 id="orgheadline22"><span class="section-number-3">5.3</span> ipython</h3>
 </div>
 <div id="outline-container-orgheadline23" class="outline-3">
-<h3 id="orgheadline23">seaborn</h3>
+<h3 id="orgheadline23"><span class="section-number-3">5.4</span> seaborn</h3>
 </div>
 <div id="outline-container-orgheadline24" class="outline-3">
-<h3 id="orgheadline24">numpy</h3>
+<h3 id="orgheadline24"><span class="section-number-3">5.5</span> numpy</h3>
 </div>
 <div id="outline-container-orgheadline25" class="outline-3">
-<h3 id="orgheadline25">scipy</h3>
+<h3 id="orgheadline25"><span class="section-number-3">5.6</span> scipy</h3>
 </div>
 <div id="outline-container-orgheadline26" class="outline-3">
-<h3 id="orgheadline26"></h3>
+<h3 id="orgheadline26"><span class="section-number-3">5.7</span> </h3>
 </div>
 </div>
 
 <div id="outline-container-orgheadline29" class="outline-2">
-<h2 id="orgheadline29">install Window Manager</h2>
-<div class="outline-text-2" id="text-orgheadline29">
+<h2 id="orgheadline29"><span class="section-number-2">6</span> install Window Manager</h2>
+<div class="outline-text-2" id="text-6">
 </div><div id="outline-container-orgheadline28" class="outline-3">
-<h3 id="orgheadline28">i3</h3>
-<div class="outline-text-3" id="text-orgheadline28">
+<h3 id="orgheadline28"><span class="section-number-3">6.1</span> i3</h3>
+<div class="outline-text-3" id="text-6-1">
 <p>
 downloading: <a href="http://i3wm.org/downloads/"><a href="http://i3wm.org/downloads/">http://i3wm.org/downloads/</a></a>
 </p>
@@ -244,20 +303,51 @@ downloading: <a href="http://i3wm.org/downloads/"><a href="http://i3wm.org/downl
 </div>
 
 <div id="outline-container-orgheadline30" class="outline-2">
-<h2 id="orgheadline30">install MS fonts</h2>
+<h2 id="orgheadline30"><span class="section-number-2">7</span> install MS fonts</h2>
 </div>
 
 <div id="outline-container-orgheadline34" class="outline-2">
-<h2 id="orgheadline34">configure software</h2>
-<div class="outline-text-2" id="text-orgheadline34">
+<h2 id="orgheadline34"><span class="section-number-2">8</span> configure software</h2>
+<div class="outline-text-2" id="text-8">
 </div><div id="outline-container-orgheadline31" class="outline-3">
-<h3 id="orgheadline31">sudo</h3>
+<h3 id="orgheadline31"><span class="section-number-3">8.1</span> sudo</h3>
 </div>
 <div id="outline-container-orgheadline32" class="outline-3">
-<h3 id="orgheadline32">Chinese</h3>
+<h3 id="orgheadline32"><span class="section-number-3">8.2</span> Chinese</h3>
 </div>
 <div id="outline-container-orgheadline33" class="outline-3">
-<h3 id="orgheadline33">Keyboard</h3>
+<h3 id="orgheadline33"><span class="section-number-3">8.3</span> Keyboard</h3>
+<div class="outline-text-3" id="text-8-3">
+<p>
+在 <code>/etc/default/keyboard</code> 文件中添加下面一行，交换 <code>Ctrl</code> 和 <code>CapsLock</code> 键：
+</p>
+
+<blockquote>
+<p>
+XKBOPTIONS="ctrl:nocaps"
+</p>
+</blockquote>
+
+
+<p>
+完整的 <code>/etc/default/keyboard</code> 文件如下:
+</p>
+
+<blockquote>
+<p>
+XKBMODEL="pc105"
+</p>
+
+<p>
+XKBVARIANT=""
+XKBOPTIONS="ctrl:nocaps"
+</p>
+
+<p>
+BACKSPACE="guess"
+</p>
+</blockquote>
+</div>
 </div>
 </div>
 
