@@ -1,0 +1,24 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
+#+OPTIONS: creator:nil d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t
+#+OPTIONS: num:t p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t timestamp:t
+#+OPTIONS: title:t toc:t todo:t |:t
+#+TITLE: system-config
+#+DATE: <2016-01-09 Sat>
+#+AUTHOR: Sean Wang
+#+EMAIL: sean@think.sean.org
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 24.5.1 (Org mode 8.3.2)
+
+GNU Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当
+实现自动化。
+
+软件安装有以下几种方式：
+- apt-get 方式安装
+- 从 github 克隆源码后安装
+- 从固定地址下载源码后安装
+- Python 模块安装
+
+TODO: 参考这个项目([[https://github.com/baohaojun/system-config.git][https://github.com/baohaojun/system-config.git]])系统配置自动化。
+
