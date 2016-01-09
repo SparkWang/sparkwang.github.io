@@ -20,5 +20,6 @@ GNU Debian 系统安装完之后，需要安装很多软件并进行许多配置
 - 从固定地址下载源码后安装
 - Python 模块安装
 
-TODO: 参考这个项目([[https://github.com/baohaojun/system-config.git][https://github.com/baohaojun/system-config.git]])系统配置自动化。
+TODO: 参考这个项目([[https://github.com/baohaojun/system-config.git][https://github.com/baohaojun/system-config.git]])实现系统配置自
+动化。
 
