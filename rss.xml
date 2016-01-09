@@ -4,10 +4,39 @@
     <title>SparkWang</title>
     <link>http://spark.wangxing.name</link>
     <description>sparkwang&#39;s notebook</description>
-    <pubDate>Fri, 08 Jan 2016 21:24:43 CST</pubDate>
-    <lastBuildDate>Fri, 08 Jan 2016 21:24:43 CST</lastBuildDate>
+    <pubDate>Sat, 09 Jan 2016 22:37:20 CST</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2016 22:37:20 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>system-config</title>
+      <link>http://spark.wangxing.name/blog/2016/01/09/system-config/</link>
+      <description><![CDATA[<div>
+<div class="post">
+<h1>system-config</h1>
+<p>
+GNU Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实现自动化。
+</p>
+
+<p>
+软件安装有以下几种方式：
+</p>
+<ul class="org-ul">
+<li>apt-get 方式安装</li>
+<li>从 github 克隆源码后安装</li>
+<li>从固定地址下载源码后安装</li>
+<li>Python 模块安装</li>
+</ul>
+
+<p>
+TODO: 参考这个项目(<a href="https://github.com/baohaojun/system-config.git"><a href="https://github.com/baohaojun/system-config.git">https://github.com/baohaojun/system-config.git</a></a>)系统配置自动化。
+</p>
+
+</div>
+</div>]]></description>
+      <pubDate>2016-01-09</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/09/system-config/</guid>
+    </item>
     <item>
       <title>git 使用技巧</title>
       <link>http://spark.wangxing.name/blog/2016/01/08/git-使用技巧/</link>
@@ -326,179 +355,6 @@ if ((line = getline(128)) != NULL)
       <description><![CDATA[elisp 笔记]]></description>
       <pubDate>2016-01-07</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/07/elisp-notes</guid>
-    </item>
-    <item>
-      <title>Functional Thinking 读书笔记</title>
-      <link>http://spark.wangxing.name/blog/2016/01/07/functional-thinking-读书笔记/</link>
-      <description><![CDATA[<div>
-<div class="post">
-<h1>Functional Thinking 读书笔记</h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgheadline5">1. Why</a>
-<ul>
-<li><a href="#orgheadline1">1.1. 编程语言趋势</a></li>
-<li><a href="#orgheadline2">1.2. Ceding Control to the Language/Runtime</a></li>
-<li><a href="#orgheadline3">1.3. Concision</a></li>
-<li><a href="#orgheadline4">1.4. Three versions of indexOfAny()</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orgheadline5" class="outline-2">
-<h2 id="orgheadline5"><span class="section-number-2">1</span> Why</h2>
-<div class="outline-text-2" id="text-1">
-<ul class="org-ul">
-<li>不能用使用斧子的方法使用电锯。学习一个全新的编程模式与学习一门新的编程语言是两回事。</li>
-<li>Computer science often advances in fits and starts. (断断续续地；间歇地)</li>
-<li>好的想法往往在很多年后才会变成主流。
-<ul class="org-ul">
-<li>Simula67 创建于 1967 年，是第一门面向对象编程语言，但面向对象在 1983 年 C++出现并逐渐流行之后才变得主流。</li>
-</ul></li>
-<li>函数式编程几十年前被学术界开发出来，现在正慢慢地蔓延（crept into）到各个现代编程语言中。</li>
-</ul>
-
-<div class="org-src-container">
-
-<pre class="src src-java" id="orgsrcblock1">public class Words {
-    private Set&lt;String&gt; NON_WORDS = new HashSet&lt;String&gt;() {{
-            add("the"); add("and"); add("of"); add("to"); add("a");
-            add("i"); add("it"); add("in"); add("or"); add("is");
-            add("d"); add("s"); add("as"); add("so"); add("but");
-            add("be");
-        }};
-
-    public Map wordFreq(String words) {
-        TreeMap&lt;String, Integer&gt; wordMap = new TreeMap&lt;String, Integer&gt;();
-        Matcher m = Pattern.compile("\\w+").matcher(words);
-        while (m.find()) {
-            String word = m.group().toLowerCase();
-            if (!NON_WORDS.contains(word)) {
-                if (wordMap.get(word) == null) {
-                    wordMap.put(word, 1);
-                }
-                else {
-                    wordMap.put(word, wordMap.get(word) + 1);
-                }
-            }
-        }
-        return wordMap;
-    }
-}
-</pre>
-</div>
-
-<div class="org-src-container">
-
-<pre class="src src-java" id="orgsrcblock2">private List&lt;String&gt; regexToList(String words, String regex) {
-    List wordList = new ArrayList&lt;&gt;();
-    Matcher m = Pattern.compile(regex).matcher(words);
-    while (m.find())
-        wordList.add(m.group());
-    return wordList;
-}
-
-public Map wordFreq(String words) {
-    TreeMap&lt;String, Integer&gt; wordMap = new TreeMap&lt;&gt;();
-    regexToList(words, "\\w+").stream()
-        .map(w -&gt; w.toLowerCase())
-        .filter(w -&gt; !NON_WORDS.contains(w))
-        .forEach(w -&gt; wordMap.put(w, wordMap.getOrDefault(w, 0)+1));
-    return wordMap;
-}
-</pre>
-</div>
-</div>
-
-<div id="outline-container-orgheadline1" class="outline-3">
-<h3 id="orgheadline1"><span class="section-number-3">1.1</span> 编程语言趋势</h3>
-<div class="outline-text-3" id="text-1-1">
-<ul class="org-ul">
-<li>Groovy 添加了很多函数式编程功能，包括 <code>memoization</code> 等高级特性。</li>
-<li>Java 增加了 lambda blocks (i.e., higher-order functions)</li>
-<li>JavaScript 具有很多函数式编程特性</li>
-<li>C++ 在 2011 标准中添加了 lambda blocks</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orgheadline2" class="outline-3">
-<h3 id="orgheadline2"><span class="section-number-3">1.2</span> Ceding Control to the Language/Runtime</h3>
-</div>
-
-<div id="outline-container-orgheadline3" class="outline-3">
-<h3 id="orgheadline3"><span class="section-number-3">1.3</span> Concision</h3>
-<div class="outline-text-3" id="text-1-3">
-<blockquote>
-<p>
-OO makes code understandable by encapsulating moving parts. FP makes code
-understandable by minimizing moving parts.
-&#x2013; Michael Feathers
-</p>
-</blockquote>
-</div>
-</div>
-
-<div id="outline-container-orgheadline4" class="outline-3">
-<h3 id="orgheadline4"><span class="section-number-3">1.4</span> Three versions of indexOfAny()</h3>
-<div class="outline-text-3" id="text-1-4">
-<div class="org-src-container">
-
-<pre class="src src-java" id="orgsrcblock3">// From Apache Commons Lang, http://commons.apache.org/lang/
-public static int indexOfAny(String str, char[] searchChars) {
-    if (isEmpty(str) || ArrayUtils.isEmpty(searchChars)) {
-        return INDEX_NOT_FOUND;
-    }
-    int csLen = str.length();
-    int csLast = csLen - 1;
-    int searchLen = searchChars.length;
-    int searchLast = searchLen - 1;
-
-    for (int i = 0; i &lt; csLen; i++) {
-        char ch = str.charAt(i);
-        for (int j = 0; j &lt; searchLen; j++) {
-            if (searchChars[j] == ch) {
-                if (i &lt; csLast &amp;&amp; j &lt; searchLast &amp;&amp; CharUtils.isHighSurrogate(ch)) {
-                    if (searchChars[j+1] == str.charAt(i+1)) {
-                        return i;
-                    }
-                } else {
-                    return i;
-                }
-            }
-        }
-    }
-    return INDEX_NOT_FOUND;
-}
-</pre>
-</div>
-
-<div class="org-src-container">
-
-<pre class="src src-java" id="orgsrcblock4">def firstIndexOfAny(input : String, searchChars : Seq[Char]) : Option[Int] = {
-    def indexedInput = (0 until input.length).zip(input)
-    val result = for (pair &lt;- indexedInput;
-                      char &lt;- searchChars;
-                      if (char == pair._2))
-        yield(pair._1)
-    if (result.isEmpty)
-        None
-    else
-        Some(result.head)
-</pre>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</div>]]></description>
-      <pubDate>2016-01-07</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/07/functional-thinking-读书笔记/</guid>
     </item>
   </channel>
 </rss>
