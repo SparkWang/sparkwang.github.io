@@ -11,15 +11,36 @@
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 24.5.1 (Org mode 8.3.2)
 
-GNU Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当
-实现自动化。
+* Motivation
+Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实
+现自动化。
 
-软件安装有以下几种方式：
+* TODO Method
+首先，软件安装有以下几种方式：
 - apt-get 方式安装
 - 从 github 克隆源码后安装
 - 从固定地址下载源码后安装
-- Python 模块安装
+- Python pip
 
-TODO: 参考这个项目([[https://github.com/baohaojun/system-config.git][https://github.com/baohaojun/system-config.git]])实现系统配置自
-动化。
+需要安装和配置的包括:
+- Window Manager
+- Git
+- sources.list
+- Emacs
+- Keyboard
+- sudo
+- SSH
+- Python
+- Android Development Tools
+- Tmux
+- zsh
+- LaTeX
+- Browser
+- ...
+
+* TODO Reference 
+以下项目可以参考：
+- [[https://github.com/baohaojun/system-config.git][https://github.com/baohaojun/system-config.git]]
+- https://github.com/donnemartin/dev-setup.git
+- 
 
