@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>SparkWang</title>
+    <title>org-page</title>
     <link>http://spark.wangxing.name</link>
-    <description>sparkwang&#39;s notebook</description>
-    <pubDate>Sun, 10 Jan 2016 12:58:20 CST</pubDate>
-    <lastBuildDate>Sun, 10 Jan 2016 12:58:20 CST</lastBuildDate>
+    <description>static site generator</description>
+    <pubDate>Tue, 14 Mar 2017 09:59:35 CST</pubDate>
+    <lastBuildDate>Tue, 14 Mar 2017 09:59:35 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -13,29 +13,30 @@
       <link>http://spark.wangxing.name/blog/2016/01/09/system-config/</link>
       <description><![CDATA[<div>
 <div class="post">
-<h1>system-config</h1>
+<h1 class="title">system-config</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline1">1. Motivation</a></li>
-<li><a href="#orgheadline2">2. <span class="todo nilTODO">TODO</span> Method</a></li>
-<li><a href="#orgheadline3">3. <span class="todo nilTODO">TODO</span> Reference</a></li>
+<li><a href="#org3be343b">1. Motivation</a></li>
+<li><a href="#org8869ddf">2. <span class="todo TODO">TODO</span> Method</a></li>
+<li><a href="#org90804e1">3. <span class="todo TODO">TODO</span> Reference</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="orgheadline1"><span class="section-number-2">1</span> Motivation</h2>
+<div id="outline-container-org3be343b" class="outline-2">
+<h2 id="org3be343b"><span class="section-number-2">1</span> Motivation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实现自动化。
+Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实
+现自动化。
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgheadline2" class="outline-2">
-<h2 id="orgheadline2"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
+<div id="outline-container-org8869ddf" class="outline-2">
+<h2 id="org8869ddf"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 首先，软件安装有以下几种方式：
@@ -69,8 +70,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgheadline3" class="outline-2">
-<h2 id="orgheadline3"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
+<div id="outline-container-org90804e1" class="outline-2">
+<h2 id="org90804e1"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 以下项目可以参考：
@@ -93,18 +94,18 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
       <link>http://spark.wangxing.name/blog/2016/01/08/git-使用技巧/</link>
       <description><![CDATA[<div>
 <div class="post">
-<h1>git 使用技巧</h1>
+<h1 class="title">git 使用技巧</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline1">1. </a></li>
+<li><a href="#org85f35eb">1. </a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="orgheadline1"><span class="section-number-2">1</span> </h2>
+<div id="outline-container-org85f35eb" class="outline-2">
+<h2 id="org85f35eb"><span class="section-number-2">1</span> </h2>
 </div>
 
 </div>
@@ -124,7 +125,7 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
       <link>http://spark.wangxing.name/blog/2016/01/08/nmap/</link>
       <description><![CDATA[<div>
 <div class="post">
-<h1>nmap</h1>
+<h1 class="title">nmap</h1>
 
 
 </div>
@@ -137,35 +138,34 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
       <link>http://spark.wangxing.name/blog/2016/01/08/用-rsync-同步本地和远程目录-/</link>
       <description><![CDATA[<div>
 <div class="post">
-<h1>用 rsync 同步本地和远程目录 </h1>
+<h1 class="title">用 rsync 同步本地和远程目录 </h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline1">1. Intro</a></li>
-<li><a href="#orgheadline2">2. Options</a></li>
-<li><a href="#orgheadline3">3. 注意</a></li>
+<li><a href="#orge53decf">1. Intro</a></li>
+<li><a href="#orgfceb835">2. Options</a></li>
+<li><a href="#org4ebf5dc">3. 注意</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgheadline1" class="outline-2">
-<h2 id="orgheadline1"><span class="section-number-2">1</span> Intro</h2>
+<div id="outline-container-orge53decf" class="outline-2">
+<h2 id="orge53decf"><span class="section-number-2">1</span> Intro</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <code>rsync</code> 命令可用来在本地和远程机器之间同步目录。
 </p>
 
 <div class="org-src-container">
-
 <pre class="src src-shell">rsync -a host:dirA dirB
 </pre>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgheadline2" class="outline-2">
-<h2 id="orgheadline2"><span class="section-number-2">2</span> Options</h2>
+<div id="outline-container-orgfceb835" class="outline-2">
+<h2 id="orgfceb835"><span class="section-number-2">2</span> Options</h2>
 <div class="outline-text-2" id="text-2">
 <dl class="org-dl">
 <dt>-a, &#x2013;archive</dt><dd>等价于 -rlptgoD</dd>
@@ -183,21 +183,20 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgheadline3" class="outline-2">
-<h2 id="orgheadline3"><span class="section-number-2">3</span> 注意</h2>
+<div id="outline-container-org4ebf5dc" class="outline-2">
+<h2 id="org4ebf5dc"><span class="section-number-2">3</span> 注意</h2>
 <div class="outline-text-2" id="text-3">
 <div class="org-src-container">
-
 <pre class="src src-shell">rsync -a remote_host:/source/dirA /local/dirB
 </pre>
 </div>
 
 <p>
-上述命令会将远程机器的 <code>dirA</code> 目录拷贝到本地的 <code>dirB</code> 目录下，执行完成之后，本地的目录下将出现一个 <code>dirA</code> 目录，内容与远程机器的 <code>dirA</code> 目录相同。
+上述命令会将远程机器的 <code>dirA</code> 目录拷贝到本地的 <code>dirB</code> 目录下，执行完成之后，本地
+的目录下将出现一个 <code>dirA</code> 目录，内容与远程机器的 <code>dirA</code> 目录相同。
 </p>
 
 <div class="org-src-container">
-
 <pre class="src src-shell">rsync -a remote_host:/source/dirA/ /local/dirB
 </pre>
 </div>
@@ -239,43 +238,43 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
       <link>http://spark.wangxing.name/blog/2016/01/07/《c-语言核心技术》读书笔记/</link>
       <description><![CDATA[<div>
 <div class="post">
-<h1>《C 语言核心技术》读书笔记</h1>
+<h1 class="title">《C 语言核心技术》读书笔记</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline3">1. 类型转换</a>
+<li><a href="#orgb49caaf">1. 类型转换</a>
 <ul>
-<li><a href="#orgheadline2">1.1. 隐式类型转换何时发生</a>
+<li><a href="#orgbbcdcd9">1.1. 隐式类型转换何时发生</a>
 <ul>
-<li><a href="#orgheadline1">1.1.1. Conversion rank</a></li>
+<li><a href="#orgcb854f7">1.1.1. Conversion rank</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgheadline4">2. 表达式和运算符</a></li>
-<li><a href="#orgheadline5">3. 函数</a></li>
-<li><a href="#orgheadline6">4. 数组</a></li>
-<li><a href="#orgheadline7">5. 指针</a></li>
-<li><a href="#orgheadline8">6. 结构、联合、位字段</a></li>
-<li><a href="#orgheadline9">7. 声明</a></li>
-<li><a href="#orgheadline12">8. 动态内存管理</a>
+<li><a href="#org51764ee">2. 表达式和运算符</a></li>
+<li><a href="#orga3fb41c">3. 函数</a></li>
+<li><a href="#orgc64421d">4. 数组</a></li>
+<li><a href="#org4580dc1">5. 指针</a></li>
+<li><a href="#orgc097970">6. 结构、联合、位字段</a></li>
+<li><a href="#org9e2a16f">7. 声明</a></li>
+<li><a href="#org64a9638">8. 动态内存管理</a>
 <ul>
-<li><a href="#orgheadline10">8.1. 用于动态内存管理的函数</a></li>
-<li><a href="#orgheadline11">8.2. 注意事项</a></li>
+<li><a href="#org649912a">8.1. 用于动态内存管理的函数</a></li>
+<li><a href="#orgdaff620">8.2. 注意事项</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline13">9. 输入和输出</a></li>
-<li><a href="#orgheadline14">10. 预处理</a></li>
+<li><a href="#org4afc8eb">9. 输入和输出</a></li>
+<li><a href="#orgcf37e98">10. 预处理</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgheadline3" class="outline-2">
-<h2 id="orgheadline3"><span class="section-number-2">1</span> 类型转换</h2>
+<div id="outline-container-orgb49caaf" class="outline-2">
+<h2 id="orgb49caaf"><span class="section-number-2">1</span> 类型转换</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-orgheadline2" class="outline-3">
-<h3 id="orgheadline2"><span class="section-number-3">1.1</span> 隐式类型转换何时发生</h3>
+</div><div id="outline-container-orgbbcdcd9" class="outline-3">
+<h3 id="orgbbcdcd9"><span class="section-number-3">1.1</span> 隐式类型转换何时发生</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>操作数类型不合适</li>
@@ -284,18 +283,18 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </ul>
 
 <div class="org-src-container">
-
 <pre class="src src-c">int sum  = 22, count = 5;
 double mean = (double)sum / count;
 </pre>
 </div>
 
 <p>
-由于类型转换运算符的优先级高于除法运算符，因此 <code>sum</code> 先被转换为 <code>double</code> 。然后编译器隐式地将除数 <code>count</code> 转型，然后进行除法。
+由于类型转换运算符的优先级高于除法运算符，因此 <code>sum</code> 先被转换为 <code>double</code> 。然后
+编译器隐式地将除数 <code>count</code> 转型，然后进行除法。
 </p>
 </div>
-<div id="outline-container-orgheadline1" class="outline-4">
-<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> Conversion rank</h4>
+<div id="outline-container-orgcb854f7" class="outline-4">
+<h4 id="orgcb854f7"><span class="section-number-4">1.1.1</span> Conversion rank</h4>
 <div class="outline-text-4" id="text-1-1-1">
 <ul class="org-ul">
 <li>两个无符号整数类型具有不同的转换等级，位长较宽类型的等级较高。</li>
@@ -305,29 +304,29 @@ double mean = (double)sum / count;
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline4" class="outline-2">
-<h2 id="orgheadline4"><span class="section-number-2">2</span> 表达式和运算符</h2>
+<div id="outline-container-org51764ee" class="outline-2">
+<h2 id="org51764ee"><span class="section-number-2">2</span> 表达式和运算符</h2>
 </div>
-<div id="outline-container-orgheadline5" class="outline-2">
-<h2 id="orgheadline5"><span class="section-number-2">3</span> 函数</h2>
+<div id="outline-container-orga3fb41c" class="outline-2">
+<h2 id="orga3fb41c"><span class="section-number-2">3</span> 函数</h2>
 </div>
-<div id="outline-container-orgheadline6" class="outline-2">
-<h2 id="orgheadline6"><span class="section-number-2">4</span> 数组</h2>
+<div id="outline-container-orgc64421d" class="outline-2">
+<h2 id="orgc64421d"><span class="section-number-2">4</span> 数组</h2>
 </div>
-<div id="outline-container-orgheadline7" class="outline-2">
-<h2 id="orgheadline7"><span class="section-number-2">5</span> 指针</h2>
+<div id="outline-container-org4580dc1" class="outline-2">
+<h2 id="org4580dc1"><span class="section-number-2">5</span> 指针</h2>
 </div>
-<div id="outline-container-orgheadline8" class="outline-2">
-<h2 id="orgheadline8"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
+<div id="outline-container-orgc097970" class="outline-2">
+<h2 id="orgc097970"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
 </div>
-<div id="outline-container-orgheadline9" class="outline-2">
-<h2 id="orgheadline9"><span class="section-number-2">7</span> 声明</h2>
+<div id="outline-container-org9e2a16f" class="outline-2">
+<h2 id="org9e2a16f"><span class="section-number-2">7</span> 声明</h2>
 </div>
-<div id="outline-container-orgheadline12" class="outline-2">
-<h2 id="orgheadline12"><span class="section-number-2">8</span> 动态内存管理</h2>
+<div id="outline-container-org64a9638" class="outline-2">
+<h2 id="org64a9638"><span class="section-number-2">8</span> 动态内存管理</h2>
 <div class="outline-text-2" id="text-8">
-</div><div id="outline-container-orgheadline10" class="outline-3">
-<h3 id="orgheadline10"><span class="section-number-3">8.1</span> 用于动态内存管理的函数</h3>
+</div><div id="outline-container-org649912a" class="outline-3">
+<h3 id="org649912a"><span class="section-number-3">8.1</span> 用于动态内存管理的函数</h3>
 <div class="outline-text-3" id="text-8-1">
 <dl class="org-dl">
 <dt>malloc()</dt><dd>分配新的内存区域</dd>
@@ -337,15 +336,16 @@ double mean = (double)sum / count;
 </dl>
 </div>
 </div>
-<div id="outline-container-orgheadline11" class="outline-3">
-<h3 id="orgheadline11"><span class="section-number-3">8.2</span> 注意事项</h3>
+<div id="outline-container-orgdaff620" class="outline-3">
+<h3 id="orgdaff620"><span class="section-number-3">8.2</span> 注意事项</h3>
 <div class="outline-text-3" id="text-8-2">
 <ul class="org-ul">
 <li><code>malloc()</code> 分配的内存不保证会被初始化</li>
 <li><code>calloc()</code> 会将分配的内存的每个字节初始化为 0</li>
 <li><code>malloc()</code> 和 <code>calloc()</code> 都返回 <code>void</code> 指针</li>
 <li>当存取分配的内存位置时，所使用的指针类型决定了如何翻译该位置的数据。</li>
-<li>如果内存分配成功，会得到“指向内存区域开端”的指针。“开端”指的是内存区域的最低字节地址。</li>
+<li>如果内存分配成功，会得到“指向内存区域开端”的指针。“开端”指的是内存区域的最
+低字节地址。</li>
 <li><b>NOTE</b> 分配的内存区域会被 <b>对齐</b> ，任何对象类型都可以存储在该地址。</li>
 <li>如果给 <code>malloc()</code> 传入的参数为 0，则行为取决于 <code>malloc()</code> 的具体实现，可能返回
 <code>NULL</code> ，也可能返回一个 unique pointer， 返回的这个指针可以传给 <code>free()</code> 函数。</li>
@@ -355,7 +355,6 @@ double mean = (double)sum / count;
 </ul>
 
 <div class="org-src-container">
-
 <pre class="src src-c">char *getline(unsigned int len_max) {
   char *linePtr = malloc(len_max + 1);
   if (linePtr != NULL) {
@@ -388,11 +387,11 @@ if ((line = getline(128)) != NULL)
 </div>
 </div>
 
-<div id="outline-container-orgheadline13" class="outline-2">
-<h2 id="orgheadline13"><span class="section-number-2">9</span> 输入和输出</h2>
+<div id="outline-container-org4afc8eb" class="outline-2">
+<h2 id="org4afc8eb"><span class="section-number-2">9</span> 输入和输出</h2>
 </div>
-<div id="outline-container-orgheadline14" class="outline-2">
-<h2 id="orgheadline14"><span class="section-number-2">10</span> 预处理</h2>
+<div id="outline-container-orgcf37e98" class="outline-2">
+<h2 id="orgcf37e98"><span class="section-number-2">10</span> 预处理</h2>
 </div>
 
 </div>
