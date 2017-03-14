@@ -1,0 +1,103 @@
+#+TITLE:       Word List 20170314
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-03-14 Tue
+#+URI:         /blog/%y/%m/%d/word-list-20170314
+#+KEYWORDS:    translation
+#+TAGS:        TE
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: word list
+
+* Word List
+- /command performance/: a special performance of a play or film which is given
+  because a royal or very important person has requested it, 奉命专场演出；御前
+  演出
+- - /take your cue from sb/: to copy what sb else does as an example of how to
+  behave or what to do, 模仿…的样子做；学…的样
+- /chart/: to plan a course of action, 计划行动步骤；制订计划:
+  + /e.g./, She had carefully charted her route to the top of her profession. 她
+    周密地制订了达到她职业巅峰的行动计划。
+- /course/: the general direction in which sb's ideas or actions are moving, 方
+  针；行动方向
+- /then-agrarian/: 当时还是农业的
+  + /agrarian/: connected with farming and the use of land for farming, 农业的；
+    土地的；耕地的
+  + /e.g./, ...a rich area with a highly developed agrarian economy. 农耕经济高
+    度发达的富饶地区
+- /message/: an important moral, social or political idea that a book, speech,
+  etc. is trying to communicate,（书籍、演讲等的）要旨，要点，教训
+- /run its course/: develop in the usual way and reach a natural end, 遵循进程；
+  听其发展；采用（某种）方法听其自然
+- /indicative/: (of sth) (formal) showing or suggesting sth 表明；标示；显示；暗
+  示
+  + /e.g./, Their failure to act is indicative of their lack of interest. 他们未
+    采取行动，这表示他们没有兴趣。
+- /hallmark/: The hallmark of something or someone is their most typical quality
+  or feature. 可数名词, 标志;特征;特点
+- /astray/: to go in the wrong direction or to have the wrong result 走错方向；
+  误入歧途
+- /slavishly/: obeying completely; without any ideas of your own 俯首贴耳地，盲
+  从地
+  + /e.g./, I followed the recipe slavishly.我乖乖按照那份食谱做饭。
+- /neon/: Neon lights or signs are made from glass tubes filled with neon gas
+  which produce a bright electric light. 形容词, 霓虹的
+- /think-tank/: 智囊团，智库. A think-tank is a group of experts who are
+  gathered together by an organization, especially by a government, in order to
+  consider various problems and try and work out ways to solve them.
+  + /e.g./, ...Moscow's leading foreign policy think-tank. 莫斯科首要的外交政策
+    智囊团
+- /scurry/:  to run with quick short steps 碎步疾跑
+- /rhetoric/: speech or writing that is intended to influence people, but that
+  is not completely honest or sincere 华而不实的言语；花言巧语
+  + /e.g./, the rhetoric of political slogans, 政治口号的虚华辞藻
+- /direct/: to aim sth in a particular direction or at a particular person 把…
+  对准（某方向或某人）
+- /capital/: a large amount of money that is invested or is used to start a
+  business 资本；资金；启动资金
+- /binding/: ~ (on / upon sb) that must be obeyed because it is accepted in law,
+  必须遵守的；有法律约束力的:
+- /obliged/: to be or feel, etc. forced to do something or that you must do
+  something 被迫做某事；必须做某事；只好做某事
+- /albeit/: although 尽管；虽然。 连词
+- /fiddle/: to change the details or figures of sth in order to try to get money
+  dishonestly, or gain an advantage, 篡改；伪造；对…做手脚
+  + /e.g./, to fiddle the accounts, 篡改账目
+- /mandatory/: ~ (for sb) (to do sth) (formal) required by law 强制的；法定的；
+  义务的
+- /for all that/: in spite of the fact that : ALTHOUGH
+  + /e.g./, I don't trust him, for all that so many people consider him
+    reliable. 尽管很多人认为他可靠，但我并不信任他。
+- /slip/: to fall to a lower level; to become worse 下降；退步；变差
+  + /e.g./, His popularity has slipped recently. 近来他已不如过去那样受欢迎。
+- /doctor/: to change sth in order to trick sb 篡改；伪造
+  + /e.g./, He was accused of doctoring the figures. 他被指控篡改数字。
+- /abiding/: lasting for a long time and not changing 持久的；长久的；始终不渝的
+- /cynicism/: Cynicism about something is the belief that it cannot be
+  successful or that the people involved are not honourable. (对成功或人的真善的）
+  怀疑. 不可数名词
+  + /e.g./, This talk betrays a certain cynicism about free trade. 这番讲话流露
+    出一种对自由贸易不看好的态度。
+- /lodestar/: 北极星. (formal) a principle that guides sb's behaviour or actions
+  （某人行为或行动的）指导原则
+- /pledge/: (to do sth) a serious promise 保证；诺言；誓约
+  + /e.g./, Will the government honour its election pledge not to raise taxes?
+    政府会履行它的竞选诺言，不增加税收吗？
+- /welfare payments/: 福利金
+- /abolish/: to officially end a law, a system or an institution 废除，废止（法
+  律、制度、习俗等）
+- /emission/: (formal) the production or sending out of light, heat, gas, etc.
+  （光、热、气等的）发出，射出，排放
+  + /e.g./, the emission of carbon dioxide into the atmosphere, 向大气排放二氧化
+    碳
+- /megacity/: A very large city
+- /intriguing/: very interesting because of being unusual or not having an
+  obvious answer 非常有趣的；引人入胜的；神秘的
+  + /e.g./, an intriguing possibility , 令人不解的可能性
+- /historic/: important in history; likely to be thought of as important at some
+  time in the future 历史上著名（或重要）的；可名垂青史的
+- /cherished/: to keep an idea, a hope or a pleasant feeling in your mind for a
+  long time 抱有（信念、希望）；怀有（好感）；怀念
+- /collapse/:  to fail suddenly or completely 突然失败；崩溃；瓦解
+- /beat/: to defeat sb in a game or competition（在比赛或竞争中）赢，打败（某人）
+- /incentive/: 名词，something that encourages you to do sth 激励；刺激；鼓励
