@@ -4,8 +4,8 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Tue, 14 Mar 2017 11:00:11 CST</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 11:00:11 CST</lastBuildDate>
+    <pubDate>Tue, 14 Mar 2017 20:45:52 CST</pubDate>
+    <lastBuildDate>Tue, 14 Mar 2017 20:45:52 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -30,6 +30,13 @@
       <guid>http://spark.wangxing.name/blog/2017/03/14/abstract-translation-ndss-2015-copperdroid</guid>
     </item>
     <item>
+      <title>Word List 20170314</title>
+      <link>http://spark.wangxing.name/blog/2017/03/14/word-list-20170314</link>
+      <description><![CDATA[word list]]></description>
+      <pubDate>2017-03-14</pubDate>
+      <guid>http://spark.wangxing.name/blog/2017/03/14/word-list-20170314</guid>
+    </item>
+    <item>
       <title>system-config</title>
       <link>http://spark.wangxing.name/blog/2016/01/09/system-config/</link>
       <description><![CDATA[<div>
@@ -39,15 +46,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org90ce32b">1. Motivation</a></li>
-<li><a href="#orgfecc2a4">2. <span class="todo TODO">TODO</span> Method</a></li>
-<li><a href="#org940fd69">3. <span class="todo TODO">TODO</span> Reference</a></li>
+<li><a href="#org031fd80">1. Motivation</a></li>
+<li><a href="#org3cca16a">2. <span class="todo TODO">TODO</span> Method</a></li>
+<li><a href="#orgcadaa65">3. <span class="todo TODO">TODO</span> Reference</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org90ce32b" class="outline-2">
-<h2 id="org90ce32b"><span class="section-number-2">1</span> Motivation</h2>
+<div id="outline-container-org031fd80" class="outline-2">
+<h2 id="org031fd80"><span class="section-number-2">1</span> Motivation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实
@@ -56,8 +63,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgfecc2a4" class="outline-2">
-<h2 id="orgfecc2a4"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
+<div id="outline-container-org3cca16a" class="outline-2">
+<h2 id="org3cca16a"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 首先，软件安装有以下几种方式：
@@ -91,8 +98,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org940fd69" class="outline-2">
-<h2 id="org940fd69"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
+<div id="outline-container-orgcadaa65" class="outline-2">
+<h2 id="orgcadaa65"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 以下项目可以参考：
@@ -120,13 +127,13 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org610872a">1. </a></li>
+<li><a href="#orgbfb7643">1. </a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org610872a" class="outline-2">
-<h2 id="org610872a"><span class="section-number-2">1</span> </h2>
+<div id="outline-container-orgbfb7643" class="outline-2">
+<h2 id="orgbfb7643"><span class="section-number-2">1</span> </h2>
 </div>
 
 </div>
@@ -164,15 +171,15 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org65aeabd">1. Intro</a></li>
-<li><a href="#orgeb2ec3c">2. Options</a></li>
-<li><a href="#orgb286b40">3. 注意</a></li>
+<li><a href="#orgf825661">1. Intro</a></li>
+<li><a href="#org6265254">2. Options</a></li>
+<li><a href="#orga750ca0">3. 注意</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org65aeabd" class="outline-2">
-<h2 id="org65aeabd"><span class="section-number-2">1</span> Intro</h2>
+<div id="outline-container-orgf825661" class="outline-2">
+<h2 id="orgf825661"><span class="section-number-2">1</span> Intro</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <code>rsync</code> 命令可用来在本地和远程机器之间同步目录。
@@ -185,8 +192,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgeb2ec3c" class="outline-2">
-<h2 id="orgeb2ec3c"><span class="section-number-2">2</span> Options</h2>
+<div id="outline-container-org6265254" class="outline-2">
+<h2 id="org6265254"><span class="section-number-2">2</span> Options</h2>
 <div class="outline-text-2" id="text-2">
 <dl class="org-dl">
 <dt>-a, &#x2013;archive</dt><dd>等价于 -rlptgoD</dd>
@@ -204,8 +211,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgb286b40" class="outline-2">
-<h2 id="orgb286b40"><span class="section-number-2">3</span> 注意</h2>
+<div id="outline-container-orga750ca0" class="outline-2">
+<h2 id="orga750ca0"><span class="section-number-2">3</span> 注意</h2>
 <div class="outline-text-2" id="text-3">
 <div class="org-src-container">
 <pre class="src src-shell">rsync -a remote_host:/source/dirA /local/dirB
@@ -239,13 +246,6 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
       <description><![CDATA[Spacemacs 使用]]></description>
       <pubDate>2016-01-08</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/07/use-spacemacs</guid>
-    </item>
-    <item>
-      <title>Awesome Tools</title>
-      <link>http://spark.wangxing.name/blog/2016/01/07/awesome-repos</link>
-      <description><![CDATA[awesome tools]]></description>
-      <pubDate>2016-01-07</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/07/awesome-repos</guid>
     </item>
   </channel>
 </rss>
