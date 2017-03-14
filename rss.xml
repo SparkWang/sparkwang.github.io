@@ -4,8 +4,8 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Tue, 14 Mar 2017 10:53:07 CST</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 10:53:07 CST</lastBuildDate>
+    <pubDate>Tue, 14 Mar 2017 10:54:45 CST</pubDate>
+    <lastBuildDate>Tue, 14 Mar 2017 10:54:45 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -32,15 +32,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org7e86dd9">1. Motivation</a></li>
-<li><a href="#org4d763d3">2. <span class="todo TODO">TODO</span> Method</a></li>
-<li><a href="#orgba84ee6">3. <span class="todo TODO">TODO</span> Reference</a></li>
+<li><a href="#org675ab8a">1. Motivation</a></li>
+<li><a href="#orgf79465d">2. <span class="todo TODO">TODO</span> Method</a></li>
+<li><a href="#orga8fe727">3. <span class="todo TODO">TODO</span> Reference</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7e86dd9" class="outline-2">
-<h2 id="org7e86dd9"><span class="section-number-2">1</span> Motivation</h2>
+<div id="outline-container-org675ab8a" class="outline-2">
+<h2 id="org675ab8a"><span class="section-number-2">1</span> Motivation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实
@@ -49,8 +49,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org4d763d3" class="outline-2">
-<h2 id="org4d763d3"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
+<div id="outline-container-orgf79465d" class="outline-2">
+<h2 id="orgf79465d"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 首先，软件安装有以下几种方式：
@@ -84,8 +84,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgba84ee6" class="outline-2">
-<h2 id="orgba84ee6"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
+<div id="outline-container-orga8fe727" class="outline-2">
+<h2 id="orga8fe727"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 以下项目可以参考：
@@ -113,13 +113,13 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org2bc5a93">1. </a></li>
+<li><a href="#org4077b48">1. </a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org2bc5a93" class="outline-2">
-<h2 id="org2bc5a93"><span class="section-number-2">1</span> </h2>
+<div id="outline-container-org4077b48" class="outline-2">
+<h2 id="org4077b48"><span class="section-number-2">1</span> </h2>
 </div>
 
 </div>
@@ -157,15 +157,15 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org7f90d62">1. Intro</a></li>
-<li><a href="#org560a1db">2. Options</a></li>
-<li><a href="#orgcfcae83">3. 注意</a></li>
+<li><a href="#org5de67da">1. Intro</a></li>
+<li><a href="#org660d865">2. Options</a></li>
+<li><a href="#orgac8391e">3. 注意</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org7f90d62" class="outline-2">
-<h2 id="org7f90d62"><span class="section-number-2">1</span> Intro</h2>
+<div id="outline-container-org5de67da" class="outline-2">
+<h2 id="org5de67da"><span class="section-number-2">1</span> Intro</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <code>rsync</code> 命令可用来在本地和远程机器之间同步目录。
@@ -178,8 +178,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org560a1db" class="outline-2">
-<h2 id="org560a1db"><span class="section-number-2">2</span> Options</h2>
+<div id="outline-container-org660d865" class="outline-2">
+<h2 id="org660d865"><span class="section-number-2">2</span> Options</h2>
 <div class="outline-text-2" id="text-2">
 <dl class="org-dl">
 <dt>-a, &#x2013;archive</dt><dd>等价于 -rlptgoD</dd>
@@ -197,8 +197,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgcfcae83" class="outline-2">
-<h2 id="orgcfcae83"><span class="section-number-2">3</span> 注意</h2>
+<div id="outline-container-orgac8391e" class="outline-2">
+<h2 id="orgac8391e"><span class="section-number-2">3</span> 注意</h2>
 <div class="outline-text-2" id="text-3">
 <div class="org-src-container">
 <pre class="src src-shell">rsync -a remote_host:/source/dirA /local/dirB
