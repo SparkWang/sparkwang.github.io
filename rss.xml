@@ -4,10 +4,17 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Tue, 14 Mar 2017 10:50:15 CST</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 10:50:15 CST</lastBuildDate>
+    <pubDate>Tue, 14 Mar 2017 10:51:10 CST</pubDate>
+    <lastBuildDate>Tue, 14 Mar 2017 10:51:10 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>Paper Abstract Translation: SP 2015 Leave Me Alone</title>
+      <link>http://spark.wangxing.name/blog/2017/03/14/paper-abstract-translation-sp-2015-leave-me-alone</link>
+      <description><![CDATA[顶会论文学习]]></description>
+      <pubDate>2017-03-14</pubDate>
+      <guid>http://spark.wangxing.name/blog/2017/03/14/paper-abstract-translation-sp-2015-leave-me-alone</guid>
+    </item>
     <item>
       <title>Abstract Translation: NDSS 2015 CopperDroid </title>
       <link>http://spark.wangxing.name/blog/2017/03/14/abstract-translation-ndss-2015-copperdroid</link>
@@ -25,15 +32,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org1c602c1">1. Motivation</a></li>
-<li><a href="#orgff85c42">2. <span class="todo TODO">TODO</span> Method</a></li>
-<li><a href="#orgf02bc89">3. <span class="todo TODO">TODO</span> Reference</a></li>
+<li><a href="#org35e6af7">1. Motivation</a></li>
+<li><a href="#org3d00bc0">2. <span class="todo TODO">TODO</span> Method</a></li>
+<li><a href="#org0743ec3">3. <span class="todo TODO">TODO</span> Reference</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org1c602c1" class="outline-2">
-<h2 id="org1c602c1"><span class="section-number-2">1</span> Motivation</h2>
+<div id="outline-container-org35e6af7" class="outline-2">
+<h2 id="org35e6af7"><span class="section-number-2">1</span> Motivation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实
@@ -42,8 +49,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgff85c42" class="outline-2">
-<h2 id="orgff85c42"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
+<div id="outline-container-org3d00bc0" class="outline-2">
+<h2 id="org3d00bc0"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 首先，软件安装有以下几种方式：
@@ -77,8 +84,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgf02bc89" class="outline-2">
-<h2 id="orgf02bc89"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
+<div id="outline-container-org0743ec3" class="outline-2">
+<h2 id="org0743ec3"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 以下项目可以参考：
@@ -106,13 +113,13 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org67997d1">1. </a></li>
+<li><a href="#org5ffcc51">1. </a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org67997d1" class="outline-2">
-<h2 id="org67997d1"><span class="section-number-2">1</span> </h2>
+<div id="outline-container-org5ffcc51" class="outline-2">
+<h2 id="org5ffcc51"><span class="section-number-2">1</span> </h2>
 </div>
 
 </div>
@@ -150,15 +157,15 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgb8b13c2">1. Intro</a></li>
-<li><a href="#org67b8e6a">2. Options</a></li>
-<li><a href="#orge49cb9f">3. 注意</a></li>
+<li><a href="#org9bffebf">1. Intro</a></li>
+<li><a href="#org454578e">2. Options</a></li>
+<li><a href="#org43990f0">3. 注意</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgb8b13c2" class="outline-2">
-<h2 id="orgb8b13c2"><span class="section-number-2">1</span> Intro</h2>
+<div id="outline-container-org9bffebf" class="outline-2">
+<h2 id="org9bffebf"><span class="section-number-2">1</span> Intro</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <code>rsync</code> 命令可用来在本地和远程机器之间同步目录。
@@ -171,8 +178,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org67b8e6a" class="outline-2">
-<h2 id="org67b8e6a"><span class="section-number-2">2</span> Options</h2>
+<div id="outline-container-org454578e" class="outline-2">
+<h2 id="org454578e"><span class="section-number-2">2</span> Options</h2>
 <div class="outline-text-2" id="text-2">
 <dl class="org-dl">
 <dt>-a, &#x2013;archive</dt><dd>等价于 -rlptgoD</dd>
@@ -190,8 +197,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orge49cb9f" class="outline-2">
-<h2 id="orge49cb9f"><span class="section-number-2">3</span> 注意</h2>
+<div id="outline-container-org43990f0" class="outline-2">
+<h2 id="org43990f0"><span class="section-number-2">3</span> 注意</h2>
 <div class="outline-text-2" id="text-3">
 <div class="org-src-container">
 <pre class="src src-shell">rsync -a remote_host:/source/dirA /local/dirB
@@ -239,172 +246,6 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
       <description><![CDATA[Memory Management in C Language]]></description>
       <pubDate>2016-01-07</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/07/memory-management-in-c-language</guid>
-    </item>
-    <item>
-      <title>《C 语言核心技术》读书笔记</title>
-      <link>http://spark.wangxing.name/blog/2016/01/07/《c-语言核心技术》读书笔记/</link>
-      <description><![CDATA[<div>
-<div class="post">
-<h1 class="title">《C 语言核心技术》读书笔记</h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orge182b88">1. 类型转换</a>
-<ul>
-<li><a href="#orgc8c0b8d">1.1. 隐式类型转换何时发生</a>
-<ul>
-<li><a href="#orgdde02b4">1.1.1. Conversion rank</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#org0edf63f">2. 表达式和运算符</a></li>
-<li><a href="#org79f3124">3. 函数</a></li>
-<li><a href="#orgf71bd69">4. 数组</a></li>
-<li><a href="#org53598a0">5. 指针</a></li>
-<li><a href="#org11e5016">6. 结构、联合、位字段</a></li>
-<li><a href="#orga3a2325">7. 声明</a></li>
-<li><a href="#orgcedfc07">8. 动态内存管理</a>
-<ul>
-<li><a href="#orgc8836a4">8.1. 用于动态内存管理的函数</a></li>
-<li><a href="#org9db15d7">8.2. 注意事项</a></li>
-</ul>
-</li>
-<li><a href="#orgc1c4117">9. 输入和输出</a></li>
-<li><a href="#org1fa3170">10. 预处理</a></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orge182b88" class="outline-2">
-<h2 id="orge182b88"><span class="section-number-2">1</span> 类型转换</h2>
-<div class="outline-text-2" id="text-1">
-</div><div id="outline-container-orgc8c0b8d" class="outline-3">
-<h3 id="orgc8c0b8d"><span class="section-number-3">1.1</span> 隐式类型转换何时发生</h3>
-<div class="outline-text-3" id="text-1-1">
-<ul class="org-ul">
-<li>操作数类型不合适</li>
-<li>调用一个函数时，自变量的类型与函数参数类型不匹配</li>
-<li>变量初始化或给变量赋值</li>
-</ul>
-
-<div class="org-src-container">
-<pre class="src src-c">int sum  = 22, count = 5;
-double mean = (double)sum / count;
-</pre>
-</div>
-
-<p>
-由于类型转换运算符的优先级高于除法运算符，因此 <code>sum</code> 先被转换为 <code>double</code> 。然后
-编译器隐式地将除数 <code>count</code> 转型，然后进行除法。
-</p>
-</div>
-<div id="outline-container-orgdde02b4" class="outline-4">
-<h4 id="orgdde02b4"><span class="section-number-4">1.1.1</span> Conversion rank</h4>
-<div class="outline-text-4" id="text-1-1-1">
-<ul class="org-ul">
-<li>两个无符号整数类型具有不同的转换等级，位长较宽类型的等级较高。</li>
-<li></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-org0edf63f" class="outline-2">
-<h2 id="org0edf63f"><span class="section-number-2">2</span> 表达式和运算符</h2>
-</div>
-<div id="outline-container-org79f3124" class="outline-2">
-<h2 id="org79f3124"><span class="section-number-2">3</span> 函数</h2>
-</div>
-<div id="outline-container-orgf71bd69" class="outline-2">
-<h2 id="orgf71bd69"><span class="section-number-2">4</span> 数组</h2>
-</div>
-<div id="outline-container-org53598a0" class="outline-2">
-<h2 id="org53598a0"><span class="section-number-2">5</span> 指针</h2>
-</div>
-<div id="outline-container-org11e5016" class="outline-2">
-<h2 id="org11e5016"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
-</div>
-<div id="outline-container-orga3a2325" class="outline-2">
-<h2 id="orga3a2325"><span class="section-number-2">7</span> 声明</h2>
-</div>
-<div id="outline-container-orgcedfc07" class="outline-2">
-<h2 id="orgcedfc07"><span class="section-number-2">8</span> 动态内存管理</h2>
-<div class="outline-text-2" id="text-8">
-</div><div id="outline-container-orgc8836a4" class="outline-3">
-<h3 id="orgc8836a4"><span class="section-number-3">8.1</span> 用于动态内存管理的函数</h3>
-<div class="outline-text-3" id="text-8-1">
-<dl class="org-dl">
-<dt>malloc()</dt><dd>分配新的内存区域</dd>
-<dt>calloc()</dt><dd>分配新的内存区域</dd>
-<dt>realloc()</dt><dd>调整以前分配的内存区域</dd>
-<dt>free()</dt><dd>释放以前分配的内存区域</dd>
-</dl>
-</div>
-</div>
-<div id="outline-container-org9db15d7" class="outline-3">
-<h3 id="org9db15d7"><span class="section-number-3">8.2</span> 注意事项</h3>
-<div class="outline-text-3" id="text-8-2">
-<ul class="org-ul">
-<li><code>malloc()</code> 分配的内存不保证会被初始化</li>
-<li><code>calloc()</code> 会将分配的内存的每个字节初始化为 0</li>
-<li><code>malloc()</code> 和 <code>calloc()</code> 都返回 <code>void</code> 指针</li>
-<li>当存取分配的内存位置时，所使用的指针类型决定了如何翻译该位置的数据。</li>
-<li>如果内存分配成功，会得到“指向内存区域开端”的指针。“开端”指的是内存区域的最
-低字节地址。</li>
-<li><b>NOTE</b> 分配的内存区域会被 <b>对齐</b> ，任何对象类型都可以存储在该地址。</li>
-<li>如果给 <code>malloc()</code> 传入的参数为 0，则行为取决于 <code>malloc()</code> 的具体实现，可能返回
-<code>NULL</code> ，也可能返回一个 unique pointer， 返回的这个指针可以传给 <code>free()</code> 函数。</li>
-<li>如果给 <code>free()</code> 传入的参数为 <code>NULL</code> ，则函数不起任何作用。</li>
-<li>如果给 <code>free()</code> 传入的指针不是 <code>malloc()</code> 等函数分配的，或者已经被释放掉，则
-<code>free()</code> 的行为未定义。</li>
-</ul>
-
-<div class="org-src-container">
-<pre class="src src-c">char *getline(unsigned int len_max) {
-  char *linePtr = malloc(len_max + 1);
-  if (linePtr != NULL) {
-    int c = EOF;
-    unsigned int i = 0;
-    while (i &lt; len_max &amp;&amp; (c = getchar()) != '\n' &amp;&amp; c != EOF) {
-      linePtr[i++] = (char) c;
-    }
-    linePtr[i] = '\0';
-
-    if (c == EOF &amp;&amp; i == 0) {
-      free(linePtr);
-      linePtr = NULL;
-    } else {
-      linePtr = realloc(linePtr, i+1);
-    }
-  }
-  return linePtr;
-}
-
-char *line;
-if ((line = getline(128)) != NULL)
-  {
-    /* */
-    free(line);
-  }
-</pre>
-</div>
-</div>
-</div>
-</div>
-
-<div id="outline-container-orgc1c4117" class="outline-2">
-<h2 id="orgc1c4117"><span class="section-number-2">9</span> 输入和输出</h2>
-</div>
-<div id="outline-container-org1fa3170" class="outline-2">
-<h2 id="org1fa3170"><span class="section-number-2">10</span> 预处理</h2>
-</div>
-
-</div>
-</div>]]></description>
-      <pubDate>2016-01-07</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/07/《c-语言核心技术》读书笔记/</guid>
     </item>
   </channel>
 </rss>
