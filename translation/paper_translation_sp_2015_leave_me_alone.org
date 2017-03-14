@@ -1,4 +1,4 @@
-#+TITLE:       Paper Abstract Translation: SP 2015 Leave Me Alone
+#+TITLE:       Abstract Translation: SP 2015 Leave Me Alone
 #+AUTHOR:      Sean Wang
 #+EMAIL:       spark@bjtu.edu.cn
 #+DATE:        2017-03-14 Tue
@@ -10,9 +10,9 @@
 #+DESCRIPTION: 顶会论文学习
 
 * 基本信息
-- Title: Leave Me Alone: App-Level Protection against Runtime Information Gathering on Android
-- Authors: Nan Zhang ; Kan Yuan ; Muhammad Naveed ; Xiaoyong Zhou ; Xiaofeng Wang
-- Conference: S&P 2015
+- Title :: Leave Me Alone: App-Level Protection against Runtime Information Gathering on Android
+- Authors :: Nan Zhang ; Kan Yuan ; Muhammad Naveed ; Xiaoyong Zhou ; Xiaofeng Wang
+- Conference :: S&P 2015
 * 摘要翻译
 ** P1
 #+BEGIN_QUOTE
@@ -128,6 +128,6 @@ deployable in the fragmented Android ecosystem.
 
 最重要的是，这种方法之后的概念，包括应用层保护，基于侧信道的安全防护和轻量级响应
 等，不仅提高了 RIG 攻击的门槛和研究的水平，而且也鼓舞相关研究者，在碎片化的安卓
-生态系统中，为实现新的可实际部署的检测系统做出更多工作.
+生态系统中，为实现新的可实际部署的检测系统做出更多工作。
 
 
