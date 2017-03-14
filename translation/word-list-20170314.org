@@ -10,16 +10,16 @@
 #+DESCRIPTION: word list
 
 * Word List
-- /command performance/: a special performance of a play or film which is given
-  because a royal or very important person has requested it, 奉命专场演出；御前
-  演出
-- - /take your cue from sb/: to copy what sb else does as an example of how to
-  behave or what to do, 模仿…的样子做；学…的样
-- /chart/: to plan a course of action, 计划行动步骤；制订计划:
+- /command performance/ :: a special performance of a play or film which is
+     given because a royal or very important person has requested it, 奉命专场演
+     出；御前演出
+- /take your cue from sb/ :: to copy what sb else does as an example of how to
+     behave or what to do, 模仿…的样子做；学…的样
+- /chart/ :: to plan a course of action, 计划行动步骤；制订计划:
   + /e.g./, She had carefully charted her route to the top of her profession. 她
     周密地制订了达到她职业巅峰的行动计划。
-- /course/: the general direction in which sb's ideas or actions are moving, 方
-  针；行动方向
+- /course/ :: the general direction in which sb's ideas or actions are moving,
+              方针；行动方向
 - /then-agrarian/: 当时还是农业的
   + /agrarian/: connected with farming and the use of land for farming, 农业的；
     土地的；耕地的
