@@ -11,5 +11,5 @@
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 24.5.1 (Org mode 8.3.2)
 
-Wang Xing
-shanguren@gmail.com
+- Wang Xing
+- shanguren@gmail.com
