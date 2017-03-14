@@ -1,4 +1,4 @@
-#+TITLE:       Paper Abstract Translation: SP 2015 Leave Me Alone
+#+TITLE:       Abstract Translation: SP 2015 Leave Me Alone
 #+AUTHOR:      Sean Wang
 #+EMAIL:       spark@bjtu.edu.cn
 #+DATE:        2017-03-14 Tue
@@ -10,9 +10,9 @@
 #+DESCRIPTION: 顶会论文学习
 
 * 基本信息
-- Title: Leave Me Alone: App-Level Protection against Runtime Information Gathering on Android
-- Authors: Nan Zhang ; Kan Yuan ; Muhammad Naveed ; Xiaoyong Zhou ; Xiaofeng Wang
-- Conference: S&P 2015
+- Title :: Leave Me Alone: App-Level Protection against Runtime Information Gathering on Android
+- Authors :: Nan Zhang ; Kan Yuan ; Muhammad Naveed ; Xiaoyong Zhou ; Xiaofeng Wang
+- Conference :: S&P 2015
 * 摘要翻译
 ** P1
 #+BEGIN_QUOTE
