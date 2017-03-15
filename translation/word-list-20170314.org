@@ -21,7 +21,7 @@
 - /course/ :: the general direction in which sb's ideas or actions are moving,
               方针；行动方向
 - /then-agrarian/ :: 当时还是农业的
-  + /agrarian/ :: connected with farming and the use of land for farming, 农业的；
+  + /agrarian/, connected with farming and the use of land for farming, 农业的；
     土地的；耕地的
   + /e.g./, ...a rich area with a highly developed agrarian economy. 农耕经济高
     度发达的富饶地区
