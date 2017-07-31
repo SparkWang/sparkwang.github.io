@@ -1,0 +1,76 @@
+#+TITLE:       Word List 20170715 (Criminal cities: The secret of success)
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-07-15 Sat
+#+URI:         /blog/%y/%m/%d/word-list-20170715
+#+KEYWORDS:    TE, English, WordList
+#+TAGS:        TE, English
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: new words
+
+- /recede/ :: 动词（质量）下降;（问题或疾病等）逐渐减弱，好转 When something such as a quality, problem, or illness recedes, it becomes weaker, smaller, or less intense.
+- /beret/ :: 可数名词贝雷帽（一种扁圆的无沿软帽）A beret is a circular, flat hat that is made of soft material and has no brim.
+- /site/ :: a place where sth has happened or that is used for sth 现场；发生地；场所
+- /novelist/ :: 可数名词小说家 A novelist is a person who writes novels.
+- /corridor/ :: 可数名词(建筑物或火车内的)走廊，过道，通道 A corridor is a long passage in a building or train, with doors and rooms on one or both sides.
+- /intersection/ :: 可数名词交点;道路交叉口;十字路口 An intersection is a place where roads or other lines meet or cross.
+- /hipster/ :: someone who is very influenced by the most recent ideas and fashions 消息灵通的人；赶时髦的人
+- /usher/ :: 动词引;领;陪同 If you usher someone somewhere, you show them where they should go, often by going with them.
+- /spectacularly/ :: in a very beautiful way that people admire 壮丽地，壮观地，令人惊叹地
+- /Criminology/ :: 不可数名词犯罪学 Criminology is the scientific study of crime and criminals.
+- /plausible/ :: 能被表示程度的副词或介词词组修饰的形容词（解释或说法）似乎真实的，貌似合理的 An explanation or statement that is plausible seems likely to be true or valid.
+- /immobilizer/ :: 	可数名词汽车锁 An immobilizer is a device on a car which prevents it from starting unless a special key is used, so that no one can steal the car.
+- /lead-poisoning/ :: an illness that happens when lead is absorbed by the body 铅中毒（人体吸收铅导致的疾病）
+- /gang/ :: 可数名词一帮，一伙（罪犯）A gang is a group of criminals who work together to commit crimes.
+- /organic/ :: 形容词有机的；绿色的；无农害的；不使用化肥的 Organic methods of farming and gardening use only natural animal and plant products to help the plants or animals grow and be healthy, rather than using chemicals.
+- /burglary/ :: 可变名词入室盗窃（罪）If someone commits a burglary, they enter a building by force and steal things. Burglary is the act of doing this.
+- /Philadelphia/ :: a city in the US state of Pennsylvania, which is an important port and an industrial and financial centre. Philadelphia, which is informally called Philly, is the fifth largest city in the US. The Declaration of Independence from Britain was signed in Philadelphia in 1776, and the city was the first capital of the new United States.
+- /modest/ :: 能被表示程度的副词或介词词组修饰的形容词(数量、比率或改进程度)不太高的，适度的，适中的 You use modest to describe something such as an amount, rate, or improvement which is fairly small.
+- /Baltimore/ :: a city on the East Coast of the US, in the state of Maryland. Baltimore is one of the busiest sea ports in the US.
+- /Detroit/ :: a city in the US state of Michigan. It is an important centre for making cars, and the Ford, General Motors, and Chrysler car companies are all based there.
+- /robbery/ :: 可变名词抢劫;劫掠 Robbery is the crime of stealing money or property from a bank, shop, or vehicle, often by using force or threats.
+- /purge/ :: 动词清除，清洗，肃清（组织中的异己分子）To purge an organization of its unacceptable members means to remove them from it. You can also talk about purging people from an organization.
+- /deprive/ :: 动词剥夺;使丧失;使不能享有 If you deprive someone of something that they want or need, you take it away from them, or you prevent them from having it.
+- /hang out/ :: 闲逛，逗留 If you hang out in a particular place or area, you go and stay there for no particular reason, or spend a lot of time there.
+- /mayor/ :: 可数名词市长 The mayor of a town or city is the person who has been elected to represent it for a fixed period of time or, in some places, to run its government.
+- /imprison/ :: 动词关押;监禁 If someone is imprisoned, they are locked up or kept somewhere, usually in prison as a punishment for a crime or for political opposition.
+- /overhaul/ :: 动词大修；彻底检修；全面检查 If a piece of equipment is overhauled, it is cleaned, checked thoroughly, and repaired if necessary.
+- /rabble-rouser/ :: 可数名词煽动者；蛊惑人心者 A rabble-rouser is a clever speaker who can persuade a group of people to behave violently or aggressively, often for the speaker's own political advantage.
+- /sketchy/ :: 能被表示程度的副词或介词词组修饰的形容词(信息)粗略的，大概的，不完全的，不充分的 Sketchy information about something does not include many details and is therefore incomplete or inadequate.
+- /breed/ :: 动词产生；引起；酿成 If you say that something breeds bad feeling or bad behaviour, you mean that it causes bad feeling or bad behaviour to develop.
+- /nasty/ :: 能被表示程度的副词或介词词组修饰的形容词(伤口、疾病等)严重的，恶性的 If you describe an injury or a disease as nasty, you mean that it is serious or looks unpleasant.
+- /homicide/ :: 可变名词凶杀;杀人 Homicide is the illegal killing of a person.
+- /ex-convict/ :: a criminal who has been in prison but who is now free
+- /incarcerate/ :: 动词监禁;禁闭 If people are incarcerated, they are kept in a prison or other place.
+- /-ridden/ :: 	(与名词连用构成形容词)表示“为…所苦的”，“为…所累的”，“充满…的” -ridden combines with nouns to form adjectives that describe something as having a lot of a particular undesirable thing or quality, or suffering very much because of it.
+- /contagious/ :: 能被表示程度的副词或介词词组修饰的形容词（病）接触传染的 A disease that is contagious can be caught by touching people or things that are infected with it.
+- /segregated/ :: 形容词(因种族、性别、宗教不同而)隔离的，分开的 Segregated buildings or areas are kept for the use of one group of people who are the same race, sex, or religion, and no other group is allowed to use them.
+- /inoculate/ :: 	动词给…免疫接种;给…打预防针 To inoculate a person or animal means to inject a weak form of a disease into their body as a way of protecting them against the disease.
+- /deindustrialisation/ :: the process by which a country or area stops having industry as its main source (= cause) of work or income 工业生产能力的解除，去工业化
+- /blight/ :: 可变名词破坏因素；祸根；阴影 You can refer to something as a blight when it causes great difficulties, and damages or spoils other things.
+- /desperate/ :: 能被表示程度的副词或介词词组修饰的形容词极需要的;渴望的 If you are desperate for something or desperate to do something, you want or need it very much indeed.
+- /troublesome/ :: 能被表示程度的副词或介词词组修饰的形容词令人烦恼的;令人头疼的;烦人的 You use troublesome to describe something or someone that causes annoying problems or difficulties.
+- /charter school/ :: a school in the US that is run by parents, companies etc rather than by the public school system, but which the state government supports
+- /frightening/ :: 能被表示程度的副词或介词词组修饰的形容词令人惊恐的;令人害怕的;骇人的 If something is frightening, it makes you feel afraid, anxious, or nervous.
+- /mild/ :: 能被表示程度的副词或介词词组修饰的形容词温和的；不强烈的；不严重的 Mild is used to describe something such as a feeling, attitude, or illness that is not very strong or severe.
+- /creep in/ :: to gradually start to affect or change something
+- /armed cops/ :: 全副武装的警察
+- /30 minutes’ drive/ :: 30 分钟的车程
+- /a world apart/ :: 另一个世界
+- /by last year/ :: 到去年为止
+- /a night out/ :: an evening when you go out to a cinema, theatre, party etc
+- /be get caught in something/ :: to become unexpectedly involved in an unpleasant or annoying situation
+- /be less common than/ :: 不那么常见
+- /give way to/ :: to replace an older type of machine, method etc
+- /One possible explanation is something/ :: 一个可能的解释是...
+- /chief of police/ :: 警长
+- /make public places feel safe/ :: 让公共区域更安全
+- /fraud charges/ :: 欺诈指控
+- /run out/ :: 用完，耗尽
+- /Justice Department/ :: 司法部
+- /stem from/ :: 起源于
+- /poor, badly-educated young men/ :: 贫穷、没有受过教育的年轻人
+- /provide little incentive for people to do something/ :: 不能激励人们做某事
+- /Urban populations/ :: 市区的人口
+- /town hall/ :: 市(或镇)政会 In Britain, a town hall in a town is a large building owned and used by the town council, often as its main office. You can also use town hall to refer to the town council that uses this building.
