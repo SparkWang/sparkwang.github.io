@@ -1,4 +1,4 @@
-#+TITLE:       Word List 20170314
+#+TITLE:       Word List 20170314 (The five-year plan: Command performance)
 #+AUTHOR:      Sean Wang
 #+EMAIL:       spark@bjtu.edu.cn
 #+DATE:        2017-03-14 Tue
@@ -9,7 +9,6 @@
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 #+DESCRIPTION: word list
 
-* Word List
 - /command performance/ :: a special performance of a play or film which is
      given because a royal or very important person has requested it, 奉命专场演
      出；御前演出

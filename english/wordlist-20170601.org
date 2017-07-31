@@ -1,4 +1,4 @@
-#+TITLE:       Word List 20170601
+#+TITLE:       Word List 20170601 (Schumpeter: The enemy within)
 #+AUTHOR:      Sean Wang
 #+EMAIL:       spark@bjtu.edu.cn
 #+DATE:        2017-06-01 Thu
