@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Install Debian - Sean Wang&#39;s Notebook</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="author" content="Sean Wang" />
+  <meta name="description" content="install debian" />
+  <meta name="keywords" content="debian, linux" />
+  <style>
+   #ds-thread #ds-reset .ds-comment-body p {color: #ffffff;}
+   #disqus_thread a {color: #00ffff;}
+  </style>
+  <link rel="stylesheet" media="screen" href="/media/css/font.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/kdComment.css" type="text/css">
+  <script type="text/javascript"
+          src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+  <body class="container">
+<div>
+  <header class="masthead">
+    <h1 class="masthead-title"><a href="/">Sean Wang&#39;s Notebook</a></h1>
+    <p>Happy Hacking</p>
+    <nav class="site-nav">
+      <div class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z" fill="#ffff00"/>
+          <path d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z" fill="#ffff00"/>
+          <path d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z" fill="#ffff00"/>
+        </svg>
+      </div>
+      <ul class="trigger">
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/english/">English</a></li>
+        <li><a href="/notes/">Notes</a></li>
+        <li><a href="/translation/">Translation</a></li>
+        <li><a href="/tags/">Tags</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="https://github.com/SparkWang">GitHub</a></li>
+        <li><a href="/rss.xml">RSS</a></li>
+      </ul>
+    </nav>
+    <form method="get" id="searchform" action="http://www.gfsoso.com/search">
+      <input type="text" class="field" name="q" id="s" placeholder="Search">
+      <input type="hidden" name="as_sitesearch" value="spark.wangxing.name">
+    </form>
+  </header>
+</div>
+
+<div>
+<div class="post">
+<h1 class="title">Install Debian</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org6250838">1. install software via apt-get command</a>
+<ul>
+<li><a href="#orgcb66e6b">1.1. change sources.list</a></li>
+<li><a href="#org9716cc5">1.2. install packages</a></li>
+</ul>
+</li>
+<li><a href="#orgf16f3e4">2. install software</a>
+<ul>
+<li><a href="#org9ee37d9">2.1. Chrome, </a></li>
+<li><a href="#orgb2d4be8">2.2. TexLive</a></li>
+<li><a href="#org9ddbee0">2.3. Firefox</a></li>
+</ul>
+</li>
+<li><a href="#org56c64ca">3. install software via source code</a>
+<ul>
+<li><a href="#org3789c8a">3.1. Emacs</a></li>
+<li><a href="#org4513a27">3.2. Vim</a></li>
+<li><a href="#orgefffe2a">3.3. Git</a></li>
+<li><a href="#orgd0c6e3a">3.4. tmux</a></li>
+<li><a href="#orgd184788">3.5. GNU Parallel</a></li>
+<li><a href="#org8f5f03c">3.6. pandoc</a></li>
+<li><a href="#org649f91f">3.7. the silver searcher</a></li>
+<li><a href="#orga4c0e11">3.8. oh-my-zsh</a></li>
+<li><a href="#org9bee847">3.9. zathura</a></li>
+<li><a href="#orgb875dce">3.10. Lua</a></li>
+</ul>
+</li>
+<li><a href="#orgfdfa3a9">4. install Android development tools</a></li>
+<li><a href="#org744f3c7">5. install Python modules</a>
+<ul>
+<li><a href="#org078b66a">5.1. pip</a></li>
+<li><a href="#orgfcf8ec8">5.2. matplotlib</a></li>
+<li><a href="#orgff420ed">5.3. ipython</a></li>
+<li><a href="#org50d688d">5.4. seaborn</a></li>
+<li><a href="#orgca2b3c5">5.5. numpy</a></li>
+<li><a href="#org4beacb2">5.6. scipy</a></li>
+<li><a href="#orgdc37611">5.7. </a></li>
+</ul>
+</li>
+<li><a href="#org66986c5">6. install Window Manager</a>
+<ul>
+<li><a href="#org9b8ed38">6.1. i3</a></li>
+</ul>
+</li>
+<li><a href="#orgc3046ee">7. install MS fonts</a></li>
+<li><a href="#org6175e2b">8. configure software</a>
+<ul>
+<li><a href="#orgdf28b6f">8.1. sudo</a></li>
+<li><a href="#orgb331e30">8.2. Chinese</a></li>
+<li><a href="#org67f906f">8.3. Keyboard</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org6250838" class="outline-2">
+<h2 id="org6250838"><span class="section-number-2">1</span> install software via apt-get command</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-orgcb66e6b" class="outline-3">
+<h3 id="orgcb66e6b"><span class="section-number-3">1.1</span> change sources.list</h3>
+<div class="outline-text-3" id="text-1-1">
+<blockquote>
+<p>
+deb <a href="http://mirror.bjtu.edu.cn/debian">http://mirror.bjtu.edu.cn/debian</a> jessie main non-free contrib
+deb <a href="http://mirror.bjtu.edu.cn/debian">http://mirror.bjtu.edu.cn/debian</a> jessie-proposed-updates main contrib non-free
+deb <a href="http://mirror.bjtu.edu.cn/debian-security">http://mirror.bjtu.edu.cn/debian-security</a> jessie/updates main contrib non-free
+deb-src <a href="http://mirror.bjtu.edu.cn/debian">http://mirror.bjtu.edu.cn/debian</a> jessie main non-free contrib
+deb-src <a href="http://mirror.bjtu.edu.cn/debian">http://mirror.bjtu.edu.cn/debian</a> jessie-proposed-updates main contrib non-free
+deb-src <a href="http://mirror.bjtu.edu.cn/debian-security">http://mirror.bjtu.edu.cn/debian-security</a> jessie/updates main contrib non-free
+</p>
+</blockquote>
+
+<div class="org-src-container">
+<pre class="src src-shell">sudo apt-get update
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9716cc5" class="outline-3">
+<h3 id="org9716cc5"><span class="section-number-3">1.2</span> install packages</h3>
+</div>
+</div>
+
+<div id="outline-container-orgf16f3e4" class="outline-2">
+<h2 id="orgf16f3e4"><span class="section-number-2">2</span> install software</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-org9ee37d9" class="outline-3">
+<h3 id="org9ee37d9"><span class="section-number-3">2.1</span> Chrome, <a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html"><a href="http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html">http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html</a></a></h3>
+<div class="outline-text-3" id="text-2-1">
+<div class="org-src-container">
+<pre class="src src-shell">sudo dpkg -i google-chrome-stable_current_amd64.deb
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb2d4be8" class="outline-3">
+<h3 id="orgb2d4be8"><span class="section-number-3">2.2</span> TexLive</h3>
+<div class="outline-text-3" id="text-2-2">
+<p>
+downloading: <a href="http://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive.iso">texlive.iso</a>
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">wget http://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive.iso
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9ddbee0" class="outline-3">
+<h3 id="org9ddbee0"><span class="section-number-3">2.3</span> Firefox</h3>
+</div>
+</div>
+
+<div id="outline-container-org56c64ca" class="outline-2">
+<h2 id="org56c64ca"><span class="section-number-2">3</span> install software via source code</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-org3789c8a" class="outline-3">
+<h3 id="org3789c8a"><span class="section-number-3">3.1</span> Emacs</h3>
+<div class="outline-text-3" id="text-3-1">
+<ol class="org-ol">
+<li>Downloading Emacs: <a href="http://ftp.gnu.org/gnu/emacs/"><a href="http://ftp.gnu.org/gnu/emacs/">http://ftp.gnu.org/gnu/emacs/</a></a></li>
+<li>Install dependencies:</li>
+</ol>
+<div class="org-src-container">
+<pre class="src src-shell">sudo apt-get install libx11-dev libxaw7-dev libjpeg-dev libtiff5-dev libpng12-dev libgif-dev libncurses5-dev
+</pre>
+</div>
+<ol class="org-ol">
+<li>Building Emacs:</li>
+</ol>
+<div class="org-src-container">
+<pre class="src src-shell">./configure
+make
+make install
+</pre>
+</div>
+<ol class="org-ol">
+<li>Install spacemacs:</li>
+</ol>
+<div class="org-src-container">
+<pre class="src src-shell">git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org4513a27" class="outline-3">
+<h3 id="org4513a27"><span class="section-number-3">3.2</span> Vim</h3>
+</div>
+<div id="outline-container-orgefffe2a" class="outline-3">
+<h3 id="orgefffe2a"><span class="section-number-3">3.3</span> Git</h3>
+<div class="outline-text-3" id="text-3-3">
+<p>
+downloading: <a href="https://www.kernel.org/pub/software/scm/git/">https://www.kernel.org/pub/software/scm/git/</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd0c6e3a" class="outline-3">
+<h3 id="orgd0c6e3a"><span class="section-number-3">3.4</span> tmux</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+Downloading: <a href="https://tmux.github.io/"><a href="https://tmux.github.io/">https://tmux.github.io/</a></a>
+</p>
+</div>
+</div>
+<div id="outline-container-orgd184788" class="outline-3">
+<h3 id="orgd184788"><span class="section-number-3">3.5</span> GNU Parallel</h3>
+<div class="outline-text-3" id="text-3-5">
+<div class="org-src-container">
+<pre class="src src-shell">wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org8f5f03c" class="outline-3">
+<h3 id="org8f5f03c"><span class="section-number-3">3.6</span> pandoc</h3>
+</div>
+<div id="outline-container-org649f91f" class="outline-3">
+<h3 id="org649f91f"><span class="section-number-3">3.7</span> the silver searcher</h3>
+</div>
+<div id="outline-container-orga4c0e11" class="outline-3">
+<h3 id="orga4c0e11"><span class="section-number-3">3.8</span> oh-my-zsh</h3>
+<div class="outline-text-3" id="text-3-8">
+<div class="org-src-container">
+<pre class="src src-shell">sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+chsh -s /usr/local/bin/zsh
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-org9bee847" class="outline-3">
+<h3 id="org9bee847"><span class="section-number-3">3.9</span> zathura</h3>
+</div>
+<div id="outline-container-orgb875dce" class="outline-3">
+<h3 id="orgb875dce"><span class="section-number-3">3.10</span> Lua</h3>
+<div class="outline-text-3" id="text-3-10">
+<p>
+downloading: <a href="http://www.lua.org/download.html"><a href="http://www.lua.org/download.html">http://www.lua.org/download.html</a></a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfdfa3a9" class="outline-2">
+<h2 id="orgfdfa3a9"><span class="section-number-2">4</span> install Android development tools</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>jd-gui</li>
+<li>Androguard</li>
+<li>Apktool</li>
+<li>Android SDK</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org744f3c7" class="outline-2">
+<h2 id="org744f3c7"><span class="section-number-2">5</span> install Python modules</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-org078b66a" class="outline-3">
+<h3 id="org078b66a"><span class="section-number-3">5.1</span> pip</h3>
+<div class="outline-text-3" id="text-5-1">
+<div class="org-src-container">
+<pre class="src src-shell">wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+</pre>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfcf8ec8" class="outline-3">
+<h3 id="orgfcf8ec8"><span class="section-number-3">5.2</span> matplotlib</h3>
+</div>
+<div id="outline-container-orgff420ed" class="outline-3">
+<h3 id="orgff420ed"><span class="section-number-3">5.3</span> ipython</h3>
+</div>
+<div id="outline-container-org50d688d" class="outline-3">
+<h3 id="org50d688d"><span class="section-number-3">5.4</span> seaborn</h3>
+</div>
+<div id="outline-container-orgca2b3c5" class="outline-3">
+<h3 id="orgca2b3c5"><span class="section-number-3">5.5</span> numpy</h3>
+</div>
+<div id="outline-container-org4beacb2" class="outline-3">
+<h3 id="org4beacb2"><span class="section-number-3">5.6</span> scipy</h3>
+</div>
+<div id="outline-container-orgdc37611" class="outline-3">
+<h3 id="orgdc37611"><span class="section-number-3">5.7</span> </h3>
+</div>
+</div>
+
+<div id="outline-container-org66986c5" class="outline-2">
+<h2 id="org66986c5"><span class="section-number-2">6</span> install Window Manager</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-org9b8ed38" class="outline-3">
+<h3 id="org9b8ed38"><span class="section-number-3">6.1</span> i3</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+downloading: <a href="http://i3wm.org/downloads/"><a href="http://i3wm.org/downloads/">http://i3wm.org/downloads/</a></a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc3046ee" class="outline-2">
+<h2 id="orgc3046ee"><span class="section-number-2">7</span> install MS fonts</h2>
+</div>
+
+<div id="outline-container-org6175e2b" class="outline-2">
+<h2 id="org6175e2b"><span class="section-number-2">8</span> configure software</h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-orgdf28b6f" class="outline-3">
+<h3 id="orgdf28b6f"><span class="section-number-3">8.1</span> sudo</h3>
+</div>
+<div id="outline-container-orgb331e30" class="outline-3">
+<h3 id="orgb331e30"><span class="section-number-3">8.2</span> Chinese</h3>
+</div>
+<div id="outline-container-org67f906f" class="outline-3">
+<h3 id="org67f906f"><span class="section-number-3">8.3</span> Keyboard</h3>
+<div class="outline-text-3" id="text-8-3">
+<p>
+在 <code>/etc/default/keyboard</code> 文件中添加下面一行，交换 <code>Ctrl</code> 和 <code>CapsLock</code> 键：
+</p>
+
+<blockquote>
+<p>
+XKBOPTIONS="ctrl:nocaps"
+</p>
+</blockquote>
+
+
+<p>
+完整的 <code>/etc/default/keyboard</code> 文件如下:
+</p>
+
+<blockquote>
+<p>
+XKBMODEL="pc105"
+</p>
+
+<p>
+XKBVARIANT=""
+XKBOPTIONS="ctrl:nocaps"
+</p>
+
+<p>
+BACKSPACE="guess"
+</p>
+</blockquote>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div>
+  <div class="post-meta">
+    <span title="post date" class="post-info">2016-01-07</span>
+    <span title="last modification date" class="post-info">2017-07-31</span>
+    <span title="tags" class="post-info"><a href="/tags/debian/">debian</a>, <a href="/tags/linux/">linux</a></span>
+    <span title="author" class="post-info">Sean Wang</span>
+  </div>
+  <script src="/media/js/jquery-2.1.3.min.js"></script>
+  <section>
+    <h1>Comments</h1>
+    <div id="comment-wrap">
+      <a class="disqus_label">使用Disqus评论</a>
+      <a class="ds-label">使用多说评论</a>
+    </ul>
+  </section>
+  <script src="/media/js/kdComment.js"></script>
+  <div class="footer">
+    <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
+    <p>
+      Copyright &copy; 2014 - <span id="footerYear"></span> <a href="mailto:sean &lt;at&gt; think &lt;dot&gt; sean &lt;dot&gt; org">Sean Wang</a>
+      &nbsp;&nbsp;-&nbsp;&nbsp;
+      Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a><br/>
+      Themed with <a href="https://github.com/kuangdash/emacs_love" target="_blank">emacs_love</a>
+      <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+    </p>
+  </div>
+    </div>
+
+  </body>
+</html>
