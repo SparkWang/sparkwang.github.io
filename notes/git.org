@@ -11,4 +11,38 @@
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 24.5.1 (Org mode 8.3.2)
 
-* 
+* Alias
+#+BEGIN_QUOTE
+st = status -s
+ci = commit
+co = checkout
+#+END_QUOTE
+
+* =.gitignore=
+#+BEGIN_QUOTE
+*~
+auto
+*.o
+*.svn
+*.aux
+*.log
+*.snm
+*.toc
+*.blg
+*.vrb
+*.nav
+*.out
+*.lof
+*.lol
+*.lot
+*.bak
+*.tdo
+*.pyg
+*.synctex.gz
+_*
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+#+END_QUOTE
+
