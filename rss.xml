@@ -4,8 +4,8 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Mon, 31 Jul 2017 21:55:04 CST</pubDate>
-    <lastBuildDate>Mon, 31 Jul 2017 21:55:04 CST</lastBuildDate>
+    <pubDate>Mon, 31 Jul 2017 22:04:32 CST</pubDate>
+    <lastBuildDate>Mon, 31 Jul 2017 22:04:32 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -32,15 +32,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgee5ea7d"><code>.gitconfig</code></a></li>
-<li><a href="#org814bbf8"><code>.gitignore</code></a></li>
+<li><a href="#orge21889f"><code>.gitconfig</code></a></li>
+<li><a href="#orge5c33ab"><code>.gitignore</code></a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgee5ea7d" class="outline-2">
-<h2 id="orgee5ea7d"><code>.gitconfig</code></h2>
-<div class="outline-text-2" id="text-orgee5ea7d">
+<div id="outline-container-orge21889f" class="outline-2">
+<h2 id="orge21889f"><code>.gitconfig</code></h2>
+<div class="outline-text-2" id="text-orge21889f">
 <pre class="example">
 [user]
   name = foo
@@ -70,9 +70,9 @@
 </div>
 </div>
 
-<div id="outline-container-org814bbf8" class="outline-2">
-<h2 id="org814bbf8"><code>.gitignore</code></h2>
-<div class="outline-text-2" id="text-org814bbf8">
+<div id="outline-container-orge5c33ab" class="outline-2">
+<h2 id="orge5c33ab"><code>.gitignore</code></h2>
+<div class="outline-text-2" id="text-orge5c33ab">
 <pre class="example">
 *~
 auto
@@ -106,6 +106,13 @@ GTAGS
 </div>]]></description>
       <pubDate>2017-07-31</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/08/git-常用配置/</guid>
+    </item>
+    <item>
+      <title>Word List 20170727 (Modern families：Chips off the old block)</title>
+      <link>http://spark.wangxing.name/blog/2017/07/27/word-list-20170707</link>
+      <description><![CDATA[word list]]></description>
+      <pubDate>2017-07-31</pubDate>
+      <guid>http://spark.wangxing.name/blog/2017/07/27/word-list-20170707</guid>
     </item>
     <item>
       <title>Word List 20170314</title>
@@ -145,15 +152,15 @@ GTAGS
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgbb0ab5d">1. Motivation</a></li>
-<li><a href="#orgdc9afc0">2. <span class="todo TODO">TODO</span> Method</a></li>
-<li><a href="#orgfa0f763">3. <span class="todo TODO">TODO</span> Reference</a></li>
+<li><a href="#orga9eb481">1. Motivation</a></li>
+<li><a href="#org710bc4f">2. <span class="todo TODO">TODO</span> Method</a></li>
+<li><a href="#org06f3404">3. <span class="todo TODO">TODO</span> Reference</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgbb0ab5d" class="outline-2">
-<h2 id="orgbb0ab5d"><span class="section-number-2">1</span> Motivation</h2>
+<div id="outline-container-orga9eb481" class="outline-2">
+<h2 id="orga9eb481"><span class="section-number-2">1</span> Motivation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实现自动化。
@@ -161,8 +168,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgdc9afc0" class="outline-2">
-<h2 id="orgdc9afc0"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
+<div id="outline-container-org710bc4f" class="outline-2">
+<h2 id="org710bc4f"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 首先，软件安装有以下几种方式：
@@ -196,8 +203,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgfa0f763" class="outline-2">
-<h2 id="orgfa0f763"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
+<div id="outline-container-org06f3404" class="outline-2">
+<h2 id="org06f3404"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 以下项目可以参考：
@@ -227,84 +234,6 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>]]></description>
       <pubDate>2016-01-08</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/08/nmap/</guid>
-    </item>
-    <item>
-      <title>用 rsync 同步本地和远程目录 </title>
-      <link>http://spark.wangxing.name/blog/2016/01/08/用-rsync-同步本地和远程目录-/</link>
-      <description><![CDATA[<div>
-<div class="post">
-<h1 class="title">用 rsync 同步本地和远程目录 </h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org5faedc9">1. Intro</a></li>
-<li><a href="#org74d3378">2. Options</a></li>
-<li><a href="#org9cc70c7">3. 注意</a></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org5faedc9" class="outline-2">
-<h2 id="org5faedc9"><span class="section-number-2">1</span> Intro</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-<code>rsync</code> 命令可用来在本地和远程机器之间同步目录。
-</p>
-
-<div class="org-src-container">
-<pre class="src src-shell">rsync -a host:dirA dirB
-</pre>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org74d3378" class="outline-2">
-<h2 id="org74d3378"><span class="section-number-2">2</span> Options</h2>
-<div class="outline-text-2" id="text-2">
-<dl class="org-dl">
-<dt>-a, &#x2013;archive</dt><dd>等价于 -rlptgoD</dd>
-<dt>-r, &#x2013;recursive</dt><dd>递归同步目录中的内容</dd>
-<dt>-l, &#x2013;links</dt><dd>copy symlinks as symlinks</dd>
-<dt>-p, &#x2013;perms</dt><dd>preserve permissions</dd>
-<dt>-t, &#x2013;times </dt><dd>preserver modification times</dd>
-<dt>-g, &#x2013;group</dt><dd>preserver group</dd>
-<dt>-o, &#x2013;owner</dt><dd>preserver owner (super-user only)</dd>
-<dt>-D</dt><dd>same as &#x2013;devices &#x2013;specials</dd>
-<dt>&#x2013;devices</dt><dd>preserver device files</dd>
-<dt>&#x2013;specials</dt><dd>preserver special files</dd>
-<dt>-P, &#x2013;progress</dt><dd>show progress during transfer</dd>
-</dl>
-</div>
-</div>
-
-<div id="outline-container-org9cc70c7" class="outline-2">
-<h2 id="org9cc70c7"><span class="section-number-2">3</span> 注意</h2>
-<div class="outline-text-2" id="text-3">
-<div class="org-src-container">
-<pre class="src src-shell">rsync -a remote_host:/source/dirA /local/dirB
-</pre>
-</div>
-
-<p>
-上述命令会将远程机器的 <code>dirA</code> 目录拷贝到本地的 <code>dirB</code> 目录下，执行完成之后，本地的目录下将出现一个 <code>dirA</code> 目录，内容与远程机器的 <code>dirA</code> 目录相同。
-</p>
-
-<div class="org-src-container">
-<pre class="src src-shell">rsync -a remote_host:/source/dirA/ /local/dirB
-</pre>
-</div>
-<p>
-上述命令会将远程机器的 <code>dirA</code> 目录中的内容拷贝到本地的 <code>dirB</code> 目录下，在本地
-<code>dirB</code> 目录下不会自动创建 <code>dirA</code> 目录。
-</p>
-</div>
-</div>
-
-</div>
-</div>]]></description>
-      <pubDate>2016-01-08</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/08/用-rsync-同步本地和远程目录-/</guid>
     </item>
   </channel>
 </rss>
