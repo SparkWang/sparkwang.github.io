@@ -1,6 +1,6 @@
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t c:nil
 #+OPTIONS: creator:nil d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t
-#+OPTIONS: num:t p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t timestamp:t
+#+OPTIONS: num:nil p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t timestamp:t
 #+OPTIONS: title:t toc:t todo:t |:t
 #+TITLE: git 使用技巧
 #+DATE: <2016-01-08 Fri>
@@ -12,14 +12,14 @@
 #+CREATOR: Emacs 24.5.1 (Org mode 8.3.2)
 
 * Alias
-#+BEGIN_QUOTE
+#+BEGIN_SRC 
 st = status -s
 ci = commit
 co = checkout
-#+END_QUOTE
+#+END_SRC
 
 * =.gitignore=
-#+BEGIN_QUOTE
+#+BEGIN_SRC 
 *~
 auto
 *.o
@@ -44,5 +44,6 @@ GPATH
 GRTAGS
 GSYMS
 GTAGS
-#+END_QUOTE
+#+END_SRC
+
 
