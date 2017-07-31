@@ -4,8 +4,8 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Mon, 31 Jul 2017 21:48:45 CST</pubDate>
-    <lastBuildDate>Mon, 31 Jul 2017 21:48:45 CST</lastBuildDate>
+    <pubDate>Mon, 31 Jul 2017 21:52:07 CST</pubDate>
+    <lastBuildDate>Mon, 31 Jul 2017 21:52:07 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -32,30 +32,27 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgdde68be">1. Alias</a></li>
-<li><a href="#orgba5e01c">2. <code>.gitignore</code></a></li>
+<li><a href="#org25acbfd">Alias</a></li>
+<li><a href="#org9327548"><code>.gitignore</code></a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgdde68be" class="outline-2">
-<h2 id="orgdde68be"><span class="section-number-2">1</span> Alias</h2>
-<div class="outline-text-2" id="text-1">
-<blockquote>
-<p>
+<div id="outline-container-org25acbfd" class="outline-2">
+<h2 id="org25acbfd">Alias</h2>
+<div class="outline-text-2" id="text-org25acbfd">
+<pre class="example">
 st = status -s
 ci = commit
 co = checkout
-</p>
-</blockquote>
+</pre>
 </div>
 </div>
 
-<div id="outline-container-orgba5e01c" class="outline-2">
-<h2 id="orgba5e01c"><span class="section-number-2">2</span> <code>.gitignore</code></h2>
-<div class="outline-text-2" id="text-2">
-<blockquote>
-<p>
+<div id="outline-container-org9327548" class="outline-2">
+<h2 id="org9327548"><code>.gitignore</code></h2>
+<div class="outline-text-2" id="text-org9327548">
+<pre class="example">
 *~
 auto
 *.o
@@ -74,14 +71,13 @@ auto
 *.bak
 *.tdo
 *.pyg
-<b>.synctex.gz
-_</b>
+*.synctex.gz
+_*
 GPATH
 GRTAGS
 GSYMS
 GTAGS
-</p>
-</blockquote>
+</pre>
 </div>
 </div>
 
@@ -128,15 +124,15 @@ GTAGS
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgdc754ba">1. Motivation</a></li>
-<li><a href="#org0ab12eb">2. <span class="todo TODO">TODO</span> Method</a></li>
-<li><a href="#orgcda357a">3. <span class="todo TODO">TODO</span> Reference</a></li>
+<li><a href="#orgec9fa4a">1. Motivation</a></li>
+<li><a href="#org2adfcc2">2. <span class="todo TODO">TODO</span> Method</a></li>
+<li><a href="#orgf8c9f1b">3. <span class="todo TODO">TODO</span> Reference</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgdc754ba" class="outline-2">
-<h2 id="orgdc754ba"><span class="section-number-2">1</span> Motivation</h2>
+<div id="outline-container-orgec9fa4a" class="outline-2">
+<h2 id="orgec9fa4a"><span class="section-number-2">1</span> Motivation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实现自动化。
@@ -144,8 +140,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org0ab12eb" class="outline-2">
-<h2 id="org0ab12eb"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
+<div id="outline-container-org2adfcc2" class="outline-2">
+<h2 id="org2adfcc2"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 首先，软件安装有以下几种方式：
@@ -179,8 +175,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orgcda357a" class="outline-2">
-<h2 id="orgcda357a"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
+<div id="outline-container-orgf8c9f1b" class="outline-2">
+<h2 id="orgf8c9f1b"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 以下项目可以参考：
@@ -221,15 +217,15 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org177fe18">1. Intro</a></li>
-<li><a href="#org63931ce">2. Options</a></li>
-<li><a href="#org118804e">3. 注意</a></li>
+<li><a href="#org63ba52f">1. Intro</a></li>
+<li><a href="#orgcd2aeaa">2. Options</a></li>
+<li><a href="#org49a87df">3. 注意</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org177fe18" class="outline-2">
-<h2 id="org177fe18"><span class="section-number-2">1</span> Intro</h2>
+<div id="outline-container-org63ba52f" class="outline-2">
+<h2 id="org63ba52f"><span class="section-number-2">1</span> Intro</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <code>rsync</code> 命令可用来在本地和远程机器之间同步目录。
@@ -242,8 +238,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org63931ce" class="outline-2">
-<h2 id="org63931ce"><span class="section-number-2">2</span> Options</h2>
+<div id="outline-container-orgcd2aeaa" class="outline-2">
+<h2 id="orgcd2aeaa"><span class="section-number-2">2</span> Options</h2>
 <div class="outline-text-2" id="text-2">
 <dl class="org-dl">
 <dt>-a, &#x2013;archive</dt><dd>等价于 -rlptgoD</dd>
@@ -261,8 +257,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org118804e" class="outline-2">
-<h2 id="org118804e"><span class="section-number-2">3</span> 注意</h2>
+<div id="outline-container-org49a87df" class="outline-2">
+<h2 id="org49a87df"><span class="section-number-2">3</span> 注意</h2>
 <div class="outline-text-2" id="text-3">
 <div class="org-src-container">
 <pre class="src src-shell">rsync -a remote_host:/source/dirA /local/dirB
