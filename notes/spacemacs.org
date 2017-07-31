@@ -16,3 +16,13 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
 
 * Creating Personal Layer
+
+* Packages
+** neotree
+- 打开关闭 neotree : =SPC f t=
+- 显示/隐藏 dot 开头文件 : =s=
+- 到上一级目录: =K=
+- 打开目录或文件: =l=
+- 收起目录: =h=
+** tramp mode
+- =C-x C-f /ssh:= to open a remote file
