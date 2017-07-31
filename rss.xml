@@ -4,10 +4,17 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Mon, 31 Jul 2017 23:39:07 CST</pubDate>
-    <lastBuildDate>Mon, 31 Jul 2017 23:39:07 CST</lastBuildDate>
+    <pubDate>Tue, 01 Aug 2017 07:59:00 CST</pubDate>
+    <lastBuildDate>Tue, 01 Aug 2017 07:59:00 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>Word List 20170314 (The five-year plan: Command performance)</title>
+      <link>http://spark.wangxing.name/blog/2017/03/14/word-list-20170314</link>
+      <description><![CDATA[word list]]></description>
+      <pubDate>2017-08-01</pubDate>
+      <guid>http://spark.wangxing.name/blog/2017/03/14/word-list-20170314</guid>
+    </item>
     <item>
       <title>Awesome Tools</title>
       <link>http://spark.wangxing.name/blog/2016/01/07/awesome-repos</link>
@@ -39,15 +46,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org49b3ccf"><code>.gitconfig</code></a></li>
-<li><a href="#orgc484ace"><code>.gitignore</code></a></li>
+<li><a href="#orgdb4b002"><code>.gitconfig</code></a></li>
+<li><a href="#org09741c2"><code>.gitignore</code></a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org49b3ccf" class="outline-2">
-<h2 id="org49b3ccf"><code>.gitconfig</code></h2>
-<div class="outline-text-2" id="text-org49b3ccf">
+<div id="outline-container-orgdb4b002" class="outline-2">
+<h2 id="orgdb4b002"><code>.gitconfig</code></h2>
+<div class="outline-text-2" id="text-orgdb4b002">
 <pre class="example">
 [user]
   name = foo
@@ -77,9 +84,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgc484ace" class="outline-2">
-<h2 id="orgc484ace"><code>.gitignore</code></h2>
-<div class="outline-text-2" id="text-orgc484ace">
+<div id="outline-container-org09741c2" class="outline-2">
+<h2 id="org09741c2"><code>.gitignore</code></h2>
+<div class="outline-text-2" id="text-org09741c2">
 <pre class="example">
 *~
 auto
@@ -115,13 +122,6 @@ GTAGS
       <guid>http://spark.wangxing.name/blog/2016/01/08/git-常用配置/</guid>
     </item>
     <item>
-      <title>Word List 20170314</title>
-      <link>http://spark.wangxing.name/blog/2017/03/14/word-list-20170314</link>
-      <description><![CDATA[word list]]></description>
-      <pubDate>2017-07-31</pubDate>
-      <guid>http://spark.wangxing.name/blog/2017/03/14/word-list-20170314</guid>
-    </item>
-    <item>
       <title>Abstract Translation: SP 2015 Leave Me Alone</title>
       <link>http://spark.wangxing.name/blog/2017/03/14/paper-abstract-translation-sp-2015-leave-me-alone</link>
       <description><![CDATA[顶会论文学习]]></description>
@@ -152,15 +152,15 @@ GTAGS
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org9c6e09e">1. Motivation</a></li>
-<li><a href="#org3aba135">2. <span class="todo TODO">TODO</span> Method</a></li>
-<li><a href="#org0f3807e">3. <span class="todo TODO">TODO</span> Reference</a></li>
+<li><a href="#org662362d">1. Motivation</a></li>
+<li><a href="#org39aa7a4">2. <span class="todo TODO">TODO</span> Method</a></li>
+<li><a href="#org78338d0">3. <span class="todo TODO">TODO</span> Reference</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org9c6e09e" class="outline-2">
-<h2 id="org9c6e09e"><span class="section-number-2">1</span> Motivation</h2>
+<div id="outline-container-org662362d" class="outline-2">
+<h2 id="org662362d"><span class="section-number-2">1</span> Motivation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实现自动化。
@@ -168,8 +168,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org3aba135" class="outline-2">
-<h2 id="org3aba135"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
+<div id="outline-container-org39aa7a4" class="outline-2">
+<h2 id="org39aa7a4"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 首先，软件安装有以下几种方式：
@@ -203,8 +203,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org0f3807e" class="outline-2">
-<h2 id="org0f3807e"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
+<div id="outline-container-org78338d0" class="outline-2">
+<h2 id="org78338d0"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 以下项目可以参考：
