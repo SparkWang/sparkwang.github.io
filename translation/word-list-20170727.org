@@ -9,92 +9,92 @@
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 #+DESCRIPTION: word list
 
-- */drone/*, an aircraft without a pilot, controlled from the ground 无人驾驶飞机
-- */hover/*, 动词悬浮;（鸟、昆虫等）振翅悬停 To hover means to stay in the same position in the air without moving forwards or backwards. Many birds and insects can hover by moving their wings very quickly.
-- */beacon/*, 可数名词灯塔 A beacon is a light or a fire, usually on a hill or tower, which acts as a signal or a warning.
-- */strap/*, 动词用带子系(或绑、捆、扎) If you strap something somewhere, you fasten it there with a strap.
-- */beam/*, 及物/不及物动词（通过电子设备）发送，发射 If something beams radio signals or television pictures or they are beamed somewhere, they are sent there by means of electronic equipment.
-- */handy/*, 能被表示程度的副词或介词词组修饰的形容词有用的;方便的 Something that is handy is useful.
-- */autistic/*, 形容词患孤独症的;患自闭症的 An autistic person suffers from autism.
-- */bracelet/*, 可数名词手镯 A bracelet is a chain or band, usually made of metal, which you wear around your wrist as jewellery.
-- */proximity/*, 不可数名词接近；临近；邻近 Proximity to a place or person is nearness to that place or person.
-- */rocket/*, 动词(价格)猛涨，飙升;（社会问题）急剧增多 If things such as prices or social problems rocket, they increase very quickly and suddenly.
-- */stray/*, 动词迷路;偏离;走失 If someone strays somewhere, they wander away from where they are supposed to be.
-- */chaperone/*, 可数名词陪护;监护人 A chaperone is someone who accompanies another person somewhere in order to make sure that they do not come to any harm.
-- */furtive/*, 能被表示程度的副词或介词词组修饰的形容词偷偷摸摸的;鬼鬼祟祟的;秘密的 If you describe someone's behaviour as furtive, you disapprove of them behaving as if they want to keep something secret or hidden.
-- */stationary/*, 形容词静止的;不动的 Something that is stationary is not moving.
-- */ingenious/*, 能被表示程度的副词或介词词组修饰的形容词巧妙的;制作精巧的;新颖独特的 Something that is ingenious is very clever and involves new ideas, methods, or equipment.
-- */gizmo/*, 可数名词小玩意儿；小装置 A gizmo is a device or small machine which performs a particular task, usually in a new and efficient way. People often use gizmo to refer to a device or machine when they do not know what it is really called.
-- */enamoured/*, 能被表示程度的副词或介词词组修饰的形容词(对某人)迷恋的，倾心的 If you are enamoured of a person, you are in love with them.
-- */minor/*, 可数名词未成年人(在英国和美国多数州指未满 18 岁的人，在法律上仍然视为儿童) A minor is a person who is still legally a child. In Britain and most states in the United States, people are minors until they reach the age of eighteen.
-- */surveillance/*, 不可数名词(尤指来自警方、军队等组织的)监视，监察 Surveillance is the careful watching of someone, especially by an organization such as the police or the army.
-- */appeal/*, 动词对…有吸引力；使感兴趣 If something appeals to you, you find it attractive or interesting.
-- */kidnapping/*, when someone is kidnapped 绑架；劫持
-- */premises/*, the land and buildings owned by someone, especially by a company or organization（尤指公司或机构的）房屋连同地基，生产场所，经营厂址，厂区
-- */progeny/*, 复数名词（人的）后裔，子女；（动物的）幼崽 You can refer to a person's children or to an animal's young as their progeny.
-- */sew/*, 动词缝制;缝合;缝补 When you sew something such as clothes, you make them or repair them by joining pieces of cloth together by passing thread through them with a needle.
-- */truant/*, 可数名词逃学者;旷课者 A truant is a pupil who stays away from school without permission.
-- */badge/*, 可数名词徽章，证章（美国英语通常用 button 指金属小圆徽章）A badge is a piece of metal or cloth which you wear to show that you belong to an organization or support a cause. American English usually uses button to refer to a small round metal badge.
-- */taxpayer/*, 可数名词纳税人 Taxpayers are people who pay a percentage of their income to the government as tax.
-- */injunction/*, 可数名词(法院下的)强制令，禁制令 An injunction is a court order, usually one telling someone not to do something.
-- */halt/*, 及物/不及物动词（使）停止行进;（使）停住 When a person or a vehicle halts or when something halts them, they stop moving in the direction they were going and stand still.
-- */expulsion/*, 可变名词开除；除名 Expulsion is when someone is forced to leave a school, university, or organization.
-- */ground/*, 可变名词理由；根据 If something is grounds for a feeling or action, it is a reason for it. If you do something on the grounds of a particular thing, that thing is the reason for your action.
-- */foresee/*, 动词预见;预知;预料 If you foresee something, you expect and believe that it will happen.
-- */appeal/*, 动词上诉;申诉 If you appeal to someone in authority against a decision, you formally ask them to change it. In British English, you appeal against something. In American English, you appeal something.
-- */Enthusiast/*, 可数名词热衷者;热心者；爱好者 An enthusiast is a person who is very interested in a particular activity or subject and who spends a lot of time on it.
-- */roam/*, 动词漫步;漫游;游荡;闲逛 If you roam an area or roam around it, you wander or travel around it without having a particular purpose.
-- */spare/*, 动词使免遭伤害;使幸免 If a person or a place is spared, they are not harmed, even though other people or places have been.
-- */protective/*, 形容词保护的；防护的 Protective means designed or intended to protect something or someone from harm.
-- */Savvy/*, 能被表示程度的副词或介词词组修饰的形容词有见识的;具有实际知识的;有经验的 If you describe someone as savvy, you think that they show a lot of practical knowledge.
-- */dispose of/*, 短语动词丢掉;清除;处理 If you dispose of something that you no longer want or need, you throw it away.
-- */grave/*, 	能被表示程度的副词或介词词组修饰的形容词严重的；重大的；严峻的 A grave event or situation is very serious, important, and worrying.
-- */assault/*, 可变名词人身攻击；殴打；（身体）侵犯 An assault on a person is a physical attack on them.
-- */fretful/*, 能被表示程度的副词或介词词组修饰的形容词苦恼的;烦躁的 If someone is fretful, they behave in a way that shows that they worried or unhappy about something.
-- */snoop/*, 动词窥探(某人的生活) If someone snoops on a person, they watch them secretly in order to find out things about their life.
-- */carer/*, 可数名词(照料残疾人、病人、年幼者等的)护理人,照管人 A carer is someone who is responsible for looking after another person, for example, a person who is disabled, ill, or very young.
-- */ethics/*, 复数名词（个人信奉的）道德原则 Someone's ethics are the moral principles about right and wrong behaviour which they believe in.
-- */wiretapping/*, the act of secretly listening to other people's telephone conversations by attaching a device to the telephone line（用秘密连线方法）窃听电话
-- */submit/*, 动词顺从;屈服;投降;被迫接受 If you submit to something, you unwillingly allow something to be done to you, or you do what someone wants, for example because you are not powerful enough to resist.
-- */readily/*, quickly, immediately, willingly or without any problem, 迅速地；心甘情愿地；轻而易举地
-- */coalition/*, the joining together of different political parties or groups for a particular purpose, usually for a limited time（不同政党或不同群体的人为特定目标而暂时形成的）联盟，同盟，联合体
-- */outfit/*, 可数名词机构;组织 You can refer to an organization as an outfit.
-- */term/*, 动词把…称作;把…叫作 If you say that something is termed a particular thing, you mean that that is what people call it or that is their opinion of it.
-- */dehumanize/*, to remove from a person the special human qualities of independent thought, feeling for other people, etc. 使无人性，剥夺…的人性
-- */palatable/*, acceptable 可以接受的，合乎趣味的
-- */annoyance/*, 不可数名词气恼；烦恼 Annoyance is the feeling that you get when someone makes you feel fairly angry or impatient.
-- */whereabouts/*, 单数集合名词(人或物的)行踪，下落，所在之处 If you refer to the whereabouts of a particular person or thing, you mean the place where that person or thing may be found.
-- */humdrum/*, having no excitement, interest or new and different events; ordinary 乏味的；单调的；令人厌倦的
-- */walk someone/*, 动词陪同;陪伴护送, If you walk someone somewhere, you walk there with them in order to show politeness or to make sure that they get there safely.
-- */a stone's throw from/*, a short distance
-- */a football-sized drone/*, 足球大小的无人机
-- */locks to a child's wrist/*, 佩戴在孩子的手腕上
-- */autistic children/*, 患自闭症的孩子
-- */signal their proximity to .../*, （意译）通过信号知道他们离。。。有多远
-- */make tracking cheaper and more practical/*, 使追踪变得廉价、实用
-- */at extra cost/*, 额外收费
-- */beyond an agreed boundary/*, 越过了规定的活动范围
-- */go out late/*, 深夜外出
-- */speed detection/*, 速度检测
-- */break the speed limit/*, 超速
-- */furtive movements/*, 偷偷摸摸的举动
-- */pocket-sized tracking beacons/*, 袖珍追踪信标台
-- */a company based in Utah/*, 总部在犹他州的公司
-- */disables a phone's e-mail and text functions/*, 屏蔽电话的邮件和短信功能
-- */stop somebody from doing something/*, 阻止某人做某事
-- */typing while driving/*, 开车的时候打字发消息
-- */be the keenest on something/*, 对某事最感兴趣
-- */radio frequency identification(RFID)/*, RFID, 射频识别
-- */attendance and location/*, 出勤情况和位置
-- */off the premises/*, away from or outside of a building or on the area of land that it is on
-- */A is linked to B/*, A is connected with B, if two things are connected or related, there is a relationship between them:
-- */on religious grounds/*, 出于宗教理由
-- */tracking means more freedom/*, 跟踪意味着更多自由
-- */a protective network of friends and neighbours/*, 由朋友和邻居组成的保护网
-- */domestic violence/*, 家庭暴力
-- */keep an eye on/*, to watch carefully although not continuously
-- */submit to tracking/*, 屈从于被跟踪
-- */in adulthood/*, 在成年时期
-- */a coalition of American civil-rights/*, 一个美国民权联合组织
-- */move around/*, 短语动词持续换工作;经常搬迁 If you move around or move about, you keep changing your job or keep changing the place where you live.
-- */a prototype tracker/*, 跟踪器的原型样机
+- /drone/ :: an aircraft without a pilot, controlled from the ground 无人驾驶飞机
+- /hover/ :: 动词悬浮;（鸟、昆虫等）振翅悬停 To hover means to stay in the same position in the air without moving forwards or backwards. Many birds and insects can hover by moving their wings very quickly.
+- /beacon/ :: 可数名词灯塔 A beacon is a light or a fire, usually on a hill or tower, which acts as a signal or a warning.
+- /strap/ :: 动词用带子系(或绑、捆、扎) If you strap something somewhere, you fasten it there with a strap.
+- /beam/ :: 及物/不及物动词（通过电子设备）发送，发射 If something beams radio signals or television pictures or they are beamed somewhere, they are sent there by means of electronic equipment.
+- /handy/ :: 能被表示程度的副词或介词词组修饰的形容词有用的;方便的 Something that is handy is useful.
+- /autistic/ :: 形容词患孤独症的;患自闭症的 An autistic person suffers from autism.
+- /bracelet/ :: 可数名词手镯 A bracelet is a chain or band, usually made of metal, which you wear around your wrist as jewellery.
+- /proximity/ :: 不可数名词接近；临近；邻近 Proximity to a place or person is nearness to that place or person.
+- /rocket/ :: 动词(价格)猛涨，飙升;（社会问题）急剧增多 If things such as prices or social problems rocket, they increase very quickly and suddenly.
+- /stray/ :: 动词迷路;偏离;走失 If someone strays somewhere, they wander away from where they are supposed to be.
+- /chaperone/ :: 可数名词陪护;监护人 A chaperone is someone who accompanies another person somewhere in order to make sure that they do not come to any harm.
+- /furtive/ :: 能被表示程度的副词或介词词组修饰的形容词偷偷摸摸的;鬼鬼祟祟的;秘密的 If you describe someone's behaviour as furtive, you disapprove of them behaving as if they want to keep something secret or hidden.
+- /stationary/ :: 形容词静止的;不动的 Something that is stationary is not moving.
+- /ingenious/ :: 能被表示程度的副词或介词词组修饰的形容词巧妙的;制作精巧的;新颖独特的 Something that is ingenious is very clever and involves new ideas, methods, or equipment.
+- /gizmo/ :: 可数名词小玩意儿；小装置 A gizmo is a device or small machine which performs a particular task, usually in a new and efficient way. People often use gizmo to refer to a device or machine when they do not know what it is really called.
+- /enamoured/ :: 能被表示程度的副词或介词词组修饰的形容词(对某人)迷恋的，倾心的 If you are enamoured of a person, you are in love with them.
+- /minor/ :: 可数名词未成年人(在英国和美国多数州指未满 18 岁的人，在法律上仍然视为儿童) A minor is a person who is still legally a child. In Britain and most states in the United States, people are minors until they reach the age of eighteen.
+- /surveillance/ :: 不可数名词(尤指来自警方、军队等组织的)监视，监察 Surveillance is the careful watching of someone, especially by an organization such as the police or the army.
+- /appeal/ :: 动词对…有吸引力；使感兴趣 If something appeals to you, you find it attractive or interesting.
+- /kidnapping/ :: when someone is kidnapped 绑架；劫持
+- /premises/ :: the land and buildings owned by someone, especially by a company or organization（尤指公司或机构的）房屋连同地基，生产场所，经营厂址，厂区
+- /progeny/ :: 复数名词（人的）后裔，子女；（动物的）幼崽 You can refer to a person's children or to an animal's young as their progeny.
+- /sew/ :: 动词缝制;缝合;缝补 When you sew something such as clothes, you make them or repair them by joining pieces of cloth together by passing thread through them with a needle.
+- /truant/ :: 可数名词逃学者;旷课者 A truant is a pupil who stays away from school without permission.
+- /badge/ :: 可数名词徽章，证章（美国英语通常用 button 指金属小圆徽章）A badge is a piece of metal or cloth which you wear to show that you belong to an organization or support a cause. American English usually uses button to refer to a small round metal badge.
+- /taxpayer/ :: 可数名词纳税人 Taxpayers are people who pay a percentage of their income to the government as tax.
+- /injunction/ :: 可数名词(法院下的)强制令，禁制令 An injunction is a court order, usually one telling someone not to do something.
+- /halt/ :: 及物/不及物动词（使）停止行进;（使）停住 When a person or a vehicle halts or when something halts them, they stop moving in the direction they were going and stand still.
+- /expulsion/ :: 可变名词开除；除名 Expulsion is when someone is forced to leave a school, university, or organization.
+- /ground/ :: 可变名词理由；根据 If something is grounds for a feeling or action, it is a reason for it. If you do something on the grounds of a particular thing, that thing is the reason for your action.
+- /foresee/ :: 动词预见;预知;预料 If you foresee something, you expect and believe that it will happen.
+- /appeal/ :: 动词上诉;申诉 If you appeal to someone in authority against a decision, you formally ask them to change it. In British English, you appeal against something. In American English, you appeal something.
+- /Enthusiast/ :: 可数名词热衷者;热心者；爱好者 An enthusiast is a person who is very interested in a particular activity or subject and who spends a lot of time on it.
+- /roam/ :: 动词漫步;漫游;游荡;闲逛 If you roam an area or roam around it, you wander or travel around it without having a particular purpose.
+- /spare/ :: 动词使免遭伤害;使幸免 If a person or a place is spared, they are not harmed, even though other people or places have been.
+- /protective/ :: 形容词保护的；防护的 Protective means designed or intended to protect something or someone from harm.
+- /Savvy/ :: 能被表示程度的副词或介词词组修饰的形容词有见识的;具有实际知识的;有经验的 If you describe someone as savvy, you think that they show a lot of practical knowledge.
+- /dispose of/ :: 短语动词丢掉;清除;处理 If you dispose of something that you no longer want or need, you throw it away.
+- /grave/ :: 	能被表示程度的副词或介词词组修饰的形容词严重的；重大的；严峻的 A grave event or situation is very serious, important, and worrying.
+- /assault/ :: 可变名词人身攻击；殴打；（身体）侵犯 An assault on a person is a physical attack on them.
+- /fretful/ :: 能被表示程度的副词或介词词组修饰的形容词苦恼的;烦躁的 If someone is fretful, they behave in a way that shows that they worried or unhappy about something.
+- /snoop/ :: 动词窥探(某人的生活) If someone snoops on a person, they watch them secretly in order to find out things about their life.
+- /carer/ :: 可数名词(照料残疾人、病人、年幼者等的)护理人,照管人 A carer is someone who is responsible for looking after another person, for example, a person who is disabled, ill, or very young.
+- /ethics/ :: 复数名词（个人信奉的）道德原则 Someone's ethics are the moral principles about right and wrong behaviour which they believe in.
+- /wiretapping/ :: the act of secretly listening to other people's telephone conversations by attaching a device to the telephone line（用秘密连线方法）窃听电话
+- /submit/ :: 动词顺从;屈服;投降;被迫接受 If you submit to something, you unwillingly allow something to be done to you, or you do what someone wants, for example because you are not powerful enough to resist.
+- /readily/ :: quickly, immediately, willingly or without any problem, 迅速地；心甘情愿地；轻而易举地
+- /coalition/ :: the joining together of different political parties or groups for a particular purpose, usually for a limited time（不同政党或不同群体的人为特定目标而暂时形成的）联盟，同盟，联合体
+- /outfit/ :: 可数名词机构;组织 You can refer to an organization as an outfit.
+- /term/ :: 动词把…称作;把…叫作 If you say that something is termed a particular thing, you mean that that is what people call it or that is their opinion of it.
+- /dehumanize/ :: to remove from a person the special human qualities of independent thought, feeling for other people, etc. 使无人性，剥夺…的人性
+- /palatable/ :: acceptable 可以接受的，合乎趣味的
+- /annoyance/ :: 不可数名词气恼；烦恼 Annoyance is the feeling that you get when someone makes you feel fairly angry or impatient.
+- /whereabouts/ :: 单数集合名词(人或物的)行踪，下落，所在之处 If you refer to the whereabouts of a particular person or thing, you mean the place where that person or thing may be found.
+- /humdrum/ :: having no excitement, interest or new and different events; ordinary 乏味的；单调的；令人厌倦的
+- /walk someone/ :: 动词陪同;陪伴护送, If you walk someone somewhere, you walk there with them in order to show politeness or to make sure that they get there safely.
+- /a stone's throw from/ :: a short distance
+- /a football-sized drone/ :: 足球大小的无人机
+- /locks to a child's wrist/ :: 佩戴在孩子的手腕上
+- /autistic children/ :: 患自闭症的孩子
+- /signal their proximity to .../ :: （意译）通过信号知道他们离。。。有多远
+- /make tracking cheaper and more practical/ :: 使追踪变得廉价、实用
+- /at extra cost/ :: 额外收费
+- /beyond an agreed boundary/ :: 越过了规定的活动范围
+- /go out late/ :: 深夜外出
+- /speed detection/ :: 速度检测
+- /break the speed limit/ :: 超速
+- /furtive movements/ :: 偷偷摸摸的举动
+- /pocket-sized tracking beacons/ :: 袖珍追踪信标台
+- /a company based in Utah/ :: 总部在犹他州的公司
+- /disables a phone's e-mail and text functions/ :: 屏蔽电话的邮件和短信功能
+- /stop somebody from doing something/ :: 阻止某人做某事
+- /typing while driving/ :: 开车的时候打字发消息
+- /be the keenest on something/ :: 对某事最感兴趣
+- /radio frequency identification(RFID)/ :: RFID, 射频识别
+- /attendance and location/ :: 出勤情况和位置
+- /off the premises/ :: away from or outside of a building or on the area of land that it is on
+- /A is linked to B/ :: A is connected with B, if two things are connected or related, there is a relationship between them:
+- /on religious grounds/ :: 出于宗教理由
+- /tracking means more freedom/ :: 跟踪意味着更多自由
+- /a protective network of friends and neighbours/ :: 由朋友和邻居组成的保护网
+- /domestic violence/ :: 家庭暴力
+- /keep an eye on/ :: to watch carefully although not continuously
+- /submit to tracking/ :: 屈从于被跟踪
+- /in adulthood/ :: 在成年时期
+- /a coalition of American civil-rights/ :: 一个美国民权联合组织
+- /move around/ :: 短语动词持续换工作;经常搬迁 If you move around or move about, you keep changing your job or keep changing the place where you live.
+- /a prototype tracker/ :: 跟踪器的原型样机
