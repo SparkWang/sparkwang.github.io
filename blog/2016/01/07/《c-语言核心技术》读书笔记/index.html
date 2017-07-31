@@ -56,38 +56,38 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd3a3688">1. 类型转换</a>
+<li><a href="#orgdcbc61e">1. 类型转换</a>
 <ul>
-<li><a href="#orgd145837">1.1. 隐式类型转换何时发生</a>
+<li><a href="#orgd01196e">1.1. 隐式类型转换何时发生</a>
 <ul>
-<li><a href="#orgfcc4648">1.1.1. Conversion rank</a></li>
+<li><a href="#org4a2d3cf">1.1.1. Conversion rank</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org989074c">2. 表达式和运算符</a></li>
-<li><a href="#org98502a6">3. 函数</a></li>
-<li><a href="#orgabd3af9">4. 数组</a></li>
-<li><a href="#org2313cba">5. 指针</a></li>
-<li><a href="#orgd66266f">6. 结构、联合、位字段</a></li>
-<li><a href="#org9a1223f">7. 声明</a></li>
-<li><a href="#orgd7d1176">8. 动态内存管理</a>
+<li><a href="#orgee68582">2. 表达式和运算符</a></li>
+<li><a href="#orgb6a7c62">3. 函数</a></li>
+<li><a href="#org91feec7">4. 数组</a></li>
+<li><a href="#org0175928">5. 指针</a></li>
+<li><a href="#orge443e87">6. 结构、联合、位字段</a></li>
+<li><a href="#orgd4187f3">7. 声明</a></li>
+<li><a href="#org0706521">8. 动态内存管理</a>
 <ul>
-<li><a href="#org2a036c6">8.1. 用于动态内存管理的函数</a></li>
-<li><a href="#org264c471">8.2. 注意事项</a></li>
+<li><a href="#orgdf41e28">8.1. 用于动态内存管理的函数</a></li>
+<li><a href="#org198452c">8.2. 注意事项</a></li>
 </ul>
 </li>
-<li><a href="#org290256e">9. 输入和输出</a></li>
-<li><a href="#org53f26d2">10. 预处理</a></li>
+<li><a href="#org78064d3">9. 输入和输出</a></li>
+<li><a href="#orgd149aac">10. 预处理</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd3a3688" class="outline-2">
-<h2 id="orgd3a3688"><span class="section-number-2">1</span> 类型转换</h2>
+<div id="outline-container-orgdcbc61e" class="outline-2">
+<h2 id="orgdcbc61e"><span class="section-number-2">1</span> 类型转换</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-orgd145837" class="outline-3">
-<h3 id="orgd145837"><span class="section-number-3">1.1</span> 隐式类型转换何时发生</h3>
+</div><div id="outline-container-orgd01196e" class="outline-3">
+<h3 id="orgd01196e"><span class="section-number-3">1.1</span> 隐式类型转换何时发生</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>操作数类型不合适</li>
@@ -105,8 +105,8 @@ double mean = (double)sum / count;
 由于类型转换运算符的优先级高于除法运算符，因此 <code>sum</code> 先被转换为 <code>double</code> 。然后编译器隐式地将除数 <code>count</code> 转型，然后进行除法。
 </p>
 </div>
-<div id="outline-container-orgfcc4648" class="outline-4">
-<h4 id="orgfcc4648"><span class="section-number-4">1.1.1</span> Conversion rank</h4>
+<div id="outline-container-org4a2d3cf" class="outline-4">
+<h4 id="org4a2d3cf"><span class="section-number-4">1.1.1</span> Conversion rank</h4>
 <div class="outline-text-4" id="text-1-1-1">
 <ul class="org-ul">
 <li>两个无符号整数类型具有不同的转换等级，位长较宽类型的等级较高。</li>
@@ -116,29 +116,29 @@ double mean = (double)sum / count;
 </div>
 </div>
 </div>
-<div id="outline-container-org989074c" class="outline-2">
-<h2 id="org989074c"><span class="section-number-2">2</span> 表达式和运算符</h2>
+<div id="outline-container-orgee68582" class="outline-2">
+<h2 id="orgee68582"><span class="section-number-2">2</span> 表达式和运算符</h2>
 </div>
-<div id="outline-container-org98502a6" class="outline-2">
-<h2 id="org98502a6"><span class="section-number-2">3</span> 函数</h2>
+<div id="outline-container-orgb6a7c62" class="outline-2">
+<h2 id="orgb6a7c62"><span class="section-number-2">3</span> 函数</h2>
 </div>
-<div id="outline-container-orgabd3af9" class="outline-2">
-<h2 id="orgabd3af9"><span class="section-number-2">4</span> 数组</h2>
+<div id="outline-container-org91feec7" class="outline-2">
+<h2 id="org91feec7"><span class="section-number-2">4</span> 数组</h2>
 </div>
-<div id="outline-container-org2313cba" class="outline-2">
-<h2 id="org2313cba"><span class="section-number-2">5</span> 指针</h2>
+<div id="outline-container-org0175928" class="outline-2">
+<h2 id="org0175928"><span class="section-number-2">5</span> 指针</h2>
 </div>
-<div id="outline-container-orgd66266f" class="outline-2">
-<h2 id="orgd66266f"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
+<div id="outline-container-orge443e87" class="outline-2">
+<h2 id="orge443e87"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
 </div>
-<div id="outline-container-org9a1223f" class="outline-2">
-<h2 id="org9a1223f"><span class="section-number-2">7</span> 声明</h2>
+<div id="outline-container-orgd4187f3" class="outline-2">
+<h2 id="orgd4187f3"><span class="section-number-2">7</span> 声明</h2>
 </div>
-<div id="outline-container-orgd7d1176" class="outline-2">
-<h2 id="orgd7d1176"><span class="section-number-2">8</span> 动态内存管理</h2>
+<div id="outline-container-org0706521" class="outline-2">
+<h2 id="org0706521"><span class="section-number-2">8</span> 动态内存管理</h2>
 <div class="outline-text-2" id="text-8">
-</div><div id="outline-container-org2a036c6" class="outline-3">
-<h3 id="org2a036c6"><span class="section-number-3">8.1</span> 用于动态内存管理的函数</h3>
+</div><div id="outline-container-orgdf41e28" class="outline-3">
+<h3 id="orgdf41e28"><span class="section-number-3">8.1</span> 用于动态内存管理的函数</h3>
 <div class="outline-text-3" id="text-8-1">
 <dl class="org-dl">
 <dt>malloc()</dt><dd>分配新的内存区域</dd>
@@ -148,8 +148,8 @@ double mean = (double)sum / count;
 </dl>
 </div>
 </div>
-<div id="outline-container-org264c471" class="outline-3">
-<h3 id="org264c471"><span class="section-number-3">8.2</span> 注意事项</h3>
+<div id="outline-container-org198452c" class="outline-3">
+<h3 id="org198452c"><span class="section-number-3">8.2</span> 注意事项</h3>
 <div class="outline-text-3" id="text-8-2">
 <ul class="org-ul">
 <li><code>malloc()</code> 分配的内存不保证会被初始化</li>
@@ -198,11 +198,11 @@ if ((line = getline(128)) != NULL)
 </div>
 </div>
 
-<div id="outline-container-org290256e" class="outline-2">
-<h2 id="org290256e"><span class="section-number-2">9</span> 输入和输出</h2>
+<div id="outline-container-org78064d3" class="outline-2">
+<h2 id="org78064d3"><span class="section-number-2">9</span> 输入和输出</h2>
 </div>
-<div id="outline-container-org53f26d2" class="outline-2">
-<h2 id="org53f26d2"><span class="section-number-2">10</span> 预处理</h2>
+<div id="outline-container-orgd149aac" class="outline-2">
+<h2 id="orgd149aac"><span class="section-number-2">10</span> 预处理</h2>
 </div>
 
 </div>
