@@ -55,9 +55,9 @@
 <div class="post">
 <h1 class="title">Abstract Translation: NDSS 2015 CopperDroid </h1>
 
-<div id="outline-container-orgc862ce5" class="outline-2">
-<h2 id="orgc862ce5">论文基本信息</h2>
-<div class="outline-text-2" id="text-orgc862ce5">
+<div id="outline-container-org7ed7c59" class="outline-2">
+<h2 id="org7ed7c59">论文基本信息</h2>
+<div class="outline-text-2" id="text-org7ed7c59">
 <dl class="org-dl">
 <dt>作者</dt><dd>Tam, Kimberly, Salahuddin J. Khan, Aristide Fattori, and Lorenzo Cavallaro.</dd>
 <dt>标题</dt><dd>CopperDroid: Automatic Reconstruction of Android Malware Behaviors.</dd>
@@ -66,9 +66,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgdeda96d" class="outline-2">
-<h2 id="orgdeda96d">摘要翻译</h2>
-<div class="outline-text-2" id="text-orgdeda96d">
+<div id="outline-container-org79462d5" class="outline-2">
+<h2 id="org79462d5">摘要翻译</h2>
+<div class="outline-text-2" id="text-org79462d5">
 <blockquote>
 <p>
 Mobile devices and their application marketplaces drive the entire economy of
@@ -89,8 +89,7 @@ at an alarming rate.
 </blockquote>
 
 <p>
-仅 Android 平台自身就创造了超过 50 亿美金的令人难以置信的收益。但这也吸引了网络
-犯罪，Android 市场上恶意应用正在以令人担忧的速率快速增加。
+仅 Android 平台自身就创造了超过 50 亿美金的令人难以置信的收益。但这也吸引了网络犯罪，Android 市场上恶意应用正在以令人担忧的速率快速增加。
 </p>
 
 <ul class="org-ul">
@@ -107,8 +106,7 @@ malware.
 </blockquote>
 
 <p>
-为了深入理解 Android 平台面临的恶意应用威胁，本文提出了 CopperDroid, 一种基于虚
-拟机自省技术(VMI)的自动化动态分析系统，用来重建 Android 恶意应用的行为.
+为了深入理解 Android 平台面临的恶意应用威胁，本文提出了 CopperDroid, 一种基于虚拟机自省技术(VMI)的自动化动态分析系统，用来重建 Android 恶意应用的行为.
 </p>
 
 <blockquote>
@@ -119,8 +117,7 @@ OS- and high-level Android-speciﬁc behaviors.
 </blockquote>
 
 <p>
-CopperDroid 的创新之处在于，他采用了一种（底层）不可知的方法来发现（恶意应用中）
-值得关注的 OS 层行为和 Android 特有的高层行为。
+CopperDroid 的创新之处在于，他采用了一种（底层）不可知的方法来发现（恶意应用中）值得关注的 OS 层行为和 Android 特有的高层行为。
 </p>
 
 <blockquote>
@@ -133,8 +130,7 @@ subjected to over its life-cycle.
 
 <p>
 通过监视并剖析系统调用，CopperDroid 就能够重建这些行为。（由于系统调用在 Android
-运行时之下），因此，在 CopperDroid 的整个生命周期中，即使 Android 运行时发生多种
-变化，它都不受影响。
+运行时之下），因此，在 CopperDroid 的整个生命周期中，即使 Android 运行时发生多种变化，它都不受影响。
 </p>
 
 <blockquote>
@@ -148,10 +144,8 @@ objects.
 </blockquote>
 
 <p>
-CopperDroid 能自动并且准确地重建所关注的事件。这些事件不仅描述了常见的进程-操作
-系统交互（例如，文件和进程的创建），而且描述了复杂的进程内部和进程间通信（例如，
-SMS 接收）。一般来说，进程内和进程间通信事件的语义必须放在复杂的 Android 对象的上
-下文环境中考虑。
+CopperDroid 能自动并且准确地重建所关注的事件。这些事件不仅描述了常见的进程-操作系统交互（例如，文件和进程的创建），而且描述了复杂的进程内部和进程间通信（例如，
+SMS 接收）。一般来说，进程内和进程间通信事件的语义必须放在复杂的 Android 对象的上下文环境中考虑。
 </p>
 
 
@@ -164,8 +158,7 @@ Java and native code execution.
 </blockquote>
 
 <p>
-由于 CopperDroid 的重建机制不会被下层活动的调用方法所感知，所以无论从 Java 发起的还
-是从本地代码中发起的行为，它都能捕获。
+由于 CopperDroid 的重建机制不会被下层活动的调用方法所感知，所以无论从 Java 发起的还是从本地代码中发起的行为，它都能捕获。
 </p>
 
 <blockquote>
@@ -178,9 +171,7 @@ open the possibility to further research directions.
 </blockquote>
 
 <p>
-CopperDroid 的分析能将大量底层的——往往很无趣的——事件抽象成简洁的、高层次的语义描
-述，从而产生恶意应用的详细的行为特征轮廓。这种轮廓非常适合提供恶意应用的有洞察力
-的行为特点，而且给未来的研究方向带来更多可能。
+CopperDroid 的分析能将大量底层的——往往很无趣的——事件抽象成简洁的、高层次的语义描述，从而产生恶意应用的详细的行为特征轮廓。这种轮廓非常适合提供恶意应用的有洞察力的行为特点，而且给未来的研究方向带来更多可能。
 </p>
 
 <blockquote>
@@ -214,8 +205,7 @@ technique.
 </blockquote>
 
 <p>
-另外，通过使用一种简单但有效的 app 模拟技术，我们展示了如何借助 CopperDroid 暴露应用
-的更多行为。
+另外，通过使用一种简单但有效的 app 模拟技术，我们展示了如何借助 CopperDroid 暴露应用的更多行为。
 </p>
 
 <blockquote>
