@@ -33,8 +33,8 @@
         </svg>
       </div>
       <ul class="trigger">
-        <li><a href="/english/">English</a></li>
         <li><a href="/blog/">Blog</a></li>
+        <li><a href="/english/">English</a></li>
         <li><a href="/notes/">Notes</a></li>
         <li><a href="/tags/">Tags</a></li>
         <li><a href="/about/">About</a></li>
@@ -56,20 +56,20 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgb5a983d">1. Why</a>
+<li><a href="#orgd4a2a87">1. Why</a>
 <ul>
-<li><a href="#org6ffb88f">1.1. 编程语言趋势</a></li>
-<li><a href="#org80b7610">1.2. Ceding Control to the Language/Runtime</a></li>
-<li><a href="#org750c863">1.3. Concision</a></li>
-<li><a href="#org5baab68">1.4. Three versions of indexOfAny()</a></li>
+<li><a href="#org5c45560">1.1. 编程语言趋势</a></li>
+<li><a href="#orgcc8b559">1.2. Ceding Control to the Language/Runtime</a></li>
+<li><a href="#orgf169afb">1.3. Concision</a></li>
+<li><a href="#org2c9da62">1.4. Three versions of indexOfAny()</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgb5a983d" class="outline-2">
-<h2 id="orgb5a983d"><span class="section-number-2">1</span> Why</h2>
+<div id="outline-container-orgd4a2a87" class="outline-2">
+<h2 id="orgd4a2a87"><span class="section-number-2">1</span> Why</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li>不能用使用斧子的方法使用电锯。学习一个全新的编程模式与学习一门新的编程语言是两回事。</li>
@@ -82,7 +82,7 @@
 </ul>
 
 <div class="org-src-container">
-<pre class="src src-java" id="org51e0e0e">public class Words {
+<pre class="src src-java" id="orga2bbc67">public class Words {
     private Set&lt;String&gt; NON_WORDS = new HashSet&lt;String&gt;() {{
             add("the"); add("and"); add("of"); add("to"); add("a");
             add("i"); add("it"); add("in"); add("or"); add("is");
@@ -111,7 +111,7 @@
 </div>
 
 <div class="org-src-container">
-<pre class="src src-java" id="org4e96d6c">private List&lt;String&gt; regexToList(String words, String regex) {
+<pre class="src src-java" id="org97d8d12">private List&lt;String&gt; regexToList(String words, String regex) {
     List wordList = new ArrayList&lt;&gt;();
     Matcher m = Pattern.compile(regex).matcher(words);
     while (m.find())
@@ -131,8 +131,8 @@ public Map wordFreq(String words) {
 </div>
 </div>
 
-<div id="outline-container-org6ffb88f" class="outline-3">
-<h3 id="org6ffb88f"><span class="section-number-3">1.1</span> 编程语言趋势</h3>
+<div id="outline-container-org5c45560" class="outline-3">
+<h3 id="org5c45560"><span class="section-number-3">1.1</span> 编程语言趋势</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>Groovy 添加了很多函数式编程功能，包括 <code>memoization</code> 等高级特性。</li>
@@ -143,12 +143,12 @@ public Map wordFreq(String words) {
 </div>
 </div>
 
-<div id="outline-container-org80b7610" class="outline-3">
-<h3 id="org80b7610"><span class="section-number-3">1.2</span> Ceding Control to the Language/Runtime</h3>
+<div id="outline-container-orgcc8b559" class="outline-3">
+<h3 id="orgcc8b559"><span class="section-number-3">1.2</span> Ceding Control to the Language/Runtime</h3>
 </div>
 
-<div id="outline-container-org750c863" class="outline-3">
-<h3 id="org750c863"><span class="section-number-3">1.3</span> Concision</h3>
+<div id="outline-container-orgf169afb" class="outline-3">
+<h3 id="orgf169afb"><span class="section-number-3">1.3</span> Concision</h3>
 <div class="outline-text-3" id="text-1-3">
 <blockquote>
 <p>
@@ -160,11 +160,11 @@ understandable by minimizing moving parts.
 </div>
 </div>
 
-<div id="outline-container-org5baab68" class="outline-3">
-<h3 id="org5baab68"><span class="section-number-3">1.4</span> Three versions of indexOfAny()</h3>
+<div id="outline-container-org2c9da62" class="outline-3">
+<h3 id="org2c9da62"><span class="section-number-3">1.4</span> Three versions of indexOfAny()</h3>
 <div class="outline-text-3" id="text-1-4">
 <div class="org-src-container">
-<pre class="src src-java" id="orgd7fba1e">// From Apache Commons Lang, http://commons.apache.org/lang/
+<pre class="src src-java" id="orge609b5c">// From Apache Commons Lang, http://commons.apache.org/lang/
 public static int indexOfAny(String str, char[] searchChars) {
     if (isEmpty(str) || ArrayUtils.isEmpty(searchChars)) {
         return INDEX_NOT_FOUND;
@@ -194,7 +194,7 @@ public static int indexOfAny(String str, char[] searchChars) {
 </div>
 
 <div class="org-src-container">
-<pre class="src src-java" id="org0b1d4fc">def firstIndexOfAny(input : String, searchChars : Seq[Char]) : Option[Int] = {
+<pre class="src src-java" id="orgdc0c418">def firstIndexOfAny(input : String, searchChars : Seq[Char]) : Option[Int] = {
     def indexedInput = (0 until input.length).zip(input)
     val result = for (pair &lt;- indexedInput;
                       char &lt;- searchChars;
