@@ -45,13 +45,17 @@ wget http://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive.iso
 * install software via source code
 ** Emacs
 1. Downloading Emacs: [[http://ftp.gnu.org/gnu/emacs/][http://ftp.gnu.org/gnu/emacs/]]
-2. Building Emacs:
+2. Install dependencies:
+#+BEGIN_SRC shell
+sudo apt-get install libx11-dev libxaw7-dev libjpeg-dev libtiff5-dev libpng12-dev libgif-dev libncurses5-dev
+#+END_SRC
+3. Building Emacs:
 #+BEGIN_SRC shell
 ./configure
 make
 make install
 #+END_SRC
-3. Install spacemacs:
+4. Install spacemacs:
 #+BEGIN_SRC shell
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 #+END_SRC
