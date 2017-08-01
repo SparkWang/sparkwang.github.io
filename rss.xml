@@ -4,8 +4,8 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Tue, 01 Aug 2017 08:14:39 CST</pubDate>
-    <lastBuildDate>Tue, 01 Aug 2017 08:14:39 CST</lastBuildDate>
+    <pubDate>Tue, 01 Aug 2017 08:17:14 CST</pubDate>
+    <lastBuildDate>Tue, 01 Aug 2017 08:17:14 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -14,6 +14,20 @@
       <description><![CDATA[<TODO: insert your description here>]]></description>
       <pubDate>2017-08-01</pubDate>
       <guid>http://spark.wangxing.name/blog/2017/03/01/Industrial-clusters</guid>
+    </item>
+    <item>
+      <title>Word List 20170302 (Mineral water, High-altitude thirst)</title>
+      <link>http://spark.wangxing.name/blog/2017/03/02/word-list-20170302</link>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2017-08-01</pubDate>
+      <guid>http://spark.wangxing.name/blog/2017/03/02/word-list-20170302</guid>
+    </item>
+    <item>
+      <title>Word List 20170303 (Genetically modified crops, Gene-policy transfer)</title>
+      <link>http://spark.wangxing.name/blog/2017/03/03/word-list-20170303</link>
+      <description><![CDATA[<TODO: insert your description here>]]></description>
+      <pubDate>2017-08-01</pubDate>
+      <guid>http://spark.wangxing.name/blog/2017/03/03/word-list-20170303</guid>
     </item>
     <item>
       <title>Word List 20170314 (The five-year plan: Command performance)</title>
@@ -53,15 +67,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org962cabe"><code>.gitconfig</code></a></li>
-<li><a href="#org440ba1c"><code>.gitignore</code></a></li>
+<li><a href="#org28312d6"><code>.gitconfig</code></a></li>
+<li><a href="#org520f324"><code>.gitignore</code></a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org962cabe" class="outline-2">
-<h2 id="org962cabe"><code>.gitconfig</code></h2>
-<div class="outline-text-2" id="text-org962cabe">
+<div id="outline-container-org28312d6" class="outline-2">
+<h2 id="org28312d6"><code>.gitconfig</code></h2>
+<div class="outline-text-2" id="text-org28312d6">
 <pre class="example">
 [user]
   name = foo
@@ -91,9 +105,9 @@
 </div>
 </div>
 
-<div id="outline-container-org440ba1c" class="outline-2">
-<h2 id="org440ba1c"><code>.gitignore</code></h2>
-<div class="outline-text-2" id="text-org440ba1c">
+<div id="outline-container-org520f324" class="outline-2">
+<h2 id="org520f324"><code>.gitignore</code></h2>
+<div class="outline-text-2" id="text-org520f324">
 <pre class="example">
 *~
 auto
@@ -141,93 +155,6 @@ GTAGS
       <description><![CDATA[study of top papers]]></description>
       <pubDate>2017-07-31</pubDate>
       <guid>http://spark.wangxing.name/blog/2017/03/14/abstract-translation-ndss-2015-copperdroid</guid>
-    </item>
-    <item>
-      <title>elisp notes</title>
-      <link>http://spark.wangxing.name/blog/2016/01/07/elisp-notes</link>
-      <description><![CDATA[elisp 笔记]]></description>
-      <pubDate>2017-03-14</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/07/elisp-notes</guid>
-    </item>
-    <item>
-      <title>system-config</title>
-      <link>http://spark.wangxing.name/blog/2016/01/09/system-config/</link>
-      <description><![CDATA[<div>
-<div class="post">
-<h1 class="title">system-config</h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orga59fd56">1. Motivation</a></li>
-<li><a href="#orge657be5">2. <span class="todo TODO">TODO</span> Method</a></li>
-<li><a href="#org461f357">3. <span class="todo TODO">TODO</span> Reference</a></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-orga59fd56" class="outline-2">
-<h2 id="orga59fd56"><span class="section-number-2">1</span> Motivation</h2>
-<div class="outline-text-2" id="text-1">
-<p>
-Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实现自动化。
-</p>
-</div>
-</div>
-
-<div id="outline-container-orge657be5" class="outline-2">
-<h2 id="orge657be5"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-首先，软件安装有以下几种方式：
-</p>
-<ul class="org-ul">
-<li>apt-get 方式安装</li>
-<li>从 github 克隆源码后安装</li>
-<li>从固定地址下载源码后安装</li>
-<li>Python pip</li>
-</ul>
-
-<p>
-需要安装和配置的包括:
-</p>
-<ul class="org-ul">
-<li>Window Manager</li>
-<li>Git</li>
-<li>sources.list</li>
-<li>Emacs</li>
-<li>Keyboard</li>
-<li>sudo</li>
-<li>SSH</li>
-<li>Python</li>
-<li>Android Development Tools</li>
-<li>Tmux</li>
-<li>zsh</li>
-<li>LaTeX</li>
-<li>Browser</li>
-<li>&#x2026;</li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org461f357" class="outline-2">
-<h2 id="org461f357"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
-<div class="outline-text-2" id="text-3">
-<p>
-以下项目可以参考：
-</p>
-<ul class="org-ul">
-<li><a href="https://github.com/baohaojun/system-config.git"><a href="https://github.com/baohaojun/system-config.git">https://github.com/baohaojun/system-config.git</a></a></li>
-<li><a href="https://github.com/donnemartin/dev-setup.git">https://github.com/donnemartin/dev-setup.git</a></li>
-<li></li>
-</ul>
-</div>
-</div>
-
-</div>
-</div>]]></description>
-      <pubDate>2016-01-10</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/09/system-config/</guid>
     </item>
   </channel>
 </rss>
