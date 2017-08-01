@@ -16,10 +16,15 @@ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 #+END_SRC
 
 * Custom settings
-** TODO Add settings in =.spacemacs=
-** TODO Creating a personal layer
+** TODO Add custom settings in =.spacemacs=
+** TODO Create a personal layer
 
 * Packages
+** Spacemacs Layouts
+Layouts 的作用是隔离缓冲区，为每个工程分配一个单独的环境。切换 layout 就相当于切
+换了一个工作上下文，让思维和注意力专注到当前的工作中。另外，layout 可以持久保存
+到文件，下次打开 Emacs 的时候自动加载保存过的 layout，上次使用 Emacs 时的多个工
+程上下文（缓冲区，窗口等）就自动恢复了。
 ** Neotree
 Neotree 能在侧边栏显示目录结构：
 - 打开关闭 neotree : =SPC f t=
@@ -30,8 +35,3 @@ Neotree 能在侧边栏显示目录结构：
 ** Tramp mode
 Tramp 支持像编辑本地文件一样编辑远程服务器上的文件。
 - =C-x C-f /ssh:= to open a remote file
-** Spacemacs Layouts
-Layouts 的作用是隔离缓冲区，为每个工程分配一个单独的环境。切换 layout 就相当于切
-换了一个工作上下文，让思维和注意力专注到当前的工作中。另外，layout 可以持久保存
-到文件，下次打开 Emacs 的时候自动加载保存过的 layout（），上次使用 Emacs 时的多个
-工程上下文（缓冲区，窗口等）就自动恢复了。
