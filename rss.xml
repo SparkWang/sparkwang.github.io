@@ -4,14 +4,14 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Tue, 01 Aug 2017 11:25:32 CST</pubDate>
-    <lastBuildDate>Tue, 01 Aug 2017 11:25:32 CST</lastBuildDate>
+    <pubDate>Tue, 01 Aug 2017 14:07:51 CST</pubDate>
+    <lastBuildDate>Tue, 01 Aug 2017 14:07:51 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
-      <title>Install Debian</title>
+      <title>Debian/Ubuntu 环境下常用软件安装</title>
       <link>http://spark.wangxing.name/blog/2016/01/07/install-debian</link>
-      <description><![CDATA[install debian]]></description>
+      <description><![CDATA[Install common software in Debian ]]></description>
       <pubDate>2017-08-01</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/07/install-debian</guid>
     </item>
@@ -74,15 +74,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org673e6c6"><code>.gitconfig</code></a></li>
-<li><a href="#orgcfbe9f3"><code>.gitignore</code></a></li>
+<li><a href="#org95ac783"><code>.gitconfig</code></a></li>
+<li><a href="#org69bf962"><code>.gitignore</code></a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org673e6c6" class="outline-2">
-<h2 id="org673e6c6"><code>.gitconfig</code></h2>
-<div class="outline-text-2" id="text-org673e6c6">
+<div id="outline-container-org95ac783" class="outline-2">
+<h2 id="org95ac783"><code>.gitconfig</code></h2>
+<div class="outline-text-2" id="text-org95ac783">
 <pre class="example">
 [user]
   name = foo
@@ -112,9 +112,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgcfbe9f3" class="outline-2">
-<h2 id="orgcfbe9f3"><code>.gitignore</code></h2>
-<div class="outline-text-2" id="text-orgcfbe9f3">
+<div id="outline-container-org69bf962" class="outline-2">
+<h2 id="org69bf962"><code>.gitignore</code></h2>
+<div class="outline-text-2" id="text-org69bf962">
 <pre class="example">
 *~
 auto
