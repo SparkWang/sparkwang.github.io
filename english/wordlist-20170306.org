@@ -1,0 +1,67 @@
+#+TITLE:       Word List 20170306
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-03-06 Mon
+#+URI:         /blog/%y/%m/%d/word-list-20170306
+#+KEYWORDS:    TE
+#+TAGS:        TE
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+- /double down/ :: 习语，赌博中双倍下注，引申含义：To double or significantly increase a risk, investment, or other commitment.
+- /colossal/ :: extremely large 巨大的；庞大的
+- /roller-coaster/ :: A roller-coaster is a small railway at a fair that goes up and down steep slopes fast and that people ride on for pleasure or excitement. 过山车；云霄飞车
+- /terrain/ :: Terrain is used to refer to an area of land or a type of land when you are considering its physical features. 地形;地势;地带
+- /feat/ :: something difficult needing a lot of skill, strength, bravery, etc. to achieve it 技艺；功绩；业绩；英勇事迹
+- /track/ :: the two metal lines along which trains travel SYN railway line: 火车轨道
+- /rack/ :: to cause physical or mental pain, or trouble, to someone or something 使肉体或精神上受巨大痛苦；折磨； *常用被动；*
+- /dogged/ :: showing determination; not giving up easily 顽强的；坚持不懈的
+- /be dogged by controversy/ :: (=cause controversy in a way that is a problem)
+- /trans-/ :: across; beyond 横穿；通过；超越
+- /not least/ :: 短语，used for emphasizing the importance of a particular aspect of a situation， 用来强调某特定方面的重要性
+- /sway/ :: power or influence over sb 统治；势力；支配；控制；影响
+- /revive/ :: to make sth start being used or done again 重新使用；使重做
+- /take on the challenge/ :: 面对挑战，迎接挑战
+- /Shigatse/ :: 日喀则市
+- /proclaim/ :: to publicly and officially tell people about sth important 宣布；宣告；声明
+- /stretch/ :: a continuous area of land or water（土地或水域的）一片，一段
+- /permafrost/ :: a layer of soil that is permanently frozen, in very cold regions of the world, (寒带）永冻土层；永冻层
+- /buckle/ :: to become crushed or bent under a weight or force; to crush or bend sth in this way（被）压垮，压弯
+- /hone/ :: to develop and improve sth, especially a skill, over a period of time 磨练，训练（尤指技艺）
+- /again/ :: added to an amount that is already there 增加；多
+- /cumulative/ :: including all the amounts that have been added previously 累计的；累积的
+- /wreckage/ :: When something such as a plane, car, or building has been destroyed, you can refer to what remains as wreckage or the wreckage. 不可数名词, (飞机、汽车等的)残骸；（建筑物等的）废墟
+- /lorry/ :: a large vehicle used for transporting goods 卡车，货车
+- /career off/ :: _固定搭配_: down, into, *off*, through, 朝…冲下；急速驶入；*从…急速离开* ；猛冲过
+- /endurance/ :: the ability to continue doing sth painful or difficult for a long period of time without complaining, 忍耐力；耐久力,
+- /adopt/ :: to formally accept a suggestion or policy by voting, 正式通过,表决采纳(建议、政策等):
+- /prefecture/ :: a large area which has its own local government in some countries, for example France, Italy and Japan (法、意、日等国的)地方行政区域；省；县
+- /approving/ :: showing that you believe that sb / sth is good or acceptable, 赞成的；同意的
+- /monastery/ :: 可数名词，a building in which monks live and worship 修道院；寺院；隐修院
+- /uprising/ :: an act of opposition, sometimes using violence, by many people in one area of a country against those who are in power 起义；暴动
+- /crush/ :: to use violent methods to defeat people who are opposing you, 镇压；(用暴力)制伏
+- /reverberate/ :: (formal) to have a strong effect on people for a long time or over a large area, 有长久深刻的影响；产生广泛影响
+- /cater/ :: ~ (for sb / sth) to provide food and drinks for a social event, (为社交活动)提供饮食,承办酒席 :
+- /resentment/ :: a feeling of anger or unhappiness about sth that you think is unfair, 愤恨；怨恨
+- /rioting/ :: 名词， 不可数
+- /ignite/ :: to cause a dangerous, excited or angry situation to begin 激起. (原意是点燃)
+- /restive/ :: unwilling to be controlled or be patient 难驾驭的，不受管束的；焦躁不安的
+- /crackdown/ :: when someone starts to deal with bad or illegal behaviour in a more severe way 制裁；处罚；打击；镇压
+- /unrest/ :: 不可数名词，a political situation in which people are angry and likely to protest or fight， 动荡；动乱；骚动:
+- /self-immolations/ :: 自焚
+- /inhabited/ :: with people or animals living there, 有人居住的；有动物栖居的:
+- /spectacular/ :: very exciting to look at 壮观的，壮丽的；令人惊叹的
+- /gruelling/ :: very difficult and tiring, needing great effort for a long time,使人筋疲力尽的；折磨人的
+- /consternation/ :: (formal) a worried, sad feeling after you have received an unpleasant surprise, 惊愕；惊恐
+- /contest/ :: to formally oppose a decision or statement because you think it is wrong, 争辩；提出异议:
+- /spree/ :: If you spend a period of time doing something in an excessive way, you can say that you are going on a particular kind of spree. 毫无节制;纵情
+- /mouthpiece/ :: ~ (of / for sb) a person, newspaper, etc. that speaks on behalf of another person or group of people, 喉舌；代言人；发言人:
+- /scant/ :: very little and not enough 少量的；不足的；贫乏的
+- /AAA is how someone describes something/ :: AAA 就是某人用来描述某物的。
+- /be dogged by controversy/ :: 饱受争议
+- /no least/ :: 强调重要性
+- /take on the challenge/ :: 迎接挑战
+- /half as long again as/ :: 一倍半长
+- /With something/ :: with 作为介词意思是 由于;因为 You use with to introduce a current situation that is a factor affecting another situation.
+- /to one's consternation/ :: 令某人惊愕的
