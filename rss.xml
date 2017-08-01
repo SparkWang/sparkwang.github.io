@@ -4,10 +4,17 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Tue, 01 Aug 2017 14:07:51 CST</pubDate>
-    <lastBuildDate>Tue, 01 Aug 2017 14:07:51 CST</lastBuildDate>
+    <pubDate>Tue, 01 Aug 2017 14:15:18 CST</pubDate>
+    <lastBuildDate>Tue, 01 Aug 2017 14:15:18 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>Elisp 学习笔记</title>
+      <link>http://spark.wangxing.name/blog/2016/01/07/elisp-notes</link>
+      <description><![CDATA[elisp 笔记]]></description>
+      <pubDate>2017-08-01</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/07/elisp-notes</guid>
+    </item>
     <item>
       <title>Debian/Ubuntu 环境下常用软件安装</title>
       <link>http://spark.wangxing.name/blog/2016/01/07/install-debian</link>
@@ -21,6 +28,99 @@
       <description><![CDATA[Spacemacs 使用]]></description>
       <pubDate>2017-08-01</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/07/use-spacemacs</guid>
+    </item>
+    <item>
+      <title>Nmap 常用命令 </title>
+      <link>http://spark.wangxing.name/blog/2016/01/08/nmap-常用命令-/</link>
+      <description><![CDATA[<div>
+<div class="post">
+<h1 class="title">Nmap 常用命令 </h1>
+
+
+</div>
+</div>]]></description>
+      <pubDate>2017-08-01</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/08/nmap-常用命令-/</guid>
+    </item>
+    <item>
+      <title>GNU/Linux 系统软件环境配置自动化</title>
+      <link>http://spark.wangxing.name/blog/2016/01/09/gnu-linux-系统软件环境配置自动化/</link>
+      <description><![CDATA[<div>
+<div class="post">
+<h1 class="title">GNU/Linux 系统软件环境配置自动化</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org5a4b948">1. Motivation</a></li>
+<li><a href="#org436a111">2. <span class="todo TODO">TODO</span> Method</a></li>
+<li><a href="#orgbcf810e">3. <span class="todo TODO">TODO</span> Reference</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org5a4b948" class="outline-2">
+<h2 id="org5a4b948"><span class="section-number-2">1</span> Motivation</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实现自动化。
+</p>
+</div>
+</div>
+
+<div id="outline-container-org436a111" class="outline-2">
+<h2 id="org436a111"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+首先，软件安装有以下几种方式：
+</p>
+<ul class="org-ul">
+<li>apt-get 方式安装</li>
+<li>从 github 克隆源码后安装</li>
+<li>从固定地址下载源码后安装</li>
+<li>Python pip</li>
+</ul>
+
+<p>
+需要安装和配置的包括:
+</p>
+<ul class="org-ul">
+<li>Window Manager</li>
+<li>Git</li>
+<li>sources.list</li>
+<li>Emacs</li>
+<li>Keyboard</li>
+<li>sudo</li>
+<li>SSH</li>
+<li>Python</li>
+<li>Android Development Tools</li>
+<li>Tmux</li>
+<li>zsh</li>
+<li>LaTeX</li>
+<li>Browser</li>
+<li>&#x2026;</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgbcf810e" class="outline-2">
+<h2 id="orgbcf810e"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+以下项目可以参考：
+</p>
+<ul class="org-ul">
+<li><a href="https://github.com/baohaojun/system-config.git"><a href="https://github.com/baohaojun/system-config.git">https://github.com/baohaojun/system-config.git</a></a></li>
+<li><a href="https://github.com/donnemartin/dev-setup.git">https://github.com/donnemartin/dev-setup.git</a></li>
+<li></li>
+</ul>
+</div>
+</div>
+
+</div>
+</div>]]></description>
+      <pubDate>2017-08-01</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/09/gnu-linux-系统软件环境配置自动化/</guid>
     </item>
     <item>
       <title>Word List 20170301 (Industrial clusters: Bleak times in bra town)</title>
@@ -56,105 +156,6 @@
       <description><![CDATA[word list]]></description>
       <pubDate>2017-08-01</pubDate>
       <guid>http://spark.wangxing.name/blog/2017/03/14/word-list-20170314</guid>
-    </item>
-    <item>
-      <title>Awesome Tools</title>
-      <link>http://spark.wangxing.name/blog/2016/01/07/awesome-repos</link>
-      <description><![CDATA[awesome tools]]></description>
-      <pubDate>2017-07-31</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/07/awesome-repos</guid>
-    </item>
-    <item>
-      <title>git 常用配置</title>
-      <link>http://spark.wangxing.name/blog/2016/01/08/git-常用配置/</link>
-      <description><![CDATA[<div>
-<div class="post">
-<h1 class="title">git 常用配置</h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org95ac783"><code>.gitconfig</code></a></li>
-<li><a href="#org69bf962"><code>.gitignore</code></a></li>
-</ul>
-</div>
-</div>
-
-<div id="outline-container-org95ac783" class="outline-2">
-<h2 id="org95ac783"><code>.gitconfig</code></h2>
-<div class="outline-text-2" id="text-org95ac783">
-<pre class="example">
-[user]
-  name = foo
-  email = foo@abc.com
-
-[push]
-  default = upstream
-
-[color]
-  status = auto
-  diff = auto
-  branch = auto
-  interactive = auto
-
-[alias]
-  st = status -s
-  ci = commit
-  co = checkout
-
-[core]
-  excludesfile = ~/.gitignore
-  editor = vim
-
-[http]
-  sslVerify = false
-</pre>
-</div>
-</div>
-
-<div id="outline-container-org69bf962" class="outline-2">
-<h2 id="org69bf962"><code>.gitignore</code></h2>
-<div class="outline-text-2" id="text-org69bf962">
-<pre class="example">
-*~
-auto
-*.o
-*.svn
-*.aux
-*.log
-*.snm
-*.toc
-*.blg
-*.vrb
-*.nav
-*.out
-*.lof
-*.lol
-*.lot
-*.bak
-*.tdo
-*.pyg
-*.synctex.gz
-_*
-GPATH
-GRTAGS
-GSYMS
-GTAGS
-</pre>
-</div>
-</div>
-
-</div>
-</div>]]></description>
-      <pubDate>2017-07-31</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/08/git-常用配置/</guid>
-    </item>
-    <item>
-      <title>Abstract Translation: SP 2015 Leave Me Alone</title>
-      <link>http://spark.wangxing.name/blog/2017/03/14/paper-abstract-translation-sp-2015-leave-me-alone</link>
-      <description><![CDATA[顶会论文学习]]></description>
-      <pubDate>2017-07-31</pubDate>
-      <guid>http://spark.wangxing.name/blog/2017/03/14/paper-abstract-translation-sp-2015-leave-me-alone</guid>
     </item>
   </channel>
 </rss>
