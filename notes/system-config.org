@@ -42,5 +42,4 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 以下项目可以参考：
 - [[https://github.com/baohaojun/system-config.git][https://github.com/baohaojun/system-config.git]]
 - https://github.com/donnemartin/dev-setup.git
-- 
-
+- [[https://github.com/nicolashery/mac-dev-setup]]
