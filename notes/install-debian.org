@@ -1,4 +1,4 @@
-#+TITLE:       Install Debian
+#+TITLE:       Debian/Ubuntu 环境下常用软件安装
 #+AUTHOR:      Sean Wang
 #+EMAIL:       sean@think.sean.org
 #+DATE:        2016-01-07 Thu
@@ -7,11 +7,11 @@
 #+TAGS:        debian, linux
 #+LANGUAGE:    en
 #+OPTIONS:     H:3 num:t toc:t \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
-#+DESCRIPTION: install debian
+#+DESCRIPTION: Install common software in Debian 
 
-* Install via apt-get command
+* Install software via =apt-get= command
 ** Change =/etc/apt/sources.list=
-Take Debian 8.0 as an example. First, change the =sources.list= file:
+Take Ubuntu 16.04 as an example. First, change the =sources.list= file:
 #+BEGIN_SRC conf
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
@@ -46,7 +46,37 @@ Then, install them using the following command:
 #+BEGIN_SRC shell
 sudo apt-get install $(grep -vE "^\s*#" pkg_list.txt | tr "\n" " ")
 #+END_SRC
-* Install via dpkgs command
+* Install software from source code
+** Emacs
+1. Download Emacs from [[http://ftp.gnu.org/gnu/emacs/][http://ftp.gnu.org/gnu/emacs/]]
+2. Install dependencies:
+#+BEGIN_SRC shell
+sudo apt-get build-dep emacs24
+#+END_SRC
+3. Building Emacs:
+#+BEGIN_SRC shell
+cd emacs-25.x
+./configure
+make
+make install
+#+END_SRC
+4. Install Spacemacs:
+#+BEGIN_SRC shell
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+#+END_SRC
+** GNU Parallel
+#+BEGIN_SRC shell
+wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
+#+END_SRC
+** oh-my-zsh
+#+BEGIN_SRC shell
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+chsh -s /usr/local/bin/zsh
+#+END_SRC
+** zathura
+** Lua
+downloading: [[http://www.lua.org/download.html][http://www.lua.org/download.html]]
+* Install =.deb= packages directly
 ** Chrome
 download standalone installation package from
 [[http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html][http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html]]
@@ -54,7 +84,29 @@ download standalone installation package from
 #+BEGIN_SRC shell
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 #+END_SRC
-* Install from custom package
+* Install Python modules
+** Install =pip= first
+#+BEGIN_SRC shell
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+#+END_SRC
+** Install common modules
+Put all modules needed to install in a file named =requirements.txt=:
+#+BEGIN_SRC conf 
+h5py
+ipython
+pandas
+scikit-learn
+matplotlib
+numpy
+#+END_SRC
+
+#+BEGIN_SRC shell
+sudo -H pip install -r requirements.txt
+#+END_SRC
+
+** TODO Use =virtualenv=
+* Install software from custom package
 ** TexLive
 Download [[http://mirrors.6.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive.iso][texlive.iso]],
 #+BEGIN_SRC shell
@@ -67,71 +119,12 @@ mkdir ./temp
 sudo mount texlive.iso ./temp
 sudo ./temp/install.tl
 #+END_SRC
-* install software from source code
-** Emacs
-1. Downloading Emacs: [[http://ftp.gnu.org/gnu/emacs/][http://ftp.gnu.org/gnu/emacs/]]
-2. Install dependencies:
-#+BEGIN_SRC shell
-sudo apt-get install libx11-dev libxaw7-dev libjpeg-dev libtiff5-dev libpng12-dev libgif-dev libncurses5-dev
-#+END_SRC
-3. Building Emacs:
-#+BEGIN_SRC shell
-./configure
-make
-make install
-#+END_SRC
-4. Install spacemacs:
-#+BEGIN_SRC shell
-git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
-#+END_SRC
-** Vim
-** Git
-downloading: https://www.kernel.org/pub/software/scm/git/
-
-** tmux
-Downloading: [[https://tmux.github.io/][https://tmux.github.io/]]
-** GNU Parallel
-#+BEGIN_SRC shell
-wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
-#+END_SRC
-** pandoc
-** the silver searcher
-** oh-my-zsh
-#+BEGIN_SRC shell
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-chsh -s /usr/local/bin/zsh
-#+END_SRC
-** zathura
-** Lua
-downloading: [[http://www.lua.org/download.html][http://www.lua.org/download.html]]
-
-* install Android development tools
-- jd-gui
-- Androguard
-- Apktool
-- Android SDK
-
-* install Python modules
-** pip
-#+BEGIN_SRC shell
-wget https://bootstrap.pypa.io/get-pip.py
-sudo python get-pip.py
-#+END_SRC
-** matplotlib
-** ipython
-** seaborn
-** numpy
-** scipy
-** 
-
-* install Window Manager
+* Install Window Manager
 ** i3
 downloading: [[http://i3wm.org/downloads/][http://i3wm.org/downloads/]]
 
-* install fonts
-* configure software
-** sudo
-** Chinese
+* Install fonts
+* System config
 ** Keyboard
 在 =/etc/default/keyboard= 文件中添加下面一行，交换 =Ctrl= 和 =CapsLock= 键：
 
