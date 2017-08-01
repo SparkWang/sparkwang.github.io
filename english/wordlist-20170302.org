@@ -1,0 +1,52 @@
+#+TITLE:       Word List 20170302 (Mineral water, High-altitude thirst)
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-08-01 Tue
+#+URI:         /blog/%y/%m/%d/word-list-20170302
+#+KEYWORDS:    TE, wordlist
+#+TAGS:        TE, English, wordlist
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+- /Mineral/ :: a substance that is naturally present in the earth and is not formed from animal or vegetable matter, for example gold and salt. Some minerals are also present in food and drink and in the human body and are essential for good health. 矿物，矿物质
+- /high-altitude/ :: adj, occurring at or from a relative high altitude, 发生在某个高海拔的地方，或从某个高海拔地方而来。
+- /litre/ :: a unit for measuring volume, equal to 1.76 British pints or 2.11 American pints, 升(容量单位,等于英国的 1.76 品脱或美国的 2.11 品脱)
+- /stuff/ :: used to refer to a substance, material, group of objects, etc. when you do not know the name, when the name is not important or when it is obvious what you are talking about, (事物名称不详、无关紧要或所指事物明显时用)东西,物品,玩意儿
+- /-fold/ :: combines with numbers to form adverbs which say how much an amount has increased by. For example, if an amount increases fourfold, it is four times greater than it was originally. 后缀(与数字连用构成副词)表示“…倍”
+- /-fold/ :: also combines with numbers to form adjectives.(与数字连用构成形容词)
+- /foul/ :: a foul smell or taste is very unpleasant， 难闻的
+- /seemingly/ :: in a way that appears to be true but may in fact not be，看似；貌似；表面上;
+- /inexhaustible/ :: existing in very great amounts that will never be finished 用不完的，无穷无尽的
+- /pristine/ :: Pristine things are extremely clean or new. 形容一尘不染的；崭新的
+- /glacier/ :: A glacier is an extremely large mass of ice which moves very slowly, often down a mountain valley. 冰川，冰河
+- /Qomolangma/ :: 珠穆朗玛峰, （藏语拼音），意为“大地之母”
+- /Mount Everest/ :: the highest mountain in the world in the Himalayas, on the border between Tibet and Nepal, 西方国家和部分亚洲国家称珠穆朗玛峰作额菲尔士峰或埃佛勒斯峰（Mount Everest），是纪念英国占领尼泊尔之时，负责测量喜马拉雅山脉的英属印度测量局局长乔治·埃佛勒斯。
+- /Nyenchen Tanglha/ :: The Nyenchen Tanglha Mountains (official spelling: Nyainqêntanglha) are a 700-kilometre (430 mi) long mountain range located in the Tibet Autonomous Region of China. 念青唐古拉山脉, 主要是以山谷冰川为主的现代冰川，冰川面积 7536 平方公里，为青藏高原东南部最大的冰川区。
+- /range/ :: A range of mountains or hills is a line of them, 山脉
+- /Assuming/ :: You use assuming or assuming that when you are considering a possible situation or event, so that you can think about the consequences., i 连词， 假定，假设。
+- /meltwater/ :: water derived from the melting of ice and snow, 冰雪融水
+- /plateau/ :: an area of flat land that is higher than the land around it, 高原
+- /retreated/ :: move away / back 离开；退后
+- /Nor/ :: formal used after a negative statement in order to introduce another negative statement containing a similar kind of information. 也不
+- /the Brahmaputra/ :: river about 1800 miles (2900 kilometers) S Asia flowing from the Himalayas in Tibet to the Ganges Delta in E India (subcontinent), 布拉马普特拉河, 在中国境内的上游部分就是 *雅鲁藏布江*
+- /the Indus/ :: an Asian river that rises in Tibet and flows through northern India and then southwest through Kashmir and Pakistan to the Arabian Sea, 一条发源于西藏的亚洲河流，流经印度北部、西南部，以及克什米尔和巴基斯坦地区，到达阿拉伯海。印度河。
+- /the Ganges/ :: a long river which flows though northern India and provides water for the fields in India and Bangladesh. To the Hindus the Ganges is a holy river, and many Hindus go to the river as pilgrims and wash themselves in it. 恒河。
+- /the Yangzi/ :: 扬子江，长江
+- /the Mekong/ :: a river in southeast Asia, which flows from Tibet through Cambodia (柬埔寨) and Laos（老挝）to Vietnam. The Mekong Delta (湄公河三角洲) is one of the most important areas in Asia for growing rice, and there was also a lot of fighting in this area during the Vietnam War. 湄公河
+- /the Salween/ :: 萨尔温江(即怒江,在亚洲东南部,源于西藏,流入缅甸之玛打万湾)
+- /end up/ :: If you end up doing something or end up in a particular state, you do that thing or get into that state even though you did not originally intend to. 最终；结果；到头来
+- /projected/ :: planned for the future or calculated based on information already known 计划的，预计的，推断的
+- /runoff/ :: Run-off is rainwater that forms a stream rather than being absorbed by the ground. 径流，溢流（指流入河流中的雨水）
+- /pose/ :: If something poses a problem or a danger, it is the cause of that problem or danger. 产生（问题）；造成（威胁、危险等）
+- /atrocious/ :: If you describe something as atrocious, you are emphasizing that its quality is very bad. 糟透的；恶劣的
+- /spawn/ :: If something spawns something else, it causes it to happen or to be created. 产生，造成，引起
+- /bribe/ :: ~ sb (with sth) | ~ sb (into doing sth) to give sb money or sth valuable in order to persuade them to help you, especially by doing sth dishonest, 向(某人)行贿；贿赂
+- /tax holidays/ :: 免税期
+- /scarcity/ :: If there is a scarcity of something, there is not enough of it for the people who need it or want it. 缺乏;不足;稀少
+- /cap/ :: a limit on the amount of money that can be charged or spent in connection with a particular activity 对（收费或花费）定限额，限制
+- /quota/ :: the limited number or amount of people or things that is officially allowed, 定额；限额；配额:
+- /ramp up/ :: If a business ramps up its activity, it increases it. （公司）扩大，增加，增多（业务等）
+- /mandated/ :: required by law, 依法的；按法律要求的
+- /integral/ :: Something that is an integral part of something is an essential part of that thing. 基本的;构成整体所必需的
+

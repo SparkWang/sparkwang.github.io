@@ -1,0 +1,48 @@
+#+TITLE:       Word List 20170301 (Industrial clusters: Bleak times in bra town)
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-03-01 Wed
+#+URI:         /blog/%y/%m/%d/Industrial-clusters
+#+KEYWORDS:    TE, English
+#+TAGS:        TE, wordlist
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+- /fuel/ :: to increase sth; to make sth stronger, 增加；加强；刺激; 通常接坏的东西，例如 fuel speculation/rumours/controversy, 猜测，谣传，争论
+- /boom/ :: [singular] a quick increase of business activity, (贸易和经济活动的)激增,繁荣
+- /pyramid of/ :: a pile of objects that have been put into the shape of a pyramid, 金字塔形的一堆物体
+- /resound/ :: if a place resounds with a sound, it is full of that sound; 回荡着声音；回响着声音
+- /garment/ :: a piece of clothing, 一件衣服
+- /destined/ :: _~ for_, to be travelling to a particular place, or intended to go there, 运往特定地方
+- /vest/ :: a piece of underwear without sleeves that you wear on the top half of your body, （贴身穿的）背心，汗衫
+- /billboard/ :: a large sign used for advertising, 广告牌
+- /lingerie/ :: women's underwear, 女式内衣
+- /underwire/ :: a wire running through the bottom edge of a brassiere to aid in support, 胸罩下用于支撑的钢圈
+- /prosperity/ :: the state of being successful, especially in making money, 兴旺；繁荣；成功；昌盛
+- /coastal/ :: Coastal is used to refer to things that are in the sea or on the land near a coast. 形容近海的；沿海的
+- /flee/ :: If you flee from something or someone, or flee a person or thing, you escape from them.
+- /spring up/ :: to suddenly appear or start to exist, 突然出现或开始存在
+- /paddyfield/ :: paddy fields, a field planted with rice growing in water, 稻田，水田
+- /influx/ :: the arrival of large numbers of people or large amounts of money, goods etc, especially suddenly, （人、资金或事物的）涌入，流入
+- /tyre/ :: a thick rubber ring that fits around the edge of a wheel of a car, bicycle, etc. 轮胎
+- /decoration/ :: something pretty that you put in a place or on top of something to make it look attractive, 装饰品
+- /niche/ :: relating to selling goods to a particular small group of people who have similar needs, interests etc, 产品细分行业的
+- /fabric-dyeing plants/ :: 织物印染工厂
+- /eco-warrior/ :: someone who takes action in order to stop damage to the environment, 生态战士；环保斗士
+- /fade/ :: to disappear gradually, /fade away/, 逐渐消逝；逐渐消失
+- /fray/ :: a fight, a competition or an argument, especially one that is exciting or seen as a test of your ability, 打斗，竞争，争辩（尤指激烈或视为检验能力的）
+- /foam/ :: (also foam rubber) a type of soft rubber with a lot of air in it, used in furniture, 泡沫橡胶；海绵橡胶
+- /upholster/ :: to cover a chair or other type of seat with suitable cloth and fill it with a suitable substance, 给（坐椅）装上垫子（或套子）
+- /waistband/ :: the part of a skirt, trousers etc that fastens around your waist, 衣服腰；腰头；
+- /boxer shorts/ :: men's UNDERPANTS similar to the SHORTS worn by BOXERS, 男用平脚短内裤（类似拳击短裤）
+- /cash in/ :: to use an opportunity to make a profit or gain an advantage, 从中牟利;从…中捞好处
+- /daring/ :: involving a lot of risk or danger, or brave enough to do risky things, 勇敢的；敢于冒险的
+- /entrepreneur/ :: someone who starts a new business or arranges business deals in order to make money, often in a way that involves financial risks, 创业者，企业家
+- /frown on/ :: to disapprove of sb/ sth 不赞成；不同意；不许可
+- /reluctant/ :: hesitating before doing sth because you do not want to do it or because you are not sure that it is the right thing to do 不情愿的；勉强的
+- /seamless/ :: without a seam 无（接）缝的
+- /nimble/ :: able to move quickly and easily 灵活的；敏捷的
+- /layoff/ :: When there are layoffs in a company, workers are told by their employers to leave their job, usually because there is no more work for them in the company. （通常指因工作岗位不足的）解雇，裁员，下岗. *可数名词，通常用复数*
+- /ill-equipped/ :: not having the necessary equipment or skills 装备不完善的；技术不够的
+- /thrive/ :: to become, and continue to be, successful, strong, healthy, etc. 兴旺发达；繁荣；蓬勃发展；
