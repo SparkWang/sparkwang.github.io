@@ -1,4 +1,4 @@
-#+TITLE:       elisp notes
+#+TITLE:       Elisp 学习笔记
 #+AUTHOR:      Sean Wang
 #+EMAIL:       sean@think.sean.org
 #+DATE:        2016-01-07 Thu

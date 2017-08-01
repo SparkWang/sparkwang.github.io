@@ -2,7 +2,7 @@
 #+OPTIONS: creator:nil d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t
 #+OPTIONS: num:t p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t timestamp:t
 #+OPTIONS: title:t toc:t todo:t |:t
-#+TITLE: system-config
+#+TITLE: GNU/Linux 系统软件环境配置自动化
 #+DATE: <2016-01-09 Sat>
 #+AUTHOR: Sean Wang
 #+EMAIL: sean@think.sean.org
