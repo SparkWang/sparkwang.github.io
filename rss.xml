@@ -4,10 +4,17 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Tue, 01 Aug 2017 10:06:23 CST</pubDate>
-    <lastBuildDate>Tue, 01 Aug 2017 10:06:23 CST</lastBuildDate>
+    <pubDate>Tue, 01 Aug 2017 11:25:32 CST</pubDate>
+    <lastBuildDate>Tue, 01 Aug 2017 11:25:32 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>Install Debian</title>
+      <link>http://spark.wangxing.name/blog/2016/01/07/install-debian</link>
+      <description><![CDATA[install debian]]></description>
+      <pubDate>2017-08-01</pubDate>
+      <guid>http://spark.wangxing.name/blog/2016/01/07/install-debian</guid>
+    </item>
     <item>
       <title>Use Spacemacs</title>
       <link>http://spark.wangxing.name/blog/2016/01/07/use-spacemacs</link>
@@ -58,13 +65,6 @@
       <guid>http://spark.wangxing.name/blog/2016/01/07/awesome-repos</guid>
     </item>
     <item>
-      <title>Install Debian</title>
-      <link>http://spark.wangxing.name/blog/2016/01/07/install-debian</link>
-      <description><![CDATA[install debian]]></description>
-      <pubDate>2017-07-31</pubDate>
-      <guid>http://spark.wangxing.name/blog/2016/01/07/install-debian</guid>
-    </item>
-    <item>
       <title>git 常用配置</title>
       <link>http://spark.wangxing.name/blog/2016/01/08/git-常用配置/</link>
       <description><![CDATA[<div>
@@ -74,15 +74,15 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd5c4611"><code>.gitconfig</code></a></li>
-<li><a href="#org7ec8794"><code>.gitignore</code></a></li>
+<li><a href="#org673e6c6"><code>.gitconfig</code></a></li>
+<li><a href="#orgcfbe9f3"><code>.gitignore</code></a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd5c4611" class="outline-2">
-<h2 id="orgd5c4611"><code>.gitconfig</code></h2>
-<div class="outline-text-2" id="text-orgd5c4611">
+<div id="outline-container-org673e6c6" class="outline-2">
+<h2 id="org673e6c6"><code>.gitconfig</code></h2>
+<div class="outline-text-2" id="text-org673e6c6">
 <pre class="example">
 [user]
   name = foo
@@ -112,9 +112,9 @@
 </div>
 </div>
 
-<div id="outline-container-org7ec8794" class="outline-2">
-<h2 id="org7ec8794"><code>.gitignore</code></h2>
-<div class="outline-text-2" id="text-org7ec8794">
+<div id="outline-container-orgcfbe9f3" class="outline-2">
+<h2 id="orgcfbe9f3"><code>.gitignore</code></h2>
+<div class="outline-text-2" id="text-orgcfbe9f3">
 <pre class="example">
 *~
 auto
