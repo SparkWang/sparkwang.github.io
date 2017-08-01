@@ -1,0 +1,14 @@
+#+TITLE:       Google 开源项目风格指南中文版地址
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-08-01 Tue
+#+URI:         /blog/%y/%m/%d/google-style-guide
+#+KEYWORDS:    Google
+#+TAGS:        techs
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+- 中文最新版[[http://zh-google-styleguide.readthedocs.io/en/latest/][地址]]
+- GitHub 项目[[https://github.com/zh-google-styleguide/zh-google-styleguide][主页]]
+- [[https://google.github.io/styleguide/][英文原版]]
