@@ -11,7 +11,8 @@
 
 * Install software via =apt-get= command
 ** Change =/etc/apt/sources.list=
-Take Ubuntu 16.04 as an example. First, change the =sources.list= file:
+Take Ubuntu 16.04 as an example. First, edit the =sources.list= file with root
+privileges:
 #+BEGIN_SRC conf
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
@@ -28,13 +29,14 @@ deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-security main restricted
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
 #+END_SRC
 
-Then, update after change the sources.list file:
+Then, remember synchronizing the package index files after changing the
+=sources.list= file:
 #+BEGIN_SRC shell
 sudo apt-get update
 #+END_SRC
 
 ** Install packages
-You can put a list of many packages in a file named =pkg_list.txt=:
+You can put a list of packages in a file such as =pkg_list.txt=:
 #+BEGIN_SRC conf
 vim
 tmux
@@ -48,19 +50,19 @@ sudo apt-get install $(grep -vE "^\s*#" pkg_list.txt | tr "\n" " ")
 #+END_SRC
 * Install software from source code
 ** Emacs
-1. Download Emacs from [[http://ftp.gnu.org/gnu/emacs/][http://ftp.gnu.org/gnu/emacs/]]
-2. Install dependencies:
+- Download the source code of Emacs from [[http://ftp.gnu.org/gnu/emacs/][http://ftp.gnu.org/gnu/emacs/]]
+- Install the dependencies:
 #+BEGIN_SRC shell
 sudo apt-get build-dep emacs24
 #+END_SRC
-3. Building Emacs:
+- Building Emacs:
 #+BEGIN_SRC shell
 cd emacs-25.x
 ./configure
 make
 make install
 #+END_SRC
-4. Install Spacemacs:
+- Optionally, install Spacemacs:
 #+BEGIN_SRC shell
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 #+END_SRC
@@ -73,14 +75,17 @@ wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 chsh -s /usr/local/bin/zsh
 #+END_SRC
-** zathura
+** i3wm
+downloading: [[http://i3wm.org/downloads/][http://i3wm.org/downloads/]]
 ** Lua
 downloading: [[http://www.lua.org/download.html][http://www.lua.org/download.html]]
-* Install =.deb= packages directly
+
+* Install =.deb= files directly
 ** Chrome
-download standalone installation package from
+Download the standalone installation file from:
 [[http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html][http://www.google.cn/intl/zh-CN/chrome/browser/desktop/index.html]]
 
+Install:
 #+BEGIN_SRC shell
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 #+END_SRC
@@ -106,7 +111,7 @@ sudo -H pip install -r requirements.txt
 #+END_SRC
 
 ** TODO Use =virtualenv=
-* Install software from custom package
+* Install software from custom packages
 ** TexLive
 Download [[http://mirrors.6.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive.iso][texlive.iso]],
 #+BEGIN_SRC shell
@@ -119,11 +124,16 @@ mkdir ./temp
 sudo mount texlive.iso ./temp
 sudo ./temp/install.tl
 #+END_SRC
-* Install Window Manager
-** i3
-downloading: [[http://i3wm.org/downloads/][http://i3wm.org/downloads/]]
 
 * Install fonts
+#+BEGIN_SRC shell
+fc-cache --force --verbose
+#+END_SRC
+
+Check the installed fonts:
+#+BEGIN_SRC shell
+
+#+END_SRC
 * System config
 ** Keyboard
 在 =/etc/default/keyboard= 文件中添加下面一行，交换 =Ctrl= 和 =CapsLock= 键：
