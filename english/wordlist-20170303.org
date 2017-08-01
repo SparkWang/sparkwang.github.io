@@ -1,7 +1,7 @@
 #+TITLE:       Word List 20170303 (Genetically modified crops, Gene-policy transfer)
 #+AUTHOR:      Sean Wang
 #+EMAIL:       spark@bjtu.edu.cn
-#+DATE:        2017-08-01 Tue
+#+DATE:        2017-03-03 Fri
 #+URI:         /blog/%y/%m/%d/word-list-20170303
 #+KEYWORDS:    TE, English
 #+TAGS:        TE

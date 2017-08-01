@@ -1,7 +1,7 @@
 #+TITLE:       Word List 20170302 (Mineral water, High-altitude thirst)
 #+AUTHOR:      Sean Wang
 #+EMAIL:       spark@bjtu.edu.cn
-#+DATE:        2017-08-01 Tue
+#+DATE:        2017-03-02 Thu
 #+URI:         /blog/%y/%m/%d/word-list-20170302
 #+KEYWORDS:    TE, wordlist
 #+TAGS:        TE, English, wordlist
