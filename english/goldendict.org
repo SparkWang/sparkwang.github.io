@@ -1,0 +1,20 @@
+#+TITLE:       GoldenDict 批量查单词
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-08-02 Wed
+#+URI:         /blog/%y/%m/%d/goldendict
+#+KEYWORDS:    English
+#+TAGS:        English
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+阅读英文文章时往往会碰到不少生词，逐个去查有点儿麻烦。总结出如下流程：
+1. 在 Emacs 里面阅读英文文章，碰到生词，先不查，鼠标右键单击把生词添加到指定文件，
+   如 =wordlist.txt= ；
+2. 读完一遍， =wordlist.txt= 保存了生词列表，每行一个；
+3. 打开 GoldenDict，点击菜单 History->Import>，选择 =wordlist.txt= 文件，导入；这
+   时所有生词会按顺序出现在 GoldenDict 的 History 侧边栏中；
+4. 第二遍阅读文章，同时在 GoldenDict 历史记录栏单击生词，查看解释。
+
+总结，节省了一次复制粘贴步骤.....
