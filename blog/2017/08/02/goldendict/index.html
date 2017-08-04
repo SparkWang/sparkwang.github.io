@@ -1,88 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <title>GoldenDict 批量查单词 - Sean Wang&#39;s Notebook</title>
-  <meta charset="utf-8" />
-  <meta name="author" content="Sean Wang" />
-  <meta name="description" content="&lt;TODO: insert your description here&gt;" />
-  <meta name="keywords" content="English" />
-
-  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
-  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
-  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-</head>
-
+  <head>
+    <title>GoldenDict 批量查单词 - Sean Wang&#39;s Notebook</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sean Wang" />
+    <meta name="description" content="&lt;TODO: insert your description here&gt;" />
+    <meta name="keywords" content="English" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
   <body class="container">
-<header id="header">
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">Sean Wang&#39;s Notebook</a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="/blog/">Blog</a></li>
-                            <li class="active"><a href="/english/">English</a></li>
-                            <li class="active"><a href="/notes/">Notes</a></li>
-                            <li class="active"><a href="/translation/">Translation</a></li>
-                        <li><a href="/tags/">Tags</a></li>
-                        <li><a href="/about/">About</a></li>
-                        <li><a href="https://github.com/SparkWang">GitHub</a></li>
-                        <li><a href="/rss.xml">RSS</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </body>
-</header>
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">Sean Wang&#39;s Notebook</a></h1>
+        <p>Happy Hacking</p>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/english/">English</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/translation/">Translation</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/SparkWang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="//www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="spark.wangxing.name">
+        </form>
+      </header>
+    </div>
 
-<section id="content" role="main">
-    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
-        <div class="col-md-2"></div>
-            <h1>GoldenDict 批量查单词</h1>
-            <p>
+<div>
+<div class="post">
+<h1>GoldenDict 批量查单词</h1>
+<p>
 阅读英文文章时往往会碰到不少生词，逐个去查有点儿麻烦。总结出如下流程：
 </p>
 <ol class="org-ol">
-<li>在 Emacs 里面阅读英文文章，碰到生词，先不查，鼠标右键单击把生词添加到指定文件，如 <code>wordlist.txt</code> ；</li>
-<li>读完一遍， <code>wordlist.txt</code> 保存了生词列表，每行一个；</li>
-<li>打开 GoldenDict，点击菜单 History-&gt;Import&gt;，选择 <code>wordlist.txt</code> 文件，导入；这时所有生词会按顺序出现在 GoldenDict 的 History 侧边栏中；</li>
-<li>第二遍阅读文章，同时在 GoldenDict 历史记录栏单击生词，查看解释。</li>
+<li>在 Emacs 里面阅读英文文章，碰到生词，先不查，鼠标右键单击把生词添加到指定文件，如 <code>wordlist.txt</code> ；
+</li>
+<li>读完一遍， <code>wordlist.txt</code> 保存了生词列表，每行一个；
+</li>
+<li>打开 GoldenDict，点击菜单 History-&gt;Import&gt;，选择 <code>wordlist.txt</code> 文件，导入；这时所有生词会按顺序出现在 GoldenDict 的 History 侧边栏中；
+</li>
+<li>第二遍阅读文章，同时在 GoldenDict 历史记录栏单击生词，查看解释。
+</li>
 </ol>
 
 <p>
 总结，节省了一次复制粘贴步骤.....
 </p>
 
-    </div>
-</section>
-
-
-    <div class="post-meta">
+</div>
+</div>
+    <div>
+      <div class="post-meta">
         <span title="post date" class="post-info">2017-08-02</span>
         <span title="last modification date" class="post-info">2017-08-02</span>
         <span title="tags" class="post-info"><a href="/tags/english/">English</a></span>
         <span title="author" class="post-info">Sean Wang</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+      </section>
+      <script src="//code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:spark &lt;at&gt; bjtu &lt;dot&gt; edu &lt;dot&gt; cn">Sean Wang</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
     </div>
-<footer class="footer">
-    <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
-    <p>
-        Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:spark &lt;at&gt; bjtu &lt;dot&gt; edu &lt;dot&gt; cn">Sean Wang</a>
-        &nbsp;&nbsp;-&nbsp;&nbsp;
-        Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
-        <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
-    </p>
-</footer>
 
   </body>
 </html>

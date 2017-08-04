@@ -1,112 +1,97 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <title>Debian/Ubuntu 环境下常用软件安装 - Sean Wang&#39;s Notebook</title>
-  <meta charset="utf-8" />
-  <meta name="author" content="Sean Wang" />
-  <meta name="description" content="Install common software in Debian " />
-  <meta name="keywords" content="debian, linux" />
-
-  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
-  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
-  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-</head>
-
+  <head>
+    <title>Debian/Ubuntu 环境下常用软件安装 - Sean Wang&#39;s Notebook</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sean Wang" />
+    <meta name="description" content="Install common software in Debian " />
+    <meta name="keywords" content="debian, linux" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
   <body class="container">
-<header id="header">
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">Sean Wang&#39;s Notebook</a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="/blog/">Blog</a></li>
-                            <li class="active"><a href="/english/">English</a></li>
-                            <li class="active"><a href="/notes/">Notes</a></li>
-                            <li class="active"><a href="/translation/">Translation</a></li>
-                        <li><a href="/tags/">Tags</a></li>
-                        <li><a href="/about/">About</a></li>
-                        <li><a href="https://github.com/SparkWang">GitHub</a></li>
-                        <li><a href="/rss.xml">RSS</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </body>
-</header>
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">Sean Wang&#39;s Notebook</a></h1>
+        <p>Happy Hacking</p>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/english/">English</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/translation/">Translation</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/SparkWang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="//www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="spark.wangxing.name">
+        </form>
+      </header>
+    </div>
 
-<section id="content" role="main">
-    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
-        <div class="col-md-2"></div>
-            <h1>Debian/Ubuntu 环境下常用软件安装</h1>
-            <div id="table-of-contents">
+<div>
+<div class="post">
+<h1>Debian/Ubuntu 环境下常用软件安装</h1>
+<div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org2f73529">1. Install software via <code>apt-get</code> command</a>
+<li><a href="#sec-1">1. Install software via <code>apt-get</code> command</a>
 <ul>
-<li><a href="#org9c31741">1.1. Change <code>/etc/apt/sources.list</code></a></li>
-<li><a href="#orga431f95">1.2. Install packages</a></li>
+<li><a href="#sec-1-1">1.1. Change <code>/etc/apt/sources.list</code></a></li>
+<li><a href="#sec-1-2">1.2. Install packages</a></li>
 </ul>
 </li>
-<li><a href="#orgcb11f7d">2. Install software from source code</a>
+<li><a href="#sec-2">2. Install software from source code</a>
 <ul>
-<li><a href="#orgb81bf02">2.1. Emacs</a></li>
-<li><a href="#orgf7c5cf4">2.2. GNU Parallel</a></li>
-<li><a href="#org3f46aad">2.3. oh-my-zsh</a></li>
-<li><a href="#org3e82a68">2.4. i3wm</a></li>
-<li><a href="#org982b204">2.5. Lua</a></li>
+<li><a href="#sec-2-1">2.1. Emacs</a></li>
+<li><a href="#sec-2-2">2.2. GNU Parallel</a></li>
+<li><a href="#sec-2-3">2.3. oh-my-zsh</a></li>
+<li><a href="#sec-2-4">2.4. i3wm</a></li>
+<li><a href="#sec-2-5">2.5. Lua</a></li>
 </ul>
 </li>
-<li><a href="#orgc449fac">3. Install <code>.deb</code> files directly</a>
+<li><a href="#sec-3">3. Install <code>.deb</code> files directly</a>
 <ul>
-<li><a href="#org4456076">3.1. Chrome</a></li>
+<li><a href="#sec-3-1">3.1. Chrome</a></li>
 </ul>
 </li>
-<li><a href="#orgf124b60">4. Install Python modules</a>
+<li><a href="#sec-4">4. Install Python modules</a>
 <ul>
-<li><a href="#org6cd4669">4.1. Install <code>pip</code> first</a></li>
-<li><a href="#org14d889d">4.2. Install common modules</a></li>
-<li><a href="#orgcbf59f1">4.3. <span class="todo TODO">TODO</span> Use <code>virtualenv</code></a></li>
+<li><a href="#sec-4-1">4.1. Install <code>pip</code> first</a></li>
+<li><a href="#sec-4-2">4.2. Install common modules</a></li>
+<li><a href="#sec-4-3">4.3. <span class="todo TODO">TODO</span> Use <code>virtualenv</code></a></li>
 </ul>
 </li>
-<li><a href="#orgdcea1bc">5. Install software from custom packages</a>
+<li><a href="#sec-5">5. Install software from custom packages</a>
 <ul>
-<li><a href="#org497cbee">5.1. TexLive</a></li>
+<li><a href="#sec-5-1">5.1. TexLive</a></li>
 </ul>
 </li>
-<li><a href="#orgd1ca67e">6. Install fonts</a></li>
-<li><a href="#org6773b71">7. System config</a>
+<li><a href="#sec-6">6. Install fonts</a></li>
+<li><a href="#sec-7">7. System config</a>
 <ul>
-<li><a href="#org00b843b">7.1. Keyboard</a></li>
+<li><a href="#sec-7-1">7.1. Keyboard</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org2f73529" class="outline-2">
-<h2 id="org2f73529"><span class="section-number-2">1</span> Install software via <code>apt-get</code> command</h2>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Install software via <code>apt-get</code> command</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-org9c31741" class="outline-3">
-<h3 id="org9c31741"><span class="section-number-3">1.1</span> Change <code>/etc/apt/sources.list</code></h3>
+</div><div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1"><span class="section-number-3">1.1</span> Change <code>/etc/apt/sources.list</code></h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Take Ubuntu 16.04 as an example. First, edit the <code>sources.list</code> file with root
 privileges:
 </p>
 <div class="org-src-container">
+
 <pre class="src src-conf"># 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ xenial main restricted universe multiverse
@@ -128,19 +113,21 @@ Then, remember synchronizing the package index files after changing the
 <code>sources.list</code> file:
 </p>
 <div class="org-src-container">
+
 <pre class="src src-shell">sudo apt-get update
 </pre>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orga431f95" class="outline-3">
-<h3 id="orga431f95"><span class="section-number-3">1.2</span> Install packages</h3>
+<div id="outline-container-sec-1-2" class="outline-3">
+<h3 id="sec-1-2"><span class="section-number-3">1.2</span> Install packages</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 You can put a list of packages in a file such as <code>pkg_list.txt</code>:
 </p>
 <div class="org-src-container">
+
 <pre class="src src-conf">vim
 tmux
 zsh
@@ -152,30 +139,36 @@ htop
 Then, install them using the following command:
 </p>
 <div class="org-src-container">
+
 <pre class="src src-shell">sudo apt-get install $(grep -vE "^\s*#" pkg_list.txt | tr "\n" " ")
 </pre>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-orgcb11f7d" class="outline-2">
-<h2 id="orgcb11f7d"><span class="section-number-2">2</span> Install software from source code</h2>
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Install software from source code</h2>
 <div class="outline-text-2" id="text-2">
-</div><div id="outline-container-orgb81bf02" class="outline-3">
-<h3 id="orgb81bf02"><span class="section-number-3">2.1</span> Emacs</h3>
+</div><div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Emacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li>Download the source code of Emacs from <a href="http://ftp.gnu.org/gnu/emacs/"><a href="http://ftp.gnu.org/gnu/emacs/">http://ftp.gnu.org/gnu/emacs/</a></a></li>
-<li>Install the dependencies:</li>
+<li>Download the source code of Emacs from <a href="http://ftp.gnu.org/gnu/emacs/"><a href="http://ftp.gnu.org/gnu/emacs/">http://ftp.gnu.org/gnu/emacs/</a></a>
+</li>
+<li>Install the dependencies:
+</li>
 </ul>
 <div class="org-src-container">
+
 <pre class="src src-shell">sudo apt-get build-dep emacs24
 </pre>
 </div>
 <ul class="org-ul">
-<li>Building Emacs:</li>
+<li>Building Emacs:
+</li>
 </ul>
 <div class="org-src-container">
+
 <pre class="src src-shell">cd emacs-25.x
 ./configure
 make
@@ -183,43 +176,47 @@ make install
 </pre>
 </div>
 <ul class="org-ul">
-<li>Optionally, install Spacemacs:</li>
+<li>Optionally, install Spacemacs:
+</li>
 </ul>
 <div class="org-src-container">
+
 <pre class="src src-shell">git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-orgf7c5cf4" class="outline-3">
-<h3 id="orgf7c5cf4"><span class="section-number-3">2.2</span> GNU Parallel</h3>
+<div id="outline-container-sec-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> GNU Parallel</h3>
 <div class="outline-text-3" id="text-2-2">
 <div class="org-src-container">
+
 <pre class="src src-shell">wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org3f46aad" class="outline-3">
-<h3 id="org3f46aad"><span class="section-number-3">2.3</span> oh-my-zsh</h3>
+<div id="outline-container-sec-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> oh-my-zsh</h3>
 <div class="outline-text-3" id="text-2-3">
 <div class="org-src-container">
+
 <pre class="src src-shell">sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 chsh -s /usr/local/bin/zsh
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org3e82a68" class="outline-3">
-<h3 id="org3e82a68"><span class="section-number-3">2.4</span> i3wm</h3>
+<div id="outline-container-sec-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> i3wm</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 downloading: <a href="http://i3wm.org/downloads/"><a href="http://i3wm.org/downloads/">http://i3wm.org/downloads/</a></a>
 </p>
 </div>
 </div>
-<div id="outline-container-org982b204" class="outline-3">
-<h3 id="org982b204"><span class="section-number-3">2.5</span> Lua</h3>
+<div id="outline-container-sec-2-5" class="outline-3">
+<h3 id="sec-2-5"><span class="section-number-3">2.5</span> Lua</h3>
 <div class="outline-text-3" id="text-2-5">
 <p>
 downloading: <a href="http://www.lua.org/download.html"><a href="http://www.lua.org/download.html">http://www.lua.org/download.html</a></a>
@@ -228,11 +225,11 @@ downloading: <a href="http://www.lua.org/download.html"><a href="http://www.lua.
 </div>
 </div>
 
-<div id="outline-container-orgc449fac" class="outline-2">
-<h2 id="orgc449fac"><span class="section-number-2">3</span> Install <code>.deb</code> files directly</h2>
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Install <code>.deb</code> files directly</h2>
 <div class="outline-text-2" id="text-3">
-</div><div id="outline-container-org4456076" class="outline-3">
-<h3 id="org4456076"><span class="section-number-3">3.1</span> Chrome</h3>
+</div><div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Chrome</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 Download the standalone installation file from:
@@ -243,32 +240,35 @@ Download the standalone installation file from:
 Install:
 </p>
 <div class="org-src-container">
+
 <pre class="src src-shell">sudo dpkg -i google-chrome-stable_current_amd64.deb
 </pre>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-orgf124b60" class="outline-2">
-<h2 id="orgf124b60"><span class="section-number-2">4</span> Install Python modules</h2>
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Install Python modules</h2>
 <div class="outline-text-2" id="text-4">
-</div><div id="outline-container-org6cd4669" class="outline-3">
-<h3 id="org6cd4669"><span class="section-number-3">4.1</span> Install <code>pip</code> first</h3>
+</div><div id="outline-container-sec-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Install <code>pip</code> first</h3>
 <div class="outline-text-3" id="text-4-1">
 <div class="org-src-container">
+
 <pre class="src src-shell">wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 </pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org14d889d" class="outline-3">
-<h3 id="org14d889d"><span class="section-number-3">4.2</span> Install common modules</h3>
+<div id="outline-container-sec-4-2" class="outline-3">
+<h3 id="sec-4-2"><span class="section-number-3">4.2</span> Install common modules</h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
 Put all modules needed to install in a file named <code>requirements.txt</code>:
 </p>
 <div class="org-src-container">
+
 <pre class="src src-conf">h5py
 ipython
 pandas
@@ -279,26 +279,28 @@ numpy
 </div>
 
 <div class="org-src-container">
+
 <pre class="src src-shell">sudo -H pip install -r requirements.txt
 </pre>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgcbf59f1" class="outline-3">
-<h3 id="orgcbf59f1"><span class="section-number-3">4.3</span> <span class="todo TODO">TODO</span> Use <code>virtualenv</code></h3>
+<div id="outline-container-sec-4-3" class="outline-3">
+<h3 id="sec-4-3"><span class="section-number-3">4.3</span> <span class="todo TODO">TODO</span> Use <code>virtualenv</code></h3>
 </div>
 </div>
-<div id="outline-container-orgdcea1bc" class="outline-2">
-<h2 id="orgdcea1bc"><span class="section-number-2">5</span> Install software from custom packages</h2>
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Install software from custom packages</h2>
 <div class="outline-text-2" id="text-5">
-</div><div id="outline-container-org497cbee" class="outline-3">
-<h3 id="org497cbee"><span class="section-number-3">5.1</span> TexLive</h3>
+</div><div id="outline-container-sec-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> TexLive</h3>
 <div class="outline-text-3" id="text-5-1">
 <p>
 Download <a href="http://mirrors.6.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive.iso">texlive.iso</a>,
 </p>
 <div class="org-src-container">
+
 <pre class="src src-shell">wget https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive.iso
 </pre>
 </div>
@@ -307,6 +309,7 @@ Download <a href="http://mirrors.6.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Ima
 Mount texlive.ios and install texlive:
 </p>
 <div class="org-src-container">
+
 <pre class="src src-shell">mkdir ./temp
 sudo mount texlive.iso ./temp
 sudo ./temp/install.tl
@@ -316,10 +319,11 @@ sudo ./temp/install.tl
 </div>
 </div>
 
-<div id="outline-container-orgd1ca67e" class="outline-2">
-<h2 id="orgd1ca67e"><span class="section-number-2">6</span> Install fonts</h2>
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Install fonts</h2>
 <div class="outline-text-2" id="text-6">
 <div class="org-src-container">
+
 <pre class="src src-shell">fc-cache --force --verbose
 </pre>
 </div>
@@ -328,16 +332,16 @@ sudo ./temp/install.tl
 Check the installed fonts:
 </p>
 <div class="org-src-container">
-<pre class="src src-shell">
-</pre>
+
+<pre class="src src-shell"></pre>
 </div>
 </div>
 </div>
-<div id="outline-container-org6773b71" class="outline-2">
-<h2 id="org6773b71"><span class="section-number-2">7</span> System config</h2>
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> System config</h2>
 <div class="outline-text-2" id="text-7">
-</div><div id="outline-container-org00b843b" class="outline-3">
-<h3 id="org00b843b"><span class="section-number-3">7.1</span> Keyboard</h3>
+</div><div id="outline-container-sec-7-1" class="outline-3">
+<h3 id="sec-7-1"><span class="section-number-3">7.1</span> Keyboard</h3>
 <div class="outline-text-3" id="text-7-1">
 <p>
 在 <code>/etc/default/keyboard</code> 文件中添加下面一行，交换 <code>Ctrl</code> 和 <code>CapsLock</code> 键：
@@ -358,7 +362,6 @@ XKBOPTIONS="ctrl:nocaps"
 <p>
 XKBMODEL="pc105"
 </p>
-
 <p>
 XKBVARIANT=""
 XKBOPTIONS="ctrl:nocaps"
@@ -372,25 +375,32 @@ BACKSPACE="guess"
 </div>
 </div>
 
-    </div>
-</section>
-
-
-    <div class="post-meta">
+</div>
+</div>
+    <div>
+      <div class="post-meta">
         <span title="post date" class="post-info">2016-01-07</span>
         <span title="last modification date" class="post-info">2017-08-01</span>
         <span title="tags" class="post-info"><a href="/tags/debian/">debian</a>, <a href="/tags/linux/">linux</a></span>
         <span title="author" class="post-info">Sean Wang</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+      </section>
+      <script src="//code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 8.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:sean &lt;at&gt; think &lt;dot&gt; sean &lt;dot&gt; org">Sean Wang</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
     </div>
-<footer class="footer">
-    <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
-    <p>
-        Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:sean &lt;at&gt; think &lt;dot&gt; sean &lt;dot&gt; org">Sean Wang</a>
-        &nbsp;&nbsp;-&nbsp;&nbsp;
-        Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
-        <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
-    </p>
-</footer>
 
   </body>
 </html>
