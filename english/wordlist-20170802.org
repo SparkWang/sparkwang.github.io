@@ -1,0 +1,89 @@
+#+TITLE:       Word List 20170802 (Free exchange: Nomencracy)
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-08-02 Wed
+#+URI:         /blog/%y/%m/%d/word-list-20170802
+#+KEYWORDS:    TE
+#+TAGS:        TE, English
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+- /nomen/ :: the name of the gens being the second of the three usual names of a person among the ancient Romans
+- /Nomencracy/ :: -cracy, theory of social organization, technocarcy
+- /depressing/ :: 能被表示程度的副词或介词词组修饰的形容词令人抑郁的;使人沮丧的;让人消沉的 Something that is depressing makes you feel sad and disappointed.
+- /inequality/ :: 可变名词(社会地位、财富、机会等)不平等，不均等 Inequality is the difference in social status, wealth, or opportunity between people or groups.
+- /mobility/ :: the ability to move easily from one place, social class, or job to another（住处、社会阶层、职业方面的）流动能力
+- /fluid/ :: If situations, ideas or plans are fluid, they are not fixed and are likely to change, often repeatedly and unexpectedly（情况、想法或计划）不固定的，易变的
+- /attributable/ :: 形容词可归因于…的，可归结于…的 If something is attributable to an event, situation, or person, it is likely that it was caused by that event, situation or person.
+- /egalitarian/ :: 能被表示程度的副词或介词词组修饰的形容词主张人人平等的;平等主义的 Egalitarian means supporting or following the idea that all people are equal and should have the same rights and opportunities.
+- /Scandinavia/ :: a cultural region in NW Europe consisting of Norway, Sweden and Denmark and sometimes also Iceland, Finland and the Faroe Islands 斯堪的纳维亚（欧洲西北部文化区，包括挪威、瑞典和丹麦，有时也包括冰岛、芬兰和法罗群岛）
+- /rosy/ :: 能被表示程度的副词或介词词组修饰的形容词充满希望的;前景美好的;有望成功的 If you say that a situation looks rosy or that the picture looks rosy, you mean that the situation seems likely to be good or successful.
+- /necessity/ :: 不可数名词必然;必要 The necessity of something is the fact that it must happen or exist.
+- /reliance/ :: 不可数名词依赖；依靠 A person's or thing's reliance on something is the fact that they need it and often cannot live or work without it.
+- /overestimate/ :: an estimate about the size, cost, etc. of sth that is too high 过高的评估
+- /bound/ :: 情态动词短语（对某事并不确定或无确凿证据时，认为其）肯定会，确定是 If you say that something is bound to happen or be true, you feel confident and certain of it, although you have no definite knowledge or evidence.
+- /episodes/ :: an event, a situation, or a period of time in sb's life, a novel, etc. that is important or interesting in some way（人生的）一段经历；（小说的）片段，插曲
+- /idiosyncratic/ :: 能被表示程度的副词或介词词组修饰的形容词乖僻的;怪异的 If you describe someone's actions or characteristics as idiosyncratic, you mean that they are rather unusual.
+- /charitable/ :: 形容词(组织或活动)慈善的 A charitable organization or activity helps and supports people who are ill, disabled, or very poor.
+- /extrapolate/ :: 动词推断;推知 If you extrapolate from known facts, you use them as a basis for general statements about a situation or about what is likely to happen in the future.
+- /descendant/ :: 可数名词后代;后裔;子孙 Someone's descendants are the people in later generations who are related to them.
+- /spectrum/ :: 可数名词系列;范围 A spectrum is a range of a particular type of thing.
+- /confront/ :: 动词勇敢地面对;正视 If you confront a difficult situation or issue, you accept the fact that it exists and try to deal with it.
+- /glean/ :: 动词耐心学习，仔细收集（信息、知识等）If you glean something such as information or knowledge, you learn or collect it slowly and patiently, and perhaps indirectly.
+- /tease/ :: to spend time trying to find out information or the meaning of sth, especially when this is complicated or difficult 探讨；深入研究；梳理清楚
+- /prosperous/ :: 能被表示程度的副词或介词词组修饰的形容词富足的；成功的；兴旺的；繁荣的 Prosperous people, places, and economies are rich and successful.
+- /Swede/ :: 可数名词瑞典人;瑞典裔人 A Swede is a Swedish citizen, or a person of Swedish origin.
+- /aristocrat/ :: 可数名词贵族（成员）An aristocrat is someone whose family has a high social rank, especially someone who has a title.
+- /overrepresented/ :: represented excessively; especiallys : having representatives in a proportion higher than the average
+- /aristocratic/ :: 能被表示程度的副词或介词词组修饰的形容词贵族的；贵族式的 Aristocratic means belonging to or typical of the aristocracy.
+- /for ... purpose/ :: in a particular situation or when being considered in a particular way:
+- /disproportionately/ :: too much or too little in relation to something else:
+- /gauge/ :: 动词（常指用某种仪器）测量，测定，算出 If you gauge the speed or strength of something, or if you gauge an amount, you measure or calculate it, often by using a device of some kind.
+- /probate/ :: 不可数名词遗嘱检验；遗嘱认证 Probate is the act or process of officially proving a will to be valid.
+- /estate/ :: 可数名词遗产 Someone's estate is all the money and property that they leave behind them when they die.
+- /heritable/ :: (law 律) (of property 财产) that can be passed from one member of a family to another 可继承的；可传承的
+- /tendency/ :: 可数名词(令人焦虑或不快的)习惯，经常性行为，倾向 A tendency is a worrying or unpleasant habit or action that keeps occurring.
+- /mate/ :: to have sex and produce young, or to make animals do this（使）交配
+- /trait/ :: 可数名词特征;特点;特性 A trait is a particular characteristic, quality, or tendency that someone or something has.
+- /distressing/ :: making you feel very upset
+- /fatalistic/ :: 能被表示程度的副词或介词词组修饰的形容词宿命论的;宿命主义的;听天由命的 If someone is fatalistic about something, especially an unpleasant event or situation, they feel that they cannot change or control it, and therefore that there is no purpose in trying.
+- /Malmo/ :: city & port SW Sweden on Øresund opposite Copenhagen, Denmark population 232,908
+- /attainment/ :: 可数名词成就；造诣；才能 An attainment is a skill you have learned or something you have achieved.
+- /Painstaking/ :: 能被表示程度的副词或介词词组修饰的形容词（研究、检查、调查）十分小心的，极其仔细的，缜密的 A painstaking search, examination, or investigation is done extremely carefully and thoroughly.
+- /pore/ :: 动词仔细阅读；认真钻研 If you pore over or through information, you look at it and study it very carefully.
+- /census/ :: 可数名词人口普查 A census is an official survey of the population of a country that is carried out in order to find out how many people live there and to obtain details of such things as people's ages and jobs.
+- /converge/ :: 相互动词(不同的思想、社会等)趋同，趋于一致，融合 If different ideas or societies converge, they stop being different and become similar to each other.
+- /income inequality/ :: 收入不平等
+- /social mobility/ :: 社会流动性
+- /income differences/ :: 收入差距
+- /be attributable to/ :: 归因于
+- /in more egalitarian Scandinavia/ :: 在平等主义更加盛行的斯堪的纳维亚
+- /too rosy a picture/ :: 太乐观的图景
+- /draws on/ :: 短语动词凭借;利用;动用 If you draw on or draw upon something such as your skill or experience, you make use of it in order to do something.
+- /compare income levels between just two generations/ :: 只比较了两代人的收入水平
+- /out of necessity/ :: 出于需要
+- /reliance on limited data/ :: 依靠有限的数据
+- /lead to overestimates of social mobility/ :: 导致对社会流动性做出过高估计
+- /low-pay jobs/ :: 低酬工作
+- /statistical noise/ :: 统计噪声
+- /look more changeable than it is/ :: 看起来比实际情况更加流动易变
+- /a sunny view of/ :: 一片光明的图景
+- /equality of opportunity/ :: 社会的机会平等
+- /rare surnames/ :: 罕见姓氏
+- /in two ways/ :: 用两种方法
+- /high economic status/ :: 优越的经济状况
+- /in elite positions/ :: 在精英阶层中
+- /a span of centuries/ :: 在几个世纪的时间跨度内
+- /inherited advantage/ :: 继承的优势
+- /the introduction of universal secondary education/ :: 对中学教育的普及
+- /mate with/ :: 与。。。交往
+- /be reinforced by/ :: 被。。。所增强
+- /a slightly more encouraging picture/ :: 一个稍微好点儿的结论
+- /a meaningful relationship/ :: 一种。。之间的明显关系
+- /a look at just one generation/ :: 仅仅探讨一代人
+- /overestimates of mobility/ :: 对社会流动性的过高估计
+- /economic advantages in previous ones/ :: 前几辈人的经济优势
+- /provides another perspective/ :: 提供了另一番视角
+- /break pattern of immobility/ :: 打破社会固化的模式
+- /be more fluid than/ :: 比。。。更加有流动性
