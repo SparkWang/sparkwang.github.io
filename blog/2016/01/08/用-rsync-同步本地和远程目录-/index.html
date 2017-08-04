@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <title>用 rsync 同步本地和远程目录  - Sean Wang&#39;s Notebook</title>
-  <meta charset="utf-8" />
-  <meta name="author" content="Sean Wang" />
-
-  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
-
-  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
-  <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
-</head>
-
+  <head>
+    <title>用 rsync 同步本地和远程目录  - Sean Wang&#39;s Notebook</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sean Wang" />
+    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
+  </head>
   <body class="container">
-<header id="header">
-  <h1 class="title"><a href="/">Sean Wang&#39;s Notebook</a></h1>
-  <ul>
-    <li><a href="/blog/">Blog</a></li>
-    <li><a href="/english/">English</a></li>
-    <li><a href="/notes/">Notes</a></li>
-    <li><a href="/translation/">Translation</a></li>
-    <li><a href="/tags/">Tags</a></li>
-    <li><a href="/about/">About</a></li>
-  </ul>
-  <form method="get" id="search" action="https://duckduckgo.com">
-    <input type="text" class="field" name="q" id="s" placeholder="Search">
-    <input type="hidden" name="as_sitesearch" value="spark.wangxing.name">
-  </form>
-</header>
+    <div>
+      <header class="masthead">
+        <h1 class="masthead-title"><a href="/">Sean Wang&#39;s Notebook</a></h1>
+        <p>Happy Hacking</p>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/english/">English</a></li>
+          <li><a href="/notes/">Notes</a></li>
+          <li><a href="/translation/">Translation</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="https://github.com/SparkWang">GitHub</a></li>
+          <li><a href="/rss.xml">RSS</a></li>
+        </ul>
+        <form method="get" id="searchform" action="//www.google.com/search">
+          <input type="text" class="field" name="q" id="s" placeholder="Search">
+          <input type="hidden" name="as_sitesearch" value="spark.wangxing.name">
+        </form>
+      </header>
+    </div>
 
-<section id="content" role="main">
-  <h1>用 rsync 同步本地和远程目录 </h1>
-  <div id="table-of-contents">
+<div>
+<div class="post">
+<h1>用 rsync 同步本地和远程目录 </h1>
+<div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orge40fc8c">1. Intro</a></li>
-<li><a href="#org381fa5b">2. Options</a></li>
-<li><a href="#org488955e">3. 注意</a></li>
+<li><a href="#orgdd4d420">1. Intro</a></li>
+<li><a href="#org734f882">2. Options</a></li>
+<li><a href="#org3cdf2ea">3. 注意</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orge40fc8c" class="outline-2">
-<h2 id="orge40fc8c"><span class="section-number-2">1</span> Intro</h2>
+<div id="outline-container-orgdd4d420" class="outline-2">
+<h2 id="orgdd4d420"><span class="section-number-2">1</span> Intro</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <code>rsync</code> 命令可用来在本地和远程机器之间同步目录。
@@ -55,8 +57,8 @@
 </div>
 </div>
 
-<div id="outline-container-org381fa5b" class="outline-2">
-<h2 id="org381fa5b"><span class="section-number-2">2</span> Options</h2>
+<div id="outline-container-org734f882" class="outline-2">
+<h2 id="org734f882"><span class="section-number-2">2</span> Options</h2>
 <div class="outline-text-2" id="text-2">
 <dl class="org-dl">
 <dt>-a, &#x2013;archive</dt><dd>等价于 -rlptgoD</dd>
@@ -74,8 +76,8 @@
 </div>
 </div>
 
-<div id="outline-container-org488955e" class="outline-2">
-<h2 id="org488955e"><span class="section-number-2">3</span> 注意</h2>
+<div id="outline-container-org3cdf2ea" class="outline-2">
+<h2 id="org3cdf2ea"><span class="section-number-2">3</span> 注意</h2>
 <div class="outline-text-2" id="text-3">
 <div class="org-src-container">
 <pre class="src src-shell">rsync -a remote_host:/source/dirA /local/dirB
@@ -97,14 +99,32 @@
 </div>
 </div>
 
-</section>
-
-
-
-<footer id="footer">
-    Send comments, critique and suggestions to <a href="mailto:sean &lt;at&gt; think &lt;dot&gt; sean &lt;dot&gt; org">Sean Wang</a>.
-    Powered by <a href="https://github.com/kelvinh/org-page">org-page</a>
-</footer>
+</div>
+</div>
+    <div>
+      <div class="post-meta">
+        <span title="post date" class="post-info">2016-01-08</span>
+        <span title="last modification date" class="post-info">2016-01-08</span>
+        <span title="tags" class="post-info">N/A</span>
+        <span title="author" class="post-info">Sean Wang</span>
+      </div>
+      <section>
+        <h1>Comments</h1>
+      </section>
+      <script src="//code.jquery.com/jquery-latest.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="/media/js/main.js"></script>
+      <div class="footer">
+        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
+        <p>
+          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:sean &lt;at&gt; think &lt;dot&gt; sean &lt;dot&gt; org">Sean Wang</a>
+          &nbsp;&nbsp;-&nbsp;&nbsp;
+          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+        </p>
+      </div>
+    </div>
 
   </body>
 </html>
