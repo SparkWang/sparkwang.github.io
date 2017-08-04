@@ -1,0 +1,66 @@
+#+TITLE:       Word List 20170717
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        <2017-07-17 Mon>
+#+URI:         /blog/%y/%m/%d/word-list-20170717
+#+KEYWORDS:    TE
+#+TAGS:        TE
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+- /expatriate/ :: 可数名词移居国外者;侨民 An expatriate is someone who is living in a country which is not their own.
+- /cater/ :: 动词为…提供服务;满足…的需要;接待 In British English, to cater for a group of people means to provide all the things that they need or want. In American English, you say you cater to a person or group of people.
+- /domestic/ :: 国内的;本国的 Domestic political activities, events, and situations happen or exist within one particular country.
+- /expat/ :: 可数名词同 expatriate An expat is the same as an expatriate .
+- /reunion/ :: 可数名词（家庭、学校及其他团体成员的）团聚，重聚，聚会 A reunion is a party attended by members of the same family, school, or other group who have not seen each other for a long time.
+- /afield/ :: 短语从远处；从远方 If someone comes from far afield, they come from a long way away
+- /baccalaureate/ :: 单数名词（法国和其他一些国家的）中学毕业会考 The baccalaureate is an examination taken by students at the age of eighteen in France and some other countries.
+- /Anglophone/ :: 形容词（使用多种语言的地区里）讲英语的 Anglophone communities are English-speaking communities in areas where more than one language is commonly spoken.
+- /belie/ :: 动词证明…是虚假的；显示…不真实 If one thing belies another, it proves that the other thing is not true or genuine.
+- /clientele/ :: 单数集合名词顾客；客户；主顾 The clientele of a place or organization are its customers or clients.
+- /schooling/ :: 不可数名词学校教育 Schooling is education that children receive at school.
+- /alma mater/ :: 可数名词母校 Your alma mater is the school or university which you went to.
+- /contingent/ :: 可数名词代表团;代表队;代表群体 A contingent is a group of people representing a country or organization at a meeting or other event.
+- /elite/ :: 可数名词精英;杰出人物 You can refer to the most powerful, rich, or talented people within a particular group, place, or society as the elite .
+- /outspend/ :: to exceed the limits of in spending
+- /appealing/ :: 能被表示程度的副词或介词词组修饰的形容词有吸引力的;有趣的;动人的 Someone or something that is appealing is pleasing and attractive.
+- /brat/ :: 可数名词淘气鬼；小捣蛋 If you call someone, especially a child, a brat, you mean that he or she behaves badly or annoys you.
+- /bolshie/ :: creating difficulties or arguments deliberately, and refusing to be helpful 找茬的；不给人方便的
+- /bureaucrat/ :: 可数名词官僚；官僚主义者 Bureaucrats are officials who work in a large administrative system. You can refer to officials as bureaucrats especially if you disapprove of them because they seem to follow rules and procedures too strictly.
+- /outpost/ :: 可数名词贸易站；前哨基地；（设在国外的）军事基地 An outpost is a small group of buildings used for trading or military purposes, either in a distant part of your own country or in a foreign country.
+- /franchise/ :: 可数名词特许经营权;专卖权;经销权 A franchise is an authority that is given by an organization to someone, allowing them to sell its goods or services or to take part in an activity which the organization controls.
+- /bar/ :: 动词禁止；不准 If someone is barred from a place or from doing something, they are officially forbidden to go there or to do it.
+- /rewarding/ :: 能被表示程度的副词或介词词组修饰的形容词有益的;值得的;有意义的;令人满意的 An experience or action that is rewarding gives you satisfaction or brings you benefits.
+- /cap/ :: an upper limit on an amount of money that can be spent or borrowed by a particular institution or in a particular situation（可用或可借资金的）最高限额
+- /boarding/ :: 不可数名词学校寄宿（制）Boarding is an arrangement by which children live at school during the school term.
+- /pounce/ :: 动词（野兽或飞禽）猛扑，突袭 When an animal or bird pounces on something, it jumps on it and holds it, in order to kill it.
+- /liberalize/ :: 动词放宽(对…的)限制；（使）自由化 When a country or government liberalizes, or liberalizes its laws or its attitudes, it becomes less strict and allows people more freedom in their actions.
+- /gull/ :: an old word meaning ‘to cheat or trick someone’
+- /grow out of/ :: to develop from something, or to exist as a result of it
+- /recruitment/ :: 不可数名词招募；招聘 The recruitment of workers, soldiers, or members is the act or process of selecting them for an organization or army and persuading them to join.
+- /prescription/ :: 可数名词对策；解决方案 A prescription is a proposal or a plan which gives ideas about how to solve a problem or improve a situation.
+- /rude health/ :: very good health
+- /from as far afield as China and South Africa/ :: 从中国和南非这样远的地方。。。
+- /there has been a boom in something/ :: 某事物爆发式增长
+- /and the like/ :: used for including other similar people or things in what you are saying
+- /academic year/ :: 学年
+- /in revenue/ :: 收入
+- /belie their name/ :: 名不副实
+- /make money/ :: 赚钱
+- /leaving seats to be filled/ :: 人走茶凉
+- /on the cards/ :: /in the cards/, certain or likely to happen in the future
+- /for profit/ :: established, maintained, or conducted for the purpose of making a profit
+- /be barred from/ :: 被禁止
+- /remove a cap on/ :: 取消了最高限制
+- /run for profit/ :: 以盈利而运行
+- /grow out from/ :: 源自
+- /foreign teaching methods/ :: 国外教育模式
+- /depend partly on something/ :: 部分地取决于
+- /close off/ :: 封锁、隔绝, To close something off means to separate it from other things or people so that they cannot go there.
+- /risk -ing/ :: 担着...的风险; If you risk something unpleasant, you do something which might result in that thing happening or affecting you.
+- /China-watchers/ :: 中国观察家
+- /lose control of something/ :: 失去对某事的控制
+- /apply for visa/ :: 申请签证
+- /make for/ :: 短语动词导致;有利于 If something makes for another thing, it causes or helps to cause that thing to happen or exist.
+- /make for/ :: 短语动词向…走去;朝…前进 If you make for a place, you move towards it.
