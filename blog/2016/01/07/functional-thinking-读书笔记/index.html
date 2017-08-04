@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <title>Functional Thinking 读书笔记 - Sean Wang&#39;s Notebook</title>
-    <meta charset="utf-8" />
-    <meta name="author" content="Sean Wang" />
-    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
-    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
-  </head>
-  <body class="container">
-    <div>
-      <header class="masthead">
-        <h1 class="masthead-title"><a href="/">Sean Wang&#39;s Notebook</a></h1>
-        <p>Happy Hacking</p>
-        <ul>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/english/">English</a></li>
-          <li><a href="/notes/">Notes</a></li>
-          <li><a href="/translation/">Translation</a></li>
-          <li><a href="/tags/">Tags</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="https://github.com/SparkWang">GitHub</a></li>
-          <li><a href="/rss.xml">RSS</a></li>
-        </ul>
-        <form method="get" id="searchform" action="//www.google.com/search">
-          <input type="text" class="field" name="q" id="s" placeholder="Search">
-          <input type="hidden" name="as_sitesearch" value="spark.wangxing.name">
-        </form>
-      </header>
-    </div>
+<head>
+  <title>Functional Thinking 读书笔记 - Sean Wang&#39;s Notebook</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="Sean Wang" />
 
-<div>
-<div class="post">
-<h1>Functional Thinking 读书笔记</h1>
-<div id="table-of-contents">
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+
+  <body class="container">
+<header id="header">
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Sean Wang&#39;s Notebook</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="/blog/">Blog</a></li>
+                            <li class="active"><a href="/english/">English</a></li>
+                            <li class="active"><a href="/notes/">Notes</a></li>
+                            <li class="active"><a href="/translation/">Translation</a></li>
+                        <li><a href="/tags/">Tags</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="https://github.com/SparkWang">GitHub</a></li>
+                        <li><a href="/rss.xml">RSS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
+        <div class="col-md-2"></div>
+            <h1>Functional Thinking 读书笔记</h1>
+            <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org167fc7b">1. Why</a>
+<li><a href="#org4825049">1. Why</a>
 <ul>
-<li><a href="#org1ff1367">1.1. 编程语言趋势</a></li>
-<li><a href="#orgbd9be4b">1.2. Ceding Control to the Language/Runtime</a></li>
-<li><a href="#org0d756ba">1.3. Concision</a></li>
-<li><a href="#org97f72a2">1.4. Three versions of indexOfAny()</a></li>
+<li><a href="#org0a298b8">1.1. 编程语言趋势</a></li>
+<li><a href="#org2b2368b">1.2. Ceding Control to the Language/Runtime</a></li>
+<li><a href="#orgc885060">1.3. Concision</a></li>
+<li><a href="#orga9e0a20">1.4. Three versions of indexOfAny()</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org167fc7b" class="outline-2">
-<h2 id="org167fc7b"><span class="section-number-2">1</span> Why</h2>
+<div id="outline-container-org4825049" class="outline-2">
+<h2 id="org4825049"><span class="section-number-2">1</span> Why</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li>不能用使用斧子的方法使用电锯。学习一个全新的编程模式与学习一门新的编程语言是两回事。</li>
@@ -62,7 +78,7 @@
 </ul>
 
 <div class="org-src-container">
-<pre class="src src-java" id="org2e496ed">public class Words {
+<pre class="src src-java" id="org22dc211">public class Words {
     private Set&lt;String&gt; NON_WORDS = new HashSet&lt;String&gt;() {{
             add("the"); add("and"); add("of"); add("to"); add("a");
             add("i"); add("it"); add("in"); add("or"); add("is");
@@ -91,7 +107,7 @@
 </div>
 
 <div class="org-src-container">
-<pre class="src src-java" id="orgaa1e848">private List&lt;String&gt; regexToList(String words, String regex) {
+<pre class="src src-java" id="orgeb87fab">private List&lt;String&gt; regexToList(String words, String regex) {
     List wordList = new ArrayList&lt;&gt;();
     Matcher m = Pattern.compile(regex).matcher(words);
     while (m.find())
@@ -111,8 +127,8 @@ public Map wordFreq(String words) {
 </div>
 </div>
 
-<div id="outline-container-org1ff1367" class="outline-3">
-<h3 id="org1ff1367"><span class="section-number-3">1.1</span> 编程语言趋势</h3>
+<div id="outline-container-org0a298b8" class="outline-3">
+<h3 id="org0a298b8"><span class="section-number-3">1.1</span> 编程语言趋势</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>Groovy 添加了很多函数式编程功能，包括 <code>memoization</code> 等高级特性。</li>
@@ -123,12 +139,12 @@ public Map wordFreq(String words) {
 </div>
 </div>
 
-<div id="outline-container-orgbd9be4b" class="outline-3">
-<h3 id="orgbd9be4b"><span class="section-number-3">1.2</span> Ceding Control to the Language/Runtime</h3>
+<div id="outline-container-org2b2368b" class="outline-3">
+<h3 id="org2b2368b"><span class="section-number-3">1.2</span> Ceding Control to the Language/Runtime</h3>
 </div>
 
-<div id="outline-container-org0d756ba" class="outline-3">
-<h3 id="org0d756ba"><span class="section-number-3">1.3</span> Concision</h3>
+<div id="outline-container-orgc885060" class="outline-3">
+<h3 id="orgc885060"><span class="section-number-3">1.3</span> Concision</h3>
 <div class="outline-text-3" id="text-1-3">
 <blockquote>
 <p>
@@ -140,11 +156,11 @@ understandable by minimizing moving parts.
 </div>
 </div>
 
-<div id="outline-container-org97f72a2" class="outline-3">
-<h3 id="org97f72a2"><span class="section-number-3">1.4</span> Three versions of indexOfAny()</h3>
+<div id="outline-container-orga9e0a20" class="outline-3">
+<h3 id="orga9e0a20"><span class="section-number-3">1.4</span> Three versions of indexOfAny()</h3>
 <div class="outline-text-3" id="text-1-4">
 <div class="org-src-container">
-<pre class="src src-java" id="org2aa0152">// From Apache Commons Lang, http://commons.apache.org/lang/
+<pre class="src src-java" id="org13fe586">// From Apache Commons Lang, http://commons.apache.org/lang/
 public static int indexOfAny(String str, char[] searchChars) {
     if (isEmpty(str) || ArrayUtils.isEmpty(searchChars)) {
         return INDEX_NOT_FOUND;
@@ -174,7 +190,7 @@ public static int indexOfAny(String str, char[] searchChars) {
 </div>
 
 <div class="org-src-container">
-<pre class="src src-java" id="orgb970525">def firstIndexOfAny(input : String, searchChars : Seq[Char]) : Option[Int] = {
+<pre class="src src-java" id="org30246fe">def firstIndexOfAny(input : String, searchChars : Seq[Char]) : Option[Int] = {
     def indexedInput = (0 until input.length).zip(input)
     val result = for (pair &lt;- indexedInput;
                       char &lt;- searchChars;
@@ -190,32 +206,25 @@ public static int indexOfAny(String str, char[] searchChars) {
 </div>
 </div>
 
-</div>
-</div>
-    <div>
-      <div class="post-meta">
+    </div>
+</section>
+
+
+    <div class="post-meta">
         <span title="post date" class="post-info">2016-01-07</span>
         <span title="last modification date" class="post-info">2016-01-07</span>
         <span title="tags" class="post-info">N/A</span>
         <span title="author" class="post-info">Sean Wang</span>
-      </div>
-      <section>
-        <h1>Comments</h1>
-      </section>
-      <script src="//code.jquery.com/jquery-latest.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
-      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-      <script src="/media/js/main.js"></script>
-      <div class="footer">
-        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
-        <p>
-          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:shanguren &lt;at&gt; gmail &lt;dot&gt; com">Sean Wang</a>
-          &nbsp;&nbsp;-&nbsp;&nbsp;
-          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
-          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
-        </p>
-      </div>
     </div>
+<footer class="footer">
+    <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
+    <p>
+        Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:shanguren &lt;at&gt; gmail &lt;dot&gt; com">Sean Wang</a>
+        &nbsp;&nbsp;-&nbsp;&nbsp;
+        Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+        <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+    </p>
+</footer>
 
   </body>
 </html>

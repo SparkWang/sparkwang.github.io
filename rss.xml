@@ -4,8 +4,8 @@
     <title>Sean Wang&#39;s Notebook</title>
     <link>http://spark.wangxing.name</link>
     <description>Happy Hacking</description>
-    <pubDate>Fri, 04 Aug 2017 19:02:58 CST</pubDate>
-    <lastBuildDate>Fri, 04 Aug 2017 19:02:58 CST</lastBuildDate>
+    <pubDate>Fri, 04 Aug 2017 19:08:02 CST</pubDate>
+    <lastBuildDate>Fri, 04 Aug 2017 19:08:02 CST</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
     <item>
@@ -32,35 +32,38 @@
     <item>
       <title>Nmap 常用命令 </title>
       <link>http://spark.wangxing.name/blog/2016/01/08/nmap-常用命令-/</link>
-      <description><![CDATA[<div>
-<div class="post">
-<h1>Nmap 常用命令 </h1>
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
+        <div class="col-md-2"></div>
+            <h1>Nmap 常用命令 </h1>
+            
 
-
-</div>
-</div>]]></description>
+    </div>
+</section>
+]]></description>
       <pubDate>2017-08-01</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/08/nmap-常用命令-/</guid>
     </item>
     <item>
       <title>GNU/Linux 系统软件环境配置自动化</title>
       <link>http://spark.wangxing.name/blog/2016/01/09/gnu-linux-系统软件环境配置自动化/</link>
-      <description><![CDATA[<div>
-<div class="post">
-<h1>GNU/Linux 系统软件环境配置自动化</h1>
-<div id="table-of-contents">
+      <description><![CDATA[<section id="content" role="main">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
+        <div class="col-md-2"></div>
+            <h1>GNU/Linux 系统软件环境配置自动化</h1>
+            <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org2148070">1. Motivation</a></li>
-<li><a href="#orge5b1317">2. <span class="todo TODO">TODO</span> Method</a></li>
-<li><a href="#org696eecd">3. <span class="todo TODO">TODO</span> Reference</a></li>
+<li><a href="#org77ab1f8">1. Motivation</a></li>
+<li><a href="#orgd0e0649">2. <span class="todo TODO">TODO</span> Method</a></li>
+<li><a href="#org0a09d83">3. <span class="todo TODO">TODO</span> Reference</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org2148070" class="outline-2">
-<h2 id="org2148070"><span class="section-number-2">1</span> Motivation</h2>
+<div id="outline-container-org77ab1f8" class="outline-2">
+<h2 id="org77ab1f8"><span class="section-number-2">1</span> Motivation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Debian 系统安装完之后，需要安装很多软件并进行许多配置，这个安装配置的过程应当实现自动化。
@@ -68,8 +71,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-orge5b1317" class="outline-2">
-<h2 id="orge5b1317"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
+<div id="outline-container-orgd0e0649" class="outline-2">
+<h2 id="orgd0e0649"><span class="section-number-2">2</span> <span class="todo TODO">TODO</span> Method</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 首先，软件安装有以下几种方式：
@@ -103,8 +106,8 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-<div id="outline-container-org696eecd" class="outline-2">
-<h2 id="org696eecd"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
+<div id="outline-container-org0a09d83" class="outline-2">
+<h2 id="org0a09d83"><span class="section-number-2">3</span> <span class="todo TODO">TODO</span> Reference</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 以下项目可以参考：
@@ -117,8 +120,9 @@ Debian 系统安装完之后，需要安装很多软件并进行许多配置，�
 </div>
 </div>
 
-</div>
-</div>]]></description>
+    </div>
+</section>
+]]></description>
       <pubDate>2017-08-01</pubDate>
       <guid>http://spark.wangxing.name/blog/2016/01/09/gnu-linux-系统软件环境配置自动化/</guid>
     </item>

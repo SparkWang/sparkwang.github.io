@@ -1,73 +1,89 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <title>《C 语言核心技术》读书笔记 - Sean Wang&#39;s Notebook</title>
-    <meta charset="utf-8" />
-    <meta name="author" content="Sean Wang" />
-    <link rel="stylesheet" href="/media/css/main.css" type="text/css">
-    <link rel="stylesheet" href="/media/css/prettify.css" type="text/css">
-  </head>
-  <body class="container">
-    <div>
-      <header class="masthead">
-        <h1 class="masthead-title"><a href="/">Sean Wang&#39;s Notebook</a></h1>
-        <p>Happy Hacking</p>
-        <ul>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/english/">English</a></li>
-          <li><a href="/notes/">Notes</a></li>
-          <li><a href="/translation/">Translation</a></li>
-          <li><a href="/tags/">Tags</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="https://github.com/SparkWang">GitHub</a></li>
-          <li><a href="/rss.xml">RSS</a></li>
-        </ul>
-        <form method="get" id="searchform" action="//www.google.com/search">
-          <input type="text" class="field" name="q" id="s" placeholder="Search">
-          <input type="hidden" name="as_sitesearch" value="spark.wangxing.name">
-        </form>
-      </header>
-    </div>
+<head>
+  <title>《C 语言核心技术》读书笔记 - Sean Wang&#39;s Notebook</title>
+  <meta charset="utf-8" />
+  <meta name="author" content="Sean Wang" />
 
-<div>
-<div class="post">
-<h1>《C 语言核心技术》读书笔记</h1>
-<div id="table-of-contents">
+  <link rel="alternate" title="RSS Feed" href="/rss.xml" type="application/rss+xml">
+  <link rel="stylesheet" href="/media/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/media/css/posts.css" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</head>
+
+  <body class="container">
+<header id="header">
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Sean Wang&#39;s Notebook</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="/blog/">Blog</a></li>
+                            <li class="active"><a href="/english/">English</a></li>
+                            <li class="active"><a href="/notes/">Notes</a></li>
+                            <li class="active"><a href="/translation/">Translation</a></li>
+                        <li><a href="/tags/">Tags</a></li>
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="https://github.com/SparkWang">GitHub</a></li>
+                        <li><a href="/rss.xml">RSS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </body>
+</header>
+
+<section id="content" role="main">
+    <div id="outline-container-sec-" class="row" style="padding-top: 70px">
+        <div class="col-md-2"></div>
+            <h1>《C 语言核心技术》读书笔记</h1>
+            <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd1c760c">1. 类型转换</a>
+<li><a href="#org1ea8c5d">1. 类型转换</a>
 <ul>
-<li><a href="#org16ed634">1.1. 隐式类型转换何时发生</a>
+<li><a href="#org26fb619">1.1. 隐式类型转换何时发生</a>
 <ul>
-<li><a href="#orgc434b6d">1.1.1. Conversion rank</a></li>
+<li><a href="#org3e3b237">1.1.1. Conversion rank</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org2e3c2d5">2. 表达式和运算符</a></li>
-<li><a href="#org35c54ef">3. 函数</a></li>
-<li><a href="#org57c4ece">4. 数组</a></li>
-<li><a href="#org49b5ac6">5. 指针</a></li>
-<li><a href="#org045cbf8">6. 结构、联合、位字段</a></li>
-<li><a href="#orgce86ad4">7. 声明</a></li>
-<li><a href="#org85c4ec5">8. 动态内存管理</a>
+<li><a href="#orgf472dbd">2. 表达式和运算符</a></li>
+<li><a href="#org9a18fac">3. 函数</a></li>
+<li><a href="#org4e174d9">4. 数组</a></li>
+<li><a href="#org811db8a">5. 指针</a></li>
+<li><a href="#org9582a0a">6. 结构、联合、位字段</a></li>
+<li><a href="#org6936cb7">7. 声明</a></li>
+<li><a href="#org364693d">8. 动态内存管理</a>
 <ul>
-<li><a href="#org9db93a6">8.1. 用于动态内存管理的函数</a></li>
-<li><a href="#org02151a2">8.2. 注意事项</a></li>
+<li><a href="#org5b4b5c7">8.1. 用于动态内存管理的函数</a></li>
+<li><a href="#org465a709">8.2. 注意事项</a></li>
 </ul>
 </li>
-<li><a href="#orgd491802">9. 输入和输出</a></li>
-<li><a href="#org4bbe4db">10. 预处理</a></li>
+<li><a href="#org301cd9c">9. 输入和输出</a></li>
+<li><a href="#orgf09b2f0">10. 预处理</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd1c760c" class="outline-2">
-<h2 id="orgd1c760c"><span class="section-number-2">1</span> 类型转换</h2>
+<div id="outline-container-org1ea8c5d" class="outline-2">
+<h2 id="org1ea8c5d"><span class="section-number-2">1</span> 类型转换</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-org16ed634" class="outline-3">
-<h3 id="org16ed634"><span class="section-number-3">1.1</span> 隐式类型转换何时发生</h3>
+</div><div id="outline-container-org26fb619" class="outline-3">
+<h3 id="org26fb619"><span class="section-number-3">1.1</span> 隐式类型转换何时发生</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>操作数类型不合适</li>
@@ -85,8 +101,8 @@ double mean = (double)sum / count;
 由于类型转换运算符的优先级高于除法运算符，因此 <code>sum</code> 先被转换为 <code>double</code> 。然后编译器隐式地将除数 <code>count</code> 转型，然后进行除法。
 </p>
 </div>
-<div id="outline-container-orgc434b6d" class="outline-4">
-<h4 id="orgc434b6d"><span class="section-number-4">1.1.1</span> Conversion rank</h4>
+<div id="outline-container-org3e3b237" class="outline-4">
+<h4 id="org3e3b237"><span class="section-number-4">1.1.1</span> Conversion rank</h4>
 <div class="outline-text-4" id="text-1-1-1">
 <ul class="org-ul">
 <li>两个无符号整数类型具有不同的转换等级，位长较宽类型的等级较高。</li>
@@ -96,29 +112,29 @@ double mean = (double)sum / count;
 </div>
 </div>
 </div>
-<div id="outline-container-org2e3c2d5" class="outline-2">
-<h2 id="org2e3c2d5"><span class="section-number-2">2</span> 表达式和运算符</h2>
+<div id="outline-container-orgf472dbd" class="outline-2">
+<h2 id="orgf472dbd"><span class="section-number-2">2</span> 表达式和运算符</h2>
 </div>
-<div id="outline-container-org35c54ef" class="outline-2">
-<h2 id="org35c54ef"><span class="section-number-2">3</span> 函数</h2>
+<div id="outline-container-org9a18fac" class="outline-2">
+<h2 id="org9a18fac"><span class="section-number-2">3</span> 函数</h2>
 </div>
-<div id="outline-container-org57c4ece" class="outline-2">
-<h2 id="org57c4ece"><span class="section-number-2">4</span> 数组</h2>
+<div id="outline-container-org4e174d9" class="outline-2">
+<h2 id="org4e174d9"><span class="section-number-2">4</span> 数组</h2>
 </div>
-<div id="outline-container-org49b5ac6" class="outline-2">
-<h2 id="org49b5ac6"><span class="section-number-2">5</span> 指针</h2>
+<div id="outline-container-org811db8a" class="outline-2">
+<h2 id="org811db8a"><span class="section-number-2">5</span> 指针</h2>
 </div>
-<div id="outline-container-org045cbf8" class="outline-2">
-<h2 id="org045cbf8"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
+<div id="outline-container-org9582a0a" class="outline-2">
+<h2 id="org9582a0a"><span class="section-number-2">6</span> 结构、联合、位字段</h2>
 </div>
-<div id="outline-container-orgce86ad4" class="outline-2">
-<h2 id="orgce86ad4"><span class="section-number-2">7</span> 声明</h2>
+<div id="outline-container-org6936cb7" class="outline-2">
+<h2 id="org6936cb7"><span class="section-number-2">7</span> 声明</h2>
 </div>
-<div id="outline-container-org85c4ec5" class="outline-2">
-<h2 id="org85c4ec5"><span class="section-number-2">8</span> 动态内存管理</h2>
+<div id="outline-container-org364693d" class="outline-2">
+<h2 id="org364693d"><span class="section-number-2">8</span> 动态内存管理</h2>
 <div class="outline-text-2" id="text-8">
-</div><div id="outline-container-org9db93a6" class="outline-3">
-<h3 id="org9db93a6"><span class="section-number-3">8.1</span> 用于动态内存管理的函数</h3>
+</div><div id="outline-container-org5b4b5c7" class="outline-3">
+<h3 id="org5b4b5c7"><span class="section-number-3">8.1</span> 用于动态内存管理的函数</h3>
 <div class="outline-text-3" id="text-8-1">
 <dl class="org-dl">
 <dt>malloc()</dt><dd>分配新的内存区域</dd>
@@ -128,8 +144,8 @@ double mean = (double)sum / count;
 </dl>
 </div>
 </div>
-<div id="outline-container-org02151a2" class="outline-3">
-<h3 id="org02151a2"><span class="section-number-3">8.2</span> 注意事项</h3>
+<div id="outline-container-org465a709" class="outline-3">
+<h3 id="org465a709"><span class="section-number-3">8.2</span> 注意事项</h3>
 <div class="outline-text-3" id="text-8-2">
 <ul class="org-ul">
 <li><code>malloc()</code> 分配的内存不保证会被初始化</li>
@@ -178,39 +194,32 @@ if ((line = getline(128)) != NULL)
 </div>
 </div>
 
-<div id="outline-container-orgd491802" class="outline-2">
-<h2 id="orgd491802"><span class="section-number-2">9</span> 输入和输出</h2>
+<div id="outline-container-org301cd9c" class="outline-2">
+<h2 id="org301cd9c"><span class="section-number-2">9</span> 输入和输出</h2>
 </div>
-<div id="outline-container-org4bbe4db" class="outline-2">
-<h2 id="org4bbe4db"><span class="section-number-2">10</span> 预处理</h2>
+<div id="outline-container-orgf09b2f0" class="outline-2">
+<h2 id="orgf09b2f0"><span class="section-number-2">10</span> 预处理</h2>
 </div>
 
-</div>
-</div>
-    <div>
-      <div class="post-meta">
+    </div>
+</section>
+
+
+    <div class="post-meta">
         <span title="post date" class="post-info">2016-01-07</span>
         <span title="last modification date" class="post-info">2016-01-07</span>
         <span title="tags" class="post-info">N/A</span>
         <span title="author" class="post-info">Sean Wang</span>
-      </div>
-      <section>
-        <h1>Comments</h1>
-      </section>
-      <script src="//code.jquery.com/jquery-latest.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"></script>
-      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-      <script src="/media/js/main.js"></script>
-      <div class="footer">
-        <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
-        <p>
-          Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:sean &lt;at&gt; think &lt;dot&gt; sean &lt;dot&gt; org">Sean Wang</a>
-          &nbsp;&nbsp;-&nbsp;&nbsp;
-          Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
-          <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
-        </p>
-      </div>
     </div>
+<footer class="footer">
+    <p>Generated by <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.x (<a href="http://orgmode.org">Org mode</a> 9.x)</p>
+    <p>
+        Copyright &copy; 2012 - <span id="footerYear"></span> <a href="mailto:sean &lt;at&gt; think &lt;dot&gt; sean &lt;dot&gt; org">Sean Wang</a>
+        &nbsp;&nbsp;-&nbsp;&nbsp;
+        Powered by <a href="https://github.com/kelvinh/org-page" target="_blank">org-page</a>
+        <script type="text/javascript">document.getElementById("footerYear").innerHTML = (new Date()).getFullYear();</script>
+    </p>
+</footer>
 
   </body>
 </html>
