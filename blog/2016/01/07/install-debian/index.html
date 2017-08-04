@@ -59,53 +59,53 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd488620">1. Install software via <code>apt-get</code> command</a>
+<li><a href="#org67db45f">1. Install software via <code>apt-get</code> command</a>
 <ul>
-<li><a href="#orgccff63c">1.1. Change <code>/etc/apt/sources.list</code></a></li>
-<li><a href="#orgf1653fd">1.2. Install packages</a></li>
+<li><a href="#orgd7f3c31">1.1. Change <code>/etc/apt/sources.list</code></a></li>
+<li><a href="#org6ca0070">1.2. Install packages</a></li>
 </ul>
 </li>
-<li><a href="#orgd2e5108">2. Install software from source code</a>
+<li><a href="#org79a29e3">2. Install software from source code</a>
 <ul>
-<li><a href="#org5e4cf76">2.1. Emacs</a></li>
-<li><a href="#org551e143">2.2. GNU Parallel</a></li>
-<li><a href="#org8a5b5b9">2.3. oh-my-zsh</a></li>
-<li><a href="#org6b4d95c">2.4. i3wm</a></li>
-<li><a href="#org2c25746">2.5. Lua</a></li>
+<li><a href="#org227a76b">2.1. Emacs</a></li>
+<li><a href="#org0329155">2.2. GNU Parallel</a></li>
+<li><a href="#org4f967cf">2.3. oh-my-zsh</a></li>
+<li><a href="#org9eb42d4">2.4. i3wm</a></li>
+<li><a href="#org26de1db">2.5. Lua</a></li>
 </ul>
 </li>
-<li><a href="#org14d0ff4">3. Install <code>.deb</code> files directly</a>
+<li><a href="#org3aa20d8">3. Install <code>.deb</code> files directly</a>
 <ul>
-<li><a href="#orgd17e4fd">3.1. Chrome</a></li>
+<li><a href="#orgd628bf0">3.1. Chrome</a></li>
 </ul>
 </li>
-<li><a href="#org84672ee">4. Install Python modules</a>
+<li><a href="#org2b7aa90">4. Install Python modules</a>
 <ul>
-<li><a href="#org01a77de">4.1. Install <code>pip</code> first</a></li>
-<li><a href="#orgc09ce5e">4.2. Install common modules</a></li>
-<li><a href="#orgb903efe">4.3. <span class="todo TODO">TODO</span> Use <code>virtualenv</code></a></li>
+<li><a href="#orgeeeccdb">4.1. Install <code>pip</code> first</a></li>
+<li><a href="#org268df0e">4.2. Install common modules</a></li>
+<li><a href="#orgcd31c52">4.3. <span class="todo TODO">TODO</span> Use <code>virtualenv</code></a></li>
 </ul>
 </li>
-<li><a href="#org8bd2400">5. Install software from custom packages</a>
+<li><a href="#org40e0a05">5. Install software from custom packages</a>
 <ul>
-<li><a href="#org44af0d2">5.1. TexLive</a></li>
+<li><a href="#orgb60abec">5.1. TexLive</a></li>
 </ul>
 </li>
-<li><a href="#orga5afaee">6. Install fonts</a></li>
-<li><a href="#org95c87f0">7. System config</a>
+<li><a href="#orgac0caf3">6. Install fonts</a></li>
+<li><a href="#org62ee123">7. System config</a>
 <ul>
-<li><a href="#org6b924f5">7.1. Keyboard</a></li>
+<li><a href="#orgd8bbf97">7.1. Keyboard</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd488620" class="outline-2">
-<h2 id="orgd488620"><span class="section-number-2">1</span> Install software via <code>apt-get</code> command</h2>
+<div id="outline-container-org67db45f" class="outline-2">
+<h2 id="org67db45f"><span class="section-number-2">1</span> Install software via <code>apt-get</code> command</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-orgccff63c" class="outline-3">
-<h3 id="orgccff63c"><span class="section-number-3">1.1</span> Change <code>/etc/apt/sources.list</code></h3>
+</div><div id="outline-container-orgd7f3c31" class="outline-3">
+<h3 id="orgd7f3c31"><span class="section-number-3">1.1</span> Change <code>/etc/apt/sources.list</code></h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Take Ubuntu 16.04 as an example. First, edit the <code>sources.list</code> file with root
@@ -139,8 +139,8 @@ Then, remember synchronizing the package index files after changing the
 </div>
 </div>
 
-<div id="outline-container-orgf1653fd" class="outline-3">
-<h3 id="orgf1653fd"><span class="section-number-3">1.2</span> Install packages</h3>
+<div id="outline-container-org6ca0070" class="outline-3">
+<h3 id="org6ca0070"><span class="section-number-3">1.2</span> Install packages</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 You can put a list of packages in a file such as <code>pkg_list.txt</code>:
@@ -163,11 +163,11 @@ Then, install them using the following command:
 </div>
 </div>
 </div>
-<div id="outline-container-orgd2e5108" class="outline-2">
-<h2 id="orgd2e5108"><span class="section-number-2">2</span> Install software from source code</h2>
+<div id="outline-container-org79a29e3" class="outline-2">
+<h2 id="org79a29e3"><span class="section-number-2">2</span> Install software from source code</h2>
 <div class="outline-text-2" id="text-2">
-</div><div id="outline-container-org5e4cf76" class="outline-3">
-<h3 id="org5e4cf76"><span class="section-number-3">2.1</span> Emacs</h3>
+</div><div id="outline-container-org227a76b" class="outline-3">
+<h3 id="org227a76b"><span class="section-number-3">2.1</span> Emacs</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li>Download the source code of Emacs from <a href="http://ftp.gnu.org/gnu/emacs/"><a href="http://ftp.gnu.org/gnu/emacs/">http://ftp.gnu.org/gnu/emacs/</a></a></li>
@@ -196,8 +196,8 @@ make install
 </div>
 </div>
 </div>
-<div id="outline-container-org551e143" class="outline-3">
-<h3 id="org551e143"><span class="section-number-3">2.2</span> GNU Parallel</h3>
+<div id="outline-container-org0329155" class="outline-3">
+<h3 id="org0329155"><span class="section-number-3">2.2</span> GNU Parallel</h3>
 <div class="outline-text-3" id="text-2-2">
 <div class="org-src-container">
 <pre class="src src-shell">wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
@@ -205,8 +205,8 @@ make install
 </div>
 </div>
 </div>
-<div id="outline-container-org8a5b5b9" class="outline-3">
-<h3 id="org8a5b5b9"><span class="section-number-3">2.3</span> oh-my-zsh</h3>
+<div id="outline-container-org4f967cf" class="outline-3">
+<h3 id="org4f967cf"><span class="section-number-3">2.3</span> oh-my-zsh</h3>
 <div class="outline-text-3" id="text-2-3">
 <div class="org-src-container">
 <pre class="src src-shell">sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -215,16 +215,16 @@ chsh -s /usr/local/bin/zsh
 </div>
 </div>
 </div>
-<div id="outline-container-org6b4d95c" class="outline-3">
-<h3 id="org6b4d95c"><span class="section-number-3">2.4</span> i3wm</h3>
+<div id="outline-container-org9eb42d4" class="outline-3">
+<h3 id="org9eb42d4"><span class="section-number-3">2.4</span> i3wm</h3>
 <div class="outline-text-3" id="text-2-4">
 <p>
 downloading: <a href="http://i3wm.org/downloads/"><a href="http://i3wm.org/downloads/">http://i3wm.org/downloads/</a></a>
 </p>
 </div>
 </div>
-<div id="outline-container-org2c25746" class="outline-3">
-<h3 id="org2c25746"><span class="section-number-3">2.5</span> Lua</h3>
+<div id="outline-container-org26de1db" class="outline-3">
+<h3 id="org26de1db"><span class="section-number-3">2.5</span> Lua</h3>
 <div class="outline-text-3" id="text-2-5">
 <p>
 downloading: <a href="http://www.lua.org/download.html"><a href="http://www.lua.org/download.html">http://www.lua.org/download.html</a></a>
@@ -233,11 +233,11 @@ downloading: <a href="http://www.lua.org/download.html"><a href="http://www.lua.
 </div>
 </div>
 
-<div id="outline-container-org14d0ff4" class="outline-2">
-<h2 id="org14d0ff4"><span class="section-number-2">3</span> Install <code>.deb</code> files directly</h2>
+<div id="outline-container-org3aa20d8" class="outline-2">
+<h2 id="org3aa20d8"><span class="section-number-2">3</span> Install <code>.deb</code> files directly</h2>
 <div class="outline-text-2" id="text-3">
-</div><div id="outline-container-orgd17e4fd" class="outline-3">
-<h3 id="orgd17e4fd"><span class="section-number-3">3.1</span> Chrome</h3>
+</div><div id="outline-container-orgd628bf0" class="outline-3">
+<h3 id="orgd628bf0"><span class="section-number-3">3.1</span> Chrome</h3>
 <div class="outline-text-3" id="text-3-1">
 <p>
 Download the standalone installation file from:
@@ -254,11 +254,11 @@ Install:
 </div>
 </div>
 </div>
-<div id="outline-container-org84672ee" class="outline-2">
-<h2 id="org84672ee"><span class="section-number-2">4</span> Install Python modules</h2>
+<div id="outline-container-org2b7aa90" class="outline-2">
+<h2 id="org2b7aa90"><span class="section-number-2">4</span> Install Python modules</h2>
 <div class="outline-text-2" id="text-4">
-</div><div id="outline-container-org01a77de" class="outline-3">
-<h3 id="org01a77de"><span class="section-number-3">4.1</span> Install <code>pip</code> first</h3>
+</div><div id="outline-container-orgeeeccdb" class="outline-3">
+<h3 id="orgeeeccdb"><span class="section-number-3">4.1</span> Install <code>pip</code> first</h3>
 <div class="outline-text-3" id="text-4-1">
 <div class="org-src-container">
 <pre class="src src-shell">wget https://bootstrap.pypa.io/get-pip.py
@@ -267,8 +267,8 @@ sudo python get-pip.py
 </div>
 </div>
 </div>
-<div id="outline-container-orgc09ce5e" class="outline-3">
-<h3 id="orgc09ce5e"><span class="section-number-3">4.2</span> Install common modules</h3>
+<div id="outline-container-org268df0e" class="outline-3">
+<h3 id="org268df0e"><span class="section-number-3">4.2</span> Install common modules</h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
 Put all modules needed to install in a file named <code>requirements.txt</code>:
@@ -290,15 +290,15 @@ numpy
 </div>
 </div>
 
-<div id="outline-container-orgb903efe" class="outline-3">
-<h3 id="orgb903efe"><span class="section-number-3">4.3</span> <span class="todo TODO">TODO</span> Use <code>virtualenv</code></h3>
+<div id="outline-container-orgcd31c52" class="outline-3">
+<h3 id="orgcd31c52"><span class="section-number-3">4.3</span> <span class="todo TODO">TODO</span> Use <code>virtualenv</code></h3>
 </div>
 </div>
-<div id="outline-container-org8bd2400" class="outline-2">
-<h2 id="org8bd2400"><span class="section-number-2">5</span> Install software from custom packages</h2>
+<div id="outline-container-org40e0a05" class="outline-2">
+<h2 id="org40e0a05"><span class="section-number-2">5</span> Install software from custom packages</h2>
 <div class="outline-text-2" id="text-5">
-</div><div id="outline-container-org44af0d2" class="outline-3">
-<h3 id="org44af0d2"><span class="section-number-3">5.1</span> TexLive</h3>
+</div><div id="outline-container-orgb60abec" class="outline-3">
+<h3 id="orgb60abec"><span class="section-number-3">5.1</span> TexLive</h3>
 <div class="outline-text-3" id="text-5-1">
 <p>
 Download <a href="http://mirrors.6.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/texlive.iso">texlive.iso</a>,
@@ -321,8 +321,8 @@ sudo ./temp/install.tl
 </div>
 </div>
 
-<div id="outline-container-orga5afaee" class="outline-2">
-<h2 id="orga5afaee"><span class="section-number-2">6</span> Install fonts</h2>
+<div id="outline-container-orgac0caf3" class="outline-2">
+<h2 id="orgac0caf3"><span class="section-number-2">6</span> Install fonts</h2>
 <div class="outline-text-2" id="text-6">
 <div class="org-src-container">
 <pre class="src src-shell">fc-cache --force --verbose
@@ -338,11 +338,11 @@ Check the installed fonts:
 </div>
 </div>
 </div>
-<div id="outline-container-org95c87f0" class="outline-2">
-<h2 id="org95c87f0"><span class="section-number-2">7</span> System config</h2>
+<div id="outline-container-org62ee123" class="outline-2">
+<h2 id="org62ee123"><span class="section-number-2">7</span> System config</h2>
 <div class="outline-text-2" id="text-7">
-</div><div id="outline-container-org6b924f5" class="outline-3">
-<h3 id="org6b924f5"><span class="section-number-3">7.1</span> Keyboard</h3>
+</div><div id="outline-container-orgd8bbf97" class="outline-3">
+<h3 id="orgd8bbf97"><span class="section-number-3">7.1</span> Keyboard</h3>
 <div class="outline-text-3" id="text-7-1">
 <p>
 在 <code>/etc/default/keyboard</code> 文件中添加下面一行，交换 <code>Ctrl</code> 和 <code>CapsLock</code> 键：
