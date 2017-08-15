@@ -1,0 +1,73 @@
+#+TITLE:       Magneto
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-08-11 Fri
+#+URI:         /blog/%y/%m/%d/magneto
+#+KEYWORDS:    <TODO: insert your keywords here>
+#+TAGS:        <TODO: insert your tags here>
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+* 基本信息
+- Title :: Magneto: Unified Fine-grained Path Control in Legacy and OpenFlow Hybrid Networks（[[http://conferences.sigcomm.org/sosr/2017/papers/sosr17-magneto.pdf][PDF]]）
+- Authors :: Cheng Jin; Cristian Lumezanu; Qiang Xu; Hesham Mekky; Zhi-Li Zhang; Guofei Jiang
+- Conference :: SOSR 2017
+* 摘要翻译
+** P1
+#+BEGIN_EXAMPLE
+Software-defined networking (SDN) provides fine-grained network control and
+monitoring that simplifies network management. 
+#+END_EXAMPLE
+软件定义网络（SDN）提供了细粒度网络控制和监控能力，简化了网络管理。
+
+#+BEGIN_EXAMPLE
+Unfortunately, upgrading existing enterprise networks, comprised of numerous
+“legacy” switches, to SDN is often cost-prohibitive. 
+#+END_EXAMPLE
+然而，把现有的由许多“传统（legacy）”交换机组成的企业网络升级到 SDN 所需要的费
+用往往高得让人望而却步。
+
+#+BEGIN_EXAMPLE
+We argue that it is possible to achieve most of the benefits of a fully deployed
+SDN at a fraction of the cost by strategically replacing only few legacy
+switches with – or introducing a few – new SDN-capable switches in a legacy
+network, thus creating a hybrid network.
+#+END_EXAMPLE
+我们认为，在传统网络中，通过巧妙的加入少量具有 SDN 能力的交换机，或者用其替换少量
+传统交换机，创建一个混合网络，就可能以很少的代价获得完整部署 SDN 的好处。
+
+** P2
+#+BEGIN_EXAMPLE
+We present Magneto, a unified network controller that exerts SDN-like,
+fine-grained path control over both OpenFlow and legacy switches in hybrid
+networks.
+#+END_EXAMPLE
+我们提出了一种名为“Magneto”的统一网络控制方案，能够在混合网络中的传统交换机和
+OpenFlow 交换机上实现类似 SDN 的、细粒度路由控制。
+
+#+BEGIN_EXAMPLE
+Magneto i) introduces magnet MAC addresses and dynamically updates
+IP-to-magnet MAC mappings at hosts via gratuitous ARP messages for visibility and
+routing control; 
+#+END_EXAMPLE
+Magneto 1) 利用 [[https://wiki.wireshark.org/Gratuitous_ARP][Gratuitous ARP]] 消息引入了“magnet MAC”地址和动态更新
+“IP-to-magnet MAC”映射的机制，以实现（交换机的）可见性控制和路由控制。
+
+#+BEGIN_EXAMPLE
+and ii) uses the ability of SDN switches to send “custom” packets into the
+data plane to manipulate legacy switches into updating forwarding entries with
+magnet MAC addresses for enhanced routing flexibility. 
+#+END_EXAMPLE
+2) 利用 SDN 交换机向数据平面发送“定制的”数据包以控制传统交换机，使其根据
+   magnet MAC 地址更新转发记录，从而加强路由灵活性。
+
+#+BEGIN_EXAMPLE
+Our evaluation on a lab testbed and through extensive simulations on large
+enterprise network topologies show that Magneto is able to achieve full control
+over routing when only 20% of network switches are programmable, with negligible
+computation and latency overhead.
+#+END_EXAMPLE
+我们在实验室测试环境以及一个大型企业网络拓扑的模拟环境中测试了所提出的方案，结果
+显示，只需要网络中 20%的交换机具有可编程能力，Magneto 就能完全控制网络的路由；并
+且带来的计算开销和延迟可忽略不计。
