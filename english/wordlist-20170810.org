@@ -1,0 +1,26 @@
+#+TITLE:       Word List 20170810 (Prediction Difference Analysis)
+#+AUTHOR:      Sean Wang
+#+EMAIL:       spark@bjtu.edu.cn
+#+DATE:        2017-08-10 Thu
+#+URI:         /blog/%y/%m/%d/word-list-20170810
+#+KEYWORDS:    <TODO: insert your keywords here>
+#+TAGS:        <TODO: insert your tags here>
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
+
+- perceptual :: 形容词, 理解的；感知的 Perceptual means relating to the way people interpret and understand what they see or notice.
+- societal :: 形容词, 社会的 Societal means relating to society or to the way society is organized.
+- courtroom :: 可数名词法庭;审判室 A courtroom is a room in which a legal court meets.
+- probabilistic :: 形容词, 盖然性的；基于概率的；或然性的 Probabilistic actions, methods, or arguments are based on the idea that you cannot be certain about results or future events but you can judge whether or not they are likely, and act on the basis of this judgment.
+- salient :: 能被表示程度的副词或介词词组修饰的形容词最重要的;显著的;突出的 The salient points or facts of a situation are the most important ones.
+- neurodegenerative :: relating to or marked by degeneration of nervous tissue
+- cockatoo :: 可数名词(产于澳大利亚或新几内亚的)凤头鹦鹉，葵花鹦鹉 A cockatoo is a kind of parrot from Australia or New Guinea which has a bunch of feathers called a crest on its head.
+- facial :: 形容词面部的;脸上的 Facial means appearing on or being part of your face.
+- supportive :: 能被表示程度的副词或介词词组修饰的形容词给予帮助的;热心援助的;支持的 If you are supportive, you are kind and helpful to someone at a difficult or unhappy time in their life.
+- partial derivative :: the derivative of a function of several variables with respect to one of them and with the remaining variables treated as constants
+- occlude :: to cover or block something 使闭塞；堵塞
+- rigorous :: 能被表示程度的副词或介词词组修饰的形容词(测试、系统或程序)严格的，严密的，缜密的 A test, system, or procedure that is rigorous is very thorough and strict.
+- substantial :: 能被表示程度的副词或介词词组修饰的形容词大量的;相当程度的;重大的 Substantial means large in amount or degree.
+- marginalize :: 动词使边缘化；使显得不重要;排斥 To marginalize a group of people means to make them feel isolated and unimportant.
+
