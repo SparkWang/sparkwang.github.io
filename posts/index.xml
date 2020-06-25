@@ -6,10 +6,20 @@
     <description>Recent content in Posts on whxk&#39;s new site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2020 14:44:29 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2020 15:37:29 +0800</lastBuildDate>
     
 	<atom:link href="http://whxk.net/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Usage of the command `rsync`</title>
+      <link>http://whxk.net/posts/rsync/</link>
+      <pubDate>Thu, 25 Jun 2020 15:37:29 +0800</pubDate>
+      
+      <guid>http://whxk.net/posts/rsync/</guid>
+      <description>Intro #  rsync 命令可用来在本地和远程机器之间同步目录。
+rsync -a host:dirA dirB Options #   -a, &amp;ndash;archive 等价于 -rlptgoD -r, &amp;ndash;recursive 递归同步目录中的内容 -l, &amp;ndash;links copy symlinks as symlinks -p, &amp;ndash;perms preserve permissions -t, &amp;ndash;times preserver modification times -g, &amp;ndash;group preserver group -o, &amp;ndash;owner preserver owner (super-user only) -D same as &amp;ndash;devices &amp;ndash;specials &amp;ndash;devices preserver device files &amp;ndash;specials preserver special files -P, &amp;ndash;progress show progress during transfer  注意 #  rsync -a remote_host:/source/dirA /local/dirB 上述命令会将远程机器的 dirA 目录拷贝到本地的 dirB 目录下，执行完成之后，本地 的目录下将出现一个 dirA 目录，内容与远程机器的 dirA 目录相同。</description>
+    </item>
     
     <item>
       <title>Hello World</title>

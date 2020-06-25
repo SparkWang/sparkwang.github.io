@@ -9,12 +9,12 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://whxk.net/posts/" />
-<meta property="og:updated_time" content="2020-06-25T14:44:29+08:00" />
+<meta property="og:updated_time" content="2020-06-25T15:37:29+08:00" />
 <title>Posts | whxk&#39;s new site</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.b3215d9d1d18d9051e7fbe8f256ff80e30f41d29073b86348e230d297b771002.css" integrity="sha256-syFdnR0Y2QUef76PJW/4DjD0HSkHO4Y0jiMNKXt3EAI=">
-<script defer src="/en.search.min.228cb8df2816eb0edff5ac58c29bc71f0bcac870054db1c2c1ad24cdf5144e28.js" integrity="sha256-Ioy43ygW6w7f9axYwpvHHwvKyHAFTbHCwa0kzfUUTig="></script>
+<script defer src="/en.search.min.3813c591833e89da46b56ffa28da9ee44d25b38b2328f6be5085f1b00e499bac.js" integrity="sha256-OBPFkYM&#43;idpGtW/6KNqe5E0ls4sjKPa&#43;UIXxsA5Jm6w="></script>
 <link rel="alternate" type="application/rss+xml" href="http://whxk.net/posts/index.xml" title="whxk's new site" />
 <!--
 Made with Book Theme
@@ -134,6 +134,27 @@ https://github.com/alex-shpak/hugo-book
 
       
       
+  
+  <article class="markdown book-post">
+    <h2>
+      <a href="/posts/rsync/">Usage of the command `rsync`</a>
+    </h2>
+    
+  <h5>June 25, 2020</h5>
+
+
+
+  
+
+  
+
+
+    <p>Intro #  rsync 命令可用来在本地和远程机器之间同步目录。
+rsync -a host:dirA dirB Options #   -a, &ndash;archive 等价于 -rlptgoD -r, &ndash;recursive 递归同步目录中的内容 -l, &ndash;links copy symlinks as symlinks -p, &ndash;perms preserve permissions -t, &ndash;times preserver modification times -g, &ndash;group preserver group -o, &ndash;owner preserver owner (super-user only) -D same as &ndash;devices &ndash;specials &ndash;devices preserver device files &ndash;specials preserver special files -P, &ndash;progress show progress during transfer  注意 #  rsync -a remote_host:/source/dirA /local/dirB 上述命令会将远程机器的 dirA 目录拷贝到本地的 dirB 目录下，执行完成之后，本地 的目录下将出现一个 dirA 目录，内容与远程机器的 dirA 目录相同。
+        <a href="/posts/rsync/">...</a>
+      
+    </p>
+  </article>
   
   <article class="markdown book-post">
     <h2>
